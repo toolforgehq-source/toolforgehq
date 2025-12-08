@@ -25,10 +25,11 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TF</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900">ToolForgeHQ</span>
+              <img 
+                src="/logo/logo-light.png" 
+                alt="ToolForgeHQ" 
+                className="h-10 w-auto"
+              />
             </Link>
           </div>
 

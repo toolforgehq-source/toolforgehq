@@ -74,28 +74,85 @@ export default function Home() {
   return (
     <div>
       <section className="relative overflow-hidden bg-gradient-to-b from-indigo-50 to-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight">
-              AI-Ready Templates for Creators, Coaches, and Small Businesses
-            </h1>
-            <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-              Download plug-and-play templates built to work with AI tools so you can create content, funnels, and offers 10x faster.
-            </p>
-            <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/templates"
-                className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-8 py-4 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 transition-colors"
-              >
-                Browse Templates
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Link>
-              <a
-                href="#email-capture"
-                className="inline-flex items-center justify-center rounded-lg bg-white px-8 py-4 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 transition-colors"
-              >
-                Join Early Access List
-              </a>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left side - Text and CTA */}
+            <div className="text-center lg:text-left">
+              <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                <Sparkles className="w-4 h-4" />
+                100+ Premium Templates
+              </div>
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-900 tracking-tight">
+                AI-Ready Templates for Creators, Coaches, and Small Businesses
+              </h1>
+              <p className="mt-6 text-lg md:text-xl text-gray-600">
+                Download plug-and-play templates built to work with AI tools so you can create content, funnels, and offers 10x faster.
+              </p>
+              <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Link
+                  to="/templates"
+                  className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-indigo-500 transition-all hover:shadow-xl"
+                >
+                  Browse Templates
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Link>
+                <a
+                  href="#email-capture"
+                  className="inline-flex items-center justify-center rounded-lg bg-white px-8 py-4 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 transition-colors"
+                >
+                  Join Early Access List
+                </a>
+              </div>
+              {/* Trust indicators */}
+              <div className="mt-10 flex flex-wrap items-center gap-6 justify-center lg:justify-start text-sm text-gray-500">
+                <div className="flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-green-500" />
+                  <span>Secure Checkout</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Download className="w-5 h-5 text-blue-500" />
+                  <span>Instant Download</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Award className="w-5 h-5 text-purple-500" />
+                  <span>Premium Quality</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Right side - Hero Image */}
+            <div className="relative lg:pl-8">
+              <div className="relative">
+                <img
+                  src="/hero/hero-dashboard.png"
+                  alt="ToolForgeHQ Dashboard"
+                  className="w-full h-auto rounded-2xl shadow-2xl"
+                />
+                {/* Floating badge */}
+                <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4 hidden sm:block">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                      <Zap className="w-5 h-5 text-green-600" />
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-gray-900">2,500+</p>
+                      <p className="text-xs text-gray-500">Downloads</p>
+                    </div>
+                  </div>
+                </div>
+                {/* Floating badge 2 */}
+                <div className="absolute -top-4 -right-4 bg-white rounded-xl shadow-lg p-4 hidden sm:block">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                      <FileText className="w-5 h-5 text-indigo-600" />
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-gray-900">100+</p>
+                      <p className="text-xs text-gray-500">Templates</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
