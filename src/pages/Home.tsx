@@ -1,16 +1,20 @@
 import { Link } from 'react-router-dom';
-import { FileText, GitBranch, Share2, Mail, Layout, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb } from 'lucide-react';
+import { FileText, Share2, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb, Home as HomeIcon, ShoppingCart, Calendar, Shield, Clock, Award } from 'lucide-react';
 import EmailCapture from '../components/EmailCapture';
-import { categories } from '../data/templates';
+import { categories, templates } from '../data/templates';
 
 const iconMap: Record<string, React.ReactNode> = {
   FileText: <FileText className="w-6 h-6" />,
-  GitBranch: <GitBranch className="w-6 h-6" />,
   Share2: <Share2 className="w-6 h-6" />,
-  Mail: <Mail className="w-6 h-6" />,
-  Layout: <Layout className="w-6 h-6" />,
   Sparkles: <Sparkles className="w-6 h-6" />,
+  Briefcase: <Briefcase className="w-6 h-6" />,
+  Home: <HomeIcon className="w-6 h-6" />,
+  ShoppingCart: <ShoppingCart className="w-6 h-6" />,
+  Calendar: <Calendar className="w-6 h-6" />,
 };
+
+// Get featured templates
+const featuredTemplates = templates.filter(t => t.featured && !t.comingSoon).slice(0, 6);
 
 const steps = [
   {
@@ -96,6 +100,96 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
+      </section>
+
+      {/* Featured Templates Section */}
+      <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Featured Templates</h2>
+            <p className="mt-4 text-lg text-gray-600">Our most popular premium templates</p>
+          </div>
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featuredTemplates.map((template) => (
+              <Link
+                key={template.id}
+                to={`/templates/${template.id}`}
+                className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300"
+              >
+                <div className="aspect-square relative overflow-hidden bg-gray-100">
+                  {template.previewImage ? (
+                    <img
+                      src={template.previewImage}
+                      alt={template.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100">
+                      <span className="text-4xl font-bold text-indigo-600">TF</span>
+                    </div>
+                  )}
+                  <div className="absolute top-3 right-3 bg-amber-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
+                    Featured
+                  </div>
+                </div>
+                <div className="p-5">
+                  <h3 className="font-semibold text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-2">
+                    {template.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-600 line-clamp-2">{template.shortDescription}</p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-lg font-bold text-gray-900">
+                      ${template.priceCents ? (template.priceCents / 100).toFixed(0) : '0'}
+                    </span>
+                    <span className="text-sm text-indigo-600 font-medium group-hover:underline">View Details</span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              to="/templates"
+              className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 transition-colors"
+            >
+              View All 100+ Templates
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Why ToolForgeHQ Section */}
+      <section className="py-20 bg-gradient-to-b from-indigo-50 to-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Why ToolForgeHQ?</h2>
+            <p className="mt-4 text-lg text-gray-600">Premium templates that deliver real results</p>
+          </div>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-green-100 mb-6">
+                <Shield className="w-8 h-8 text-green-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900">Premium Quality</h3>
+              <p className="mt-3 text-gray-600">Every template is professionally crafted with real content, not placeholders. Ready to use immediately.</p>
+            </div>
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-100 mb-6">
+                <Clock className="w-8 h-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900">Instant Download</h3>
+              <p className="mt-3 text-gray-600">Get immediate access to your templates after purchase. No waiting, no hassle.</p>
+            </div>
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-purple-100 mb-6">
+                <Award className="w-8 h-8 text-purple-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900">AI-Optimized</h3>
+              <p className="mt-3 text-gray-600">Templates designed to work seamlessly with AI tools like ChatGPT, Claude, and more.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="py-20 bg-white">

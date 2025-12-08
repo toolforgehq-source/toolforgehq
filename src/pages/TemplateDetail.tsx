@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, Check, Loader2 } from 'lucide-react';
-import { getTemplateById, categories } from '../data/templates';
+import { ArrowLeft, Check, Loader2, Shield, Download, Award } from 'lucide-react';
+import { getTemplateById, categories, templates } from '../data/templates';
 import EmailCapture from '../components/EmailCapture';
 import {
   Accordion,
@@ -84,17 +84,46 @@ export default function TemplateDetail() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <div className="aspect-video bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-24 h-24 bg-white/80 rounded-2xl flex items-center justify-center shadow-lg">
-                  <span className="text-4xl font-bold text-indigo-600">TF</span>
+            <div className="aspect-square bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden">
+              {template.previewImage ? (
+                <img
+                  src={template.previewImage}
+                  alt={template.name}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-24 h-24 bg-white/80 rounded-2xl flex items-center justify-center shadow-lg">
+                    <span className="text-4xl font-bold text-indigo-600">TF</span>
+                  </div>
                 </div>
-              </div>
+              )}
               {template.comingSoon && (
                 <div className="absolute top-4 right-4 bg-amber-500 text-white text-sm font-semibold px-4 py-2 rounded-full">
                   Coming Soon
                 </div>
               )}
+              {template.featured && !template.comingSoon && (
+                <div className="absolute top-4 right-4 bg-amber-500 text-white text-sm font-semibold px-4 py-2 rounded-full">
+                  Featured
+                </div>
+              )}
+            </div>
+            
+            {/* Trust Badges */}
+            <div className="mt-6 grid grid-cols-3 gap-4">
+              <div className="flex flex-col items-center text-center p-3 bg-gray-50 rounded-lg">
+                <Download className="w-5 h-5 text-indigo-600 mb-1" />
+                <span className="text-xs font-medium text-gray-700">Instant Download</span>
+              </div>
+              <div className="flex flex-col items-center text-center p-3 bg-gray-50 rounded-lg">
+                <Shield className="w-5 h-5 text-green-600 mb-1" />
+                <span className="text-xs font-medium text-gray-700">Secure Checkout</span>
+              </div>
+              <div className="flex flex-col items-center text-center p-3 bg-gray-50 rounded-lg">
+                <Award className="w-5 h-5 text-purple-600 mb-1" />
+                <span className="text-xs font-medium text-gray-700">Premium Quality</span>
+              </div>
             </div>
           </div>
 
@@ -201,6 +230,48 @@ export default function TemplateDetail() {
               </AccordionItem>
             ))}
           </Accordion>
+        </div>
+
+        {/* Related Templates */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Templates</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {templates
+              .filter(t => t.category === template.category && t.id !== template.id && !t.comingSoon)
+              .slice(0, 3)
+              .map((relatedTemplate) => (
+                <Link
+                  key={relatedTemplate.id}
+                  to={`/templates/${relatedTemplate.id}`}
+                  className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all"
+                >
+                  <div className="aspect-square relative overflow-hidden bg-gray-100">
+                    {relatedTemplate.previewImage ? (
+                      <img
+                        src={relatedTemplate.previewImage}
+                        alt={relatedTemplate.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100">
+                        <span className="text-3xl font-bold text-indigo-600">TF</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-semibold text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-2">
+                      {relatedTemplate.name}
+                    </h3>
+                    <div className="mt-2 flex items-center justify-between">
+                      <span className="text-lg font-bold text-gray-900">
+                        ${relatedTemplate.priceCents ? (relatedTemplate.priceCents / 100).toFixed(0) : '0'}
+                      </span>
+                      <span className="text-sm text-indigo-600 font-medium">View</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+          </div>
         </div>
       </div>
     </div>
