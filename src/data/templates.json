@@ -350,6 +350,53 @@
           "answer": "With this blueprint and AI assistance, most people can create a mini-course in 2-4 weeks."
         }
       ]
+    },
+    {
+      "id": "instagram-reels-script-pack",
+      "name": "Instagram Reels Script Pack",
+      "shortDescription": "50 ready-to-film Instagram Reels scripts with hooks, CTAs, and AI prompts.",
+      "fullDescription": "Stop staring at a blank screen wondering what to post. This pack includes 50 proven Instagram Reels scripts across 10 content categories. Each script includes an attention-grabbing hook, the main content structure, and a compelling CTA. Plus AI prompts to customize each script for your niche and voice.",
+      "category": "social",
+      "priceCents": 2900,
+      "comingSoon": false,
+      "image": "/images/instagram-reels-script-pack.jpg",
+      "downloadUrl": "/templates/instagram-reels-script-pack.txt",
+      "whatsIncluded": [
+        "50 Reels script templates",
+        "10 content categories",
+        "Hook formulas that stop the scroll",
+        "CTA templates that convert",
+        "AI customization prompts",
+        "Trending audio suggestions"
+      ],
+      "whoItsFor": [
+        "Instagram creators",
+        "Coaches building personal brands",
+        "Small business owners",
+        "Anyone struggling with Reels content"
+      ],
+      "faqs": [
+        {
+          "question": "Do I need to be on camera?",
+          "answer": "Not necessarily! Many scripts work for voiceover, text-on-screen, or faceless content styles."
+        },
+        {
+          "question": "Will these work for my niche?",
+          "answer": "Yes! The AI prompts help you customize each script for any industry or audience."
+        },
+        {
+          "question": "How long are the Reels?",
+          "answer": "Scripts are designed for 15-60 second Reels, the sweet spot for engagement."
+        }
+      ],
+      "tags": [
+        "instagram",
+        "reels",
+        "social-media",
+        "video"
+      ],
+      "createdAt": "2025-12-08T21:10:38.839Z",
+      "featured": true
     }
   ]
 }
