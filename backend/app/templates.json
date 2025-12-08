@@ -1,0 +1,253 @@
+{
+  "categories": [
+    { "id": "content", "name": "Content", "icon": "FileText", "description": "Content calendars, blog templates, and more" },
+    { "id": "funnels", "name": "Funnels", "icon": "GitBranch", "description": "Landing pages, sales funnels, and conversion tools" },
+    { "id": "social", "name": "Social", "icon": "Share2", "description": "Social media post packs and scheduling templates" },
+    { "id": "email", "name": "Email", "icon": "Mail", "description": "Email sequences, newsletters, and automation" },
+    { "id": "notion", "name": "Notion", "icon": "Layout", "description": "Notion dashboards, databases, and workflows" },
+    { "id": "ai-tools", "name": "AI Tools", "icon": "Sparkles", "description": "AI prompt libraries and automation templates" }
+  ],
+  "templates": [
+    {
+      "id": "30-day-content-calendar",
+      "name": "30-Day AI Content Calendar",
+      "shortDescription": "Plan a full month of content with AI-powered prompts and scheduling.",
+      "fullDescription": "This comprehensive content calendar helps you plan, create, and schedule 30 days of content across all your platforms. Each day includes AI prompts to help you generate ideas, write copy, and repurpose content effortlessly. Perfect for creators who want to stay consistent without burning out.",
+      "category": "content",
+      "priceCents": 2900,
+      "comingSoon": false,
+      "image": "/images/content-calendar.jpg",
+      "downloadUrl": "https://drive.google.com/placeholder/30-day-content-calendar.zip",
+      "whatsIncluded": [
+        "30-day content planning spreadsheet",
+        "90+ AI prompts for content generation",
+        "Platform-specific posting guides",
+        "Content repurposing workflow",
+        "Engagement tracking dashboard",
+        "Video tutorial walkthrough"
+      ],
+      "whoItsFor": [
+        "Content creators looking to batch their work",
+        "Small business owners managing their own marketing",
+        "Coaches and consultants building their brand",
+        "Anyone who struggles with content consistency"
+      ],
+      "faqs": [
+        { "question": "What AI tools does this work with?", "answer": "This template works with ChatGPT, Claude, Gemini, and most other AI assistants. The prompts are designed to be universal." },
+        { "question": "Do I need any special software?", "answer": "Just Google Sheets or Excel, and access to any AI chatbot. No paid tools required." },
+        { "question": "Can I customize the calendar for my niche?", "answer": "Absolutely! The template includes instructions for customizing everything to your specific industry and audience." }
+      ]
+    },
+    {
+      "id": "social-media-post-pack",
+      "name": "Social Media Post Pack (100 Posts)",
+      "shortDescription": "100 ready-to-customize social media posts with AI enhancement prompts.",
+      "fullDescription": "Never stare at a blank screen again. This pack includes 100 social media post templates across 10 different content types, each with AI prompts to help you customize them for your brand voice and audience. Works for Instagram, LinkedIn, Twitter/X, and Facebook.",
+      "category": "social",
+      "priceCents": 3900,
+      "comingSoon": false,
+      "image": "/images/social-pack.jpg",
+      "downloadUrl": "https://drive.google.com/placeholder/social-media-post-pack.zip",
+      "whatsIncluded": [
+        "100 post templates across 10 content types",
+        "AI customization prompts for each post",
+        "Hashtag research guide",
+        "Best posting times cheat sheet",
+        "Canva design templates (bonus)",
+        "Caption formulas that convert"
+      ],
+      "whoItsFor": [
+        "Social media managers",
+        "Entrepreneurs building personal brands",
+        "Marketing teams needing content inspiration",
+        "Anyone tired of creating posts from scratch"
+      ],
+      "faqs": [
+        { "question": "Which platforms are these posts for?", "answer": "The posts work for Instagram, LinkedIn, Twitter/X, and Facebook. Each template includes platform-specific tips." },
+        { "question": "Are these posts unique to me?", "answer": "The templates are starting points. The AI prompts help you customize each post to your unique voice and brand." },
+        { "question": "How long will 100 posts last me?", "answer": "Posting 3x per week, this pack will last you about 8 months. Plus, you can repurpose and remix them infinitely." }
+      ]
+    },
+    {
+      "id": "email-welcome-sequence",
+      "name": "Email Welcome Sequence Builder",
+      "shortDescription": "Create a 7-email welcome sequence that converts subscribers to customers.",
+      "fullDescription": "Your welcome sequence is the most important email automation you'll ever build. This template gives you a proven 7-email framework with AI prompts to write each email in your voice. Includes subject line formulas, send timing recommendations, and conversion optimization tips.",
+      "category": "email",
+      "priceCents": 3400,
+      "comingSoon": false,
+      "image": "/images/email-sequence.jpg",
+      "downloadUrl": "https://drive.google.com/placeholder/email-welcome-sequence.zip",
+      "whatsIncluded": [
+        "7-email welcome sequence framework",
+        "AI writing prompts for each email",
+        "50+ subject line formulas",
+        "Send timing optimization guide",
+        "A/B testing checklist",
+        "Segmentation strategy template"
+      ],
+      "whoItsFor": [
+        "Course creators and coaches",
+        "E-commerce store owners",
+        "Newsletter writers",
+        "Anyone building an email list"
+      ],
+      "faqs": [
+        { "question": "Which email platforms does this work with?", "answer": "Any platform! ConvertKit, Mailchimp, ActiveCampaign, Beehiiv, you name it. The templates are platform-agnostic." },
+        { "question": "I'm not a good writer. Will this help?", "answer": "That's exactly why we included AI prompts. Just answer a few questions about your business and let AI draft your emails." },
+        { "question": "How quickly can I set this up?", "answer": "Most people complete their welcome sequence in 2-3 hours using the AI prompts." }
+      ]
+    },
+    {
+      "id": "notion-business-hub",
+      "name": "Notion Business Command Center",
+      "shortDescription": "All-in-one Notion dashboard to run your entire business.",
+      "fullDescription": "Stop juggling multiple tools. This Notion template brings everything together: project management, client tracking, content planning, finances, and more. Includes AI-powered templates for meeting notes, project briefs, and weekly reviews.",
+      "category": "notion",
+      "priceCents": 4900,
+      "comingSoon": false,
+      "image": "/images/notion-hub.jpg",
+      "downloadUrl": "https://drive.google.com/placeholder/notion-business-hub.zip",
+      "whatsIncluded": [
+        "Complete Notion workspace template",
+        "Project management system",
+        "Client/customer database",
+        "Content calendar integration",
+        "Finance tracking dashboard",
+        "AI-powered meeting notes template",
+        "Weekly review automation"
+      ],
+      "whoItsFor": [
+        "Freelancers and solopreneurs",
+        "Small business owners",
+        "Agency owners",
+        "Anyone drowning in tools and tabs"
+      ],
+      "faqs": [
+        { "question": "Do I need Notion paid plan?", "answer": "The free Notion plan works perfectly for personal use. Teams may want the paid plan for collaboration features." },
+        { "question": "How do I install this template?", "answer": "One-click duplicate to your Notion workspace. We include a video walkthrough for customization." },
+        { "question": "Can I customize the databases?", "answer": "Everything is fully customizable. Add, remove, or modify any section to fit your workflow." }
+      ]
+    },
+    {
+      "id": "landing-page-copy-kit",
+      "name": "Landing Page Copy Framework",
+      "shortDescription": "Write high-converting landing page copy with AI assistance.",
+      "fullDescription": "Great landing pages follow proven formulas. This kit gives you 5 different landing page frameworks (sales page, lead magnet, webinar registration, product launch, and service page) with section-by-section AI prompts to write compelling copy.",
+      "category": "funnels",
+      "priceCents": 4400,
+      "comingSoon": false,
+      "image": "/images/landing-page.jpg",
+      "downloadUrl": "https://drive.google.com/placeholder/landing-page-copy-kit.zip",
+      "whatsIncluded": [
+        "5 landing page frameworks",
+        "Section-by-section AI writing prompts",
+        "Headline formula swipe file",
+        "CTA button copy examples",
+        "Social proof placement guide",
+        "Mobile optimization checklist"
+      ],
+      "whoItsFor": [
+        "Entrepreneurs launching products",
+        "Marketers building funnels",
+        "Coaches selling programs",
+        "Anyone who needs to convert visitors"
+      ],
+      "faqs": [
+        { "question": "Do I need a website builder?", "answer": "This is copy-focused. Use the copy in any builder: Webflow, Squarespace, WordPress, Carrd, etc." },
+        { "question": "What makes these frameworks different?", "answer": "Each framework is optimized for a specific goal. A webinar page needs different copy than a product sales page." },
+        { "question": "How long are the landing pages?", "answer": "Frameworks range from short-form (lead magnets) to long-form (sales pages). You choose based on your offer." }
+      ]
+    },
+    {
+      "id": "ai-prompt-library",
+      "name": "Ultimate AI Prompt Library",
+      "shortDescription": "500+ tested prompts for marketing, content, and business tasks.",
+      "fullDescription": "Stop wasting time writing mediocre prompts. This library contains 500+ battle-tested prompts organized by use case: content creation, copywriting, research, brainstorming, editing, and more. Each prompt includes tips for customization and example outputs.",
+      "category": "ai-tools",
+      "priceCents": 5900,
+      "comingSoon": false,
+      "image": "/images/prompt-library.jpg",
+      "downloadUrl": "https://drive.google.com/placeholder/ai-prompt-library.zip",
+      "whatsIncluded": [
+        "500+ organized prompts",
+        "15 category sections",
+        "Prompt customization tips",
+        "Example outputs for each prompt",
+        "Regular updates (lifetime access)",
+        "Notion and spreadsheet versions"
+      ],
+      "whoItsFor": [
+        "Anyone using AI tools regularly",
+        "Content creators and marketers",
+        "Business owners automating tasks",
+        "Teams standardizing AI usage"
+      ],
+      "faqs": [
+        { "question": "Which AI tools do these work with?", "answer": "All major AI assistants: ChatGPT, Claude, Gemini, Perplexity, and more. Prompts are written to be universal." },
+        { "question": "How often is this updated?", "answer": "We add new prompts monthly. All updates are free for existing customers." },
+        { "question": "Can I share this with my team?", "answer": "The standard license is for individual use. Contact us for team licensing options." }
+      ]
+    },
+    {
+      "id": "podcast-launch-kit",
+      "name": "Podcast Launch Kit",
+      "shortDescription": "Everything you need to plan, launch, and grow a podcast.",
+      "fullDescription": "Launch your podcast the right way. This kit includes episode planning templates, guest outreach scripts, show notes frameworks, and AI prompts for generating episode ideas and writing descriptions. Perfect for first-time podcasters.",
+      "category": "content",
+      "priceCents": null,
+      "comingSoon": true,
+      "image": "/images/podcast-kit.jpg",
+      "downloadUrl": "",
+      "whatsIncluded": [
+        "Podcast planning workbook",
+        "Episode idea generator (AI-powered)",
+        "Guest outreach email templates",
+        "Show notes framework",
+        "Equipment recommendation guide",
+        "Launch checklist"
+      ],
+      "whoItsFor": [
+        "Aspiring podcasters",
+        "Coaches wanting to start a show",
+        "Businesses exploring audio content",
+        "Content creators expanding to audio"
+      ],
+      "faqs": [
+        { "question": "When will this be available?", "answer": "We're putting the finishing touches on this kit. Join the waitlist to be notified at launch!" },
+        { "question": "Will there be a launch discount?", "answer": "Yes! Waitlist members get early access and a special launch price." },
+        { "question": "Do I need expensive equipment?", "answer": "We include budget-friendly equipment recommendations. You can start a quality podcast for under $100." }
+      ]
+    },
+    {
+      "id": "course-creation-blueprint",
+      "name": "Online Course Creation Blueprint",
+      "shortDescription": "Plan, create, and launch your online course with AI assistance.",
+      "fullDescription": "Turn your expertise into a profitable online course. This blueprint walks you through curriculum design, lesson scripting, sales page creation, and launch strategy. Includes AI prompts for every stage of course creation.",
+      "category": "funnels",
+      "priceCents": null,
+      "comingSoon": true,
+      "image": "/images/course-blueprint.jpg",
+      "downloadUrl": "",
+      "whatsIncluded": [
+        "Course curriculum planner",
+        "Lesson scripting templates",
+        "AI prompts for content creation",
+        "Sales page framework",
+        "Launch email sequence",
+        "Pricing strategy guide"
+      ],
+      "whoItsFor": [
+        "Experts ready to teach online",
+        "Coaches scaling beyond 1:1",
+        "Professionals monetizing knowledge",
+        "Anyone with valuable expertise"
+      ],
+      "faqs": [
+        { "question": "When will this be available?", "answer": "Coming soon! Join the waitlist for launch notification and early-bird pricing." },
+        { "question": "Which course platforms does this work with?", "answer": "The blueprint is platform-agnostic. Works with Teachable, Kajabi, Thinkific, Podia, and others." },
+        { "question": "How long does it take to create a course?", "answer": "With this blueprint and AI assistance, most people can create a mini-course in 2-4 weeks." }
+      ]
+    }
+  ]
+}
