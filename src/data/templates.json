@@ -219,8 +219,6 @@
       "subcategory": "instagram-posts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/instagram-posts-fitness.png",
-      "previewImage": "/previews/instagram-posts-fitness.png",
       "downloadUrl": "/templates/instagram-posts-fitness.pdf",
       "whatsIncluded": [
         "20 ready-to-post captions",
@@ -267,8 +265,6 @@
       "subcategory": "instagram-posts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/instagram-posts-coaching.png",
-      "previewImage": "/previews/instagram-posts-coaching.png",
       "downloadUrl": "/templates/instagram-posts-coaching.pdf",
       "whatsIncluded": [
         "20 thought-leadership captions",
@@ -315,8 +311,6 @@
       "subcategory": "instagram-posts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/instagram-posts-ecommerce.png",
-      "previewImage": "/previews/instagram-posts-ecommerce.png",
       "downloadUrl": "/templates/instagram-posts-ecommerce.pdf",
       "whatsIncluded": [
         "20 product-focused captions",
@@ -363,8 +357,6 @@
       "subcategory": "instagram-posts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/instagram-posts-restaurant.png",
-      "previewImage": "/previews/instagram-posts-restaurant.png",
       "downloadUrl": "/templates/instagram-posts-restaurant.pdf",
       "whatsIncluded": [
         "20 food-focused captions",
@@ -411,8 +403,6 @@
       "subcategory": "instagram-posts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/instagram-posts-beauty.png",
-      "previewImage": "/previews/instagram-posts-beauty.png",
       "downloadUrl": "/templates/instagram-posts-beauty.pdf",
       "whatsIncluded": [
         "20 beauty captions",
@@ -459,8 +449,6 @@
       "subcategory": "tiktok-scripts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/tiktok-scripts-business.png",
-      "previewImage": "/previews/tiktok-scripts-business.png",
       "downloadUrl": "/templates/tiktok-scripts-business.pdf",
       "whatsIncluded": [
         "15 complete scripts",
@@ -507,8 +495,6 @@
       "subcategory": "tiktok-scripts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/tiktok-scripts-education.png",
-      "previewImage": "/previews/tiktok-scripts-education.png",
       "downloadUrl": "/templates/tiktok-scripts-education.pdf",
       "whatsIncluded": [
         "15 educational scripts",
@@ -555,8 +541,6 @@
       "subcategory": "tiktok-scripts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/tiktok-scripts-lifestyle.png",
-      "previewImage": "/previews/tiktok-scripts-lifestyle.png",
       "downloadUrl": "/templates/tiktok-scripts-lifestyle.pdf",
       "whatsIncluded": [
         "15 lifestyle scripts",
@@ -603,8 +587,6 @@
       "subcategory": "tiktok-scripts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/tiktok-scripts-comedy.png",
-      "previewImage": "/previews/tiktok-scripts-comedy.png",
       "downloadUrl": "/templates/tiktok-scripts-comedy.pdf",
       "whatsIncluded": [
         "15 comedy scripts",
@@ -651,8 +633,6 @@
       "subcategory": "tiktok-scripts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/tiktok-scripts-health.png",
-      "previewImage": "/previews/tiktok-scripts-health.png",
       "downloadUrl": "/templates/tiktok-scripts-health.pdf",
       "whatsIncluded": [
         "15 fitness scripts",
@@ -699,8 +679,6 @@
       "subcategory": "reels-scripts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/reels-scripts-marketing.png",
-      "previewImage": "/previews/reels-scripts-marketing.png",
       "downloadUrl": "/templates/reels-scripts-marketing.pdf",
       "whatsIncluded": [
         "15 marketing scripts",
@@ -747,8 +725,6 @@
       "subcategory": "reels-scripts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/reels-scripts-real-estate.png",
-      "previewImage": "/previews/reels-scripts-real-estate.png",
       "downloadUrl": "/templates/reels-scripts-real-estate.pdf",
       "whatsIncluded": [
         "15 real estate scripts",
@@ -795,8 +771,6 @@
       "subcategory": "reels-scripts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/reels-scripts-food.png",
-      "previewImage": "/previews/reels-scripts-food.png",
       "downloadUrl": "/templates/reels-scripts-food.pdf",
       "whatsIncluded": [
         "15 food scripts",
@@ -843,8 +817,6 @@
       "subcategory": "reels-scripts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/reels-scripts-fashion.png",
-      "previewImage": "/previews/reels-scripts-fashion.png",
       "downloadUrl": "/templates/reels-scripts-fashion.pdf",
       "whatsIncluded": [
         "15 fashion scripts",
@@ -891,8 +863,6 @@
       "subcategory": "reels-scripts",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/reels-scripts-travel.png",
-      "previewImage": "/previews/reels-scripts-travel.png",
       "downloadUrl": "/templates/reels-scripts-travel.pdf",
       "whatsIncluded": [
         "15 travel scripts",
@@ -939,8 +909,6 @@
       "subcategory": "carousel-templates",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/carousel-educational.png",
-      "previewImage": "/previews/carousel-educational.png",
       "downloadUrl": "/templates/carousel-educational.pdf",
       "whatsIncluded": [
         "10 carousel structures",
@@ -987,8 +955,6 @@
       "subcategory": "carousel-templates",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/carousel-storytelling.png",
-      "previewImage": "/previews/carousel-storytelling.png",
       "downloadUrl": "/templates/carousel-storytelling.pdf",
       "whatsIncluded": [
         "10 storytelling structures",
@@ -1035,8 +1001,6 @@
       "subcategory": "carousel-templates",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/carousel-tips-tricks.png",
-      "previewImage": "/previews/carousel-tips-tricks.png",
       "downloadUrl": "/templates/carousel-tips-tricks.pdf",
       "whatsIncluded": [
         "10 tips formats",
@@ -1083,8 +1047,6 @@
       "subcategory": "carousel-templates",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/carousel-product.png",
-      "previewImage": "/previews/carousel-product.png",
       "downloadUrl": "/templates/carousel-product.pdf",
       "whatsIncluded": [
         "10 product showcase formats",
@@ -1131,8 +1093,6 @@
       "subcategory": "carousel-templates",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/carousel-personal-brand.png",
-      "previewImage": "/previews/carousel-personal-brand.png",
       "downloadUrl": "/templates/carousel-personal-brand.pdf",
       "whatsIncluded": [
         "10 personal brand formats",
@@ -1179,8 +1139,6 @@
       "subcategory": "youtube-shorts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/youtube-shorts-tech.png",
-      "previewImage": "/previews/youtube-shorts-tech.png",
       "downloadUrl": "/templates/youtube-shorts-tech.pdf",
       "whatsIncluded": [
         "15 tech scripts",
@@ -1227,8 +1185,6 @@
       "subcategory": "youtube-shorts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/youtube-shorts-finance.png",
-      "previewImage": "/previews/youtube-shorts-finance.png",
       "downloadUrl": "/templates/youtube-shorts-finance.pdf",
       "whatsIncluded": [
         "15 finance scripts",
@@ -1275,8 +1231,6 @@
       "subcategory": "youtube-shorts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/youtube-shorts-diy.png",
-      "previewImage": "/previews/youtube-shorts-diy.png",
       "downloadUrl": "/templates/youtube-shorts-diy.pdf",
       "whatsIncluded": [
         "15 DIY scripts",
@@ -1323,8 +1277,6 @@
       "subcategory": "youtube-shorts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/youtube-shorts-gaming.png",
-      "previewImage": "/previews/youtube-shorts-gaming.png",
       "downloadUrl": "/templates/youtube-shorts-gaming.pdf",
       "whatsIncluded": [
         "15 gaming scripts",
@@ -1371,8 +1323,6 @@
       "subcategory": "youtube-shorts",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/youtube-shorts-motivation.png",
-      "previewImage": "/previews/youtube-shorts-motivation.png",
       "downloadUrl": "/templates/youtube-shorts-motivation.pdf",
       "whatsIncluded": [
         "15 motivation scripts",
@@ -1419,8 +1369,6 @@
       "subcategory": "business-plans",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/business-plan-startup.png",
-      "previewImage": "/previews/business-plan-startup.png",
       "downloadUrl": "/templates/business-plan-startup.pdf",
       "whatsIncluded": [
         "10-page template",
@@ -1467,8 +1415,6 @@
       "subcategory": "business-plans",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/business-plan-ecommerce.png",
-      "previewImage": "/previews/business-plan-ecommerce.png",
       "downloadUrl": "/templates/business-plan-ecommerce.pdf",
       "whatsIncluded": [
         "8-page template",
@@ -1515,8 +1461,6 @@
       "subcategory": "business-plans",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/business-plan-service.png",
-      "previewImage": "/previews/business-plan-service.png",
       "downloadUrl": "/templates/business-plan-service.pdf",
       "whatsIncluded": [
         "8-page template",
@@ -1563,8 +1507,6 @@
       "subcategory": "business-plans",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/business-plan-restaurant.png",
-      "previewImage": "/previews/business-plan-restaurant.png",
       "downloadUrl": "/templates/business-plan-restaurant.pdf",
       "whatsIncluded": [
         "10-page template",
@@ -1611,8 +1553,6 @@
       "subcategory": "business-plans",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/business-plan-coaching.png",
-      "previewImage": "/previews/business-plan-coaching.png",
       "downloadUrl": "/templates/business-plan-coaching.pdf",
       "whatsIncluded": [
         "8-page template",
@@ -1659,8 +1599,6 @@
       "subcategory": "branding-kits",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/branding-kit-startup.png",
-      "previewImage": "/previews/branding-kit-startup.png",
       "downloadUrl": "/templates/branding-kit-startup.pdf",
       "whatsIncluded": [
         "Brand voice guide",
@@ -1707,8 +1645,6 @@
       "subcategory": "branding-kits",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/branding-kit-personal.png",
-      "previewImage": "/previews/branding-kit-personal.png",
       "downloadUrl": "/templates/branding-kit-personal.pdf",
       "whatsIncluded": [
         "Personal brand workbook",
@@ -1755,8 +1691,6 @@
       "subcategory": "branding-kits",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/branding-kit-ecommerce.png",
-      "previewImage": "/previews/branding-kit-ecommerce.png",
       "downloadUrl": "/templates/branding-kit-ecommerce.pdf",
       "whatsIncluded": [
         "Brand guidelines",
@@ -1803,8 +1737,6 @@
       "subcategory": "branding-kits",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/branding-kit-wellness.png",
-      "previewImage": "/previews/branding-kit-wellness.png",
       "downloadUrl": "/templates/branding-kit-wellness.pdf",
       "whatsIncluded": [
         "Wellness brand guide",
@@ -1851,8 +1783,6 @@
       "subcategory": "branding-kits",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/branding-kit-luxury.png",
-      "previewImage": "/previews/branding-kit-luxury.png",
       "downloadUrl": "/templates/branding-kit-luxury.pdf",
       "whatsIncluded": [
         "Luxury brand guidelines",
@@ -1899,8 +1829,6 @@
       "subcategory": "email-sequences",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/email-sequence-welcome.png",
-      "previewImage": "/previews/email-sequence-welcome.png",
       "downloadUrl": "/templates/email-sequence-welcome.pdf",
       "whatsIncluded": [
         "12 email templates",
@@ -1947,8 +1875,6 @@
       "subcategory": "email-sequences",
       "priceCents": 4400,
       "comingSoon": false,
-      "image": "/previews/email-sequence-launch.png",
-      "previewImage": "/previews/email-sequence-launch.png",
       "downloadUrl": "/templates/email-sequence-launch.pdf",
       "whatsIncluded": [
         "15 launch emails",
@@ -1995,8 +1921,6 @@
       "subcategory": "email-sequences",
       "priceCents": 4400,
       "comingSoon": false,
-      "image": "/previews/email-sequence-nurture.png",
-      "previewImage": "/previews/email-sequence-nurture.png",
       "downloadUrl": "/templates/email-sequence-nurture.pdf",
       "whatsIncluded": [
         "20 nurture emails",
@@ -2043,8 +1967,6 @@
       "subcategory": "email-sequences",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/email-sequence-abandoned-cart.png",
-      "previewImage": "/previews/email-sequence-abandoned-cart.png",
       "downloadUrl": "/templates/email-sequence-abandoned-cart.pdf",
       "whatsIncluded": [
         "5 recovery emails",
@@ -2091,8 +2013,6 @@
       "subcategory": "email-sequences",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/email-sequence-webinar.png",
-      "previewImage": "/previews/email-sequence-webinar.png",
       "downloadUrl": "/templates/email-sequence-webinar.pdf",
       "whatsIncluded": [
         "12 webinar emails",
@@ -2139,8 +2059,6 @@
       "subcategory": "sales-funnels",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/sales-funnel-webinar.png",
-      "previewImage": "/previews/sales-funnel-webinar.png",
       "downloadUrl": "/templates/sales-funnel-webinar.pdf",
       "whatsIncluded": [
         "7-stage funnel map",
@@ -2187,8 +2105,6 @@
       "subcategory": "sales-funnels",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/sales-funnel-tripwire.png",
-      "previewImage": "/previews/sales-funnel-tripwire.png",
       "downloadUrl": "/templates/sales-funnel-tripwire.pdf",
       "whatsIncluded": [
         "5-stage funnel map",
@@ -2235,8 +2151,6 @@
       "subcategory": "sales-funnels",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/sales-funnel-challenge.png",
-      "previewImage": "/previews/sales-funnel-challenge.png",
       "downloadUrl": "/templates/sales-funnel-challenge.pdf",
       "whatsIncluded": [
         "Challenge structure",
@@ -2283,8 +2197,6 @@
       "subcategory": "sales-funnels",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/sales-funnel-vsl.png",
-      "previewImage": "/previews/sales-funnel-vsl.png",
       "downloadUrl": "/templates/sales-funnel-vsl.pdf",
       "whatsIncluded": [
         "VSL script framework",
@@ -2331,8 +2243,6 @@
       "subcategory": "sales-funnels",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/sales-funnel-lead-magnet.png",
-      "previewImage": "/previews/sales-funnel-lead-magnet.png",
       "downloadUrl": "/templates/sales-funnel-lead-magnet.pdf",
       "whatsIncluded": [
         "Funnel map",
@@ -2379,8 +2289,6 @@
       "subcategory": "ai-prompts",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-prompts-content.png",
-      "previewImage": "/previews/ai-prompts-content.png",
       "downloadUrl": "/templates/ai-prompts-content.pdf",
       "whatsIncluded": [
         "100+ content prompts",
@@ -2427,8 +2335,6 @@
       "subcategory": "ai-prompts",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-prompts-business.png",
-      "previewImage": "/previews/ai-prompts-business.png",
       "downloadUrl": "/templates/ai-prompts-business.pdf",
       "whatsIncluded": [
         "75+ business prompts",
@@ -2475,8 +2381,6 @@
       "subcategory": "ai-prompts",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-prompts-copywriting.png",
-      "previewImage": "/previews/ai-prompts-copywriting.png",
       "downloadUrl": "/templates/ai-prompts-copywriting.pdf",
       "whatsIncluded": [
         "80+ copywriting prompts",
@@ -2523,8 +2427,6 @@
       "subcategory": "ai-prompts",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-prompts-coding.png",
-      "previewImage": "/previews/ai-prompts-coding.png",
       "downloadUrl": "/templates/ai-prompts-coding.pdf",
       "whatsIncluded": [
         "90+ coding prompts",
@@ -2571,8 +2473,6 @@
       "subcategory": "ai-prompts",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-prompts-research.png",
-      "previewImage": "/previews/ai-prompts-research.png",
       "downloadUrl": "/templates/ai-prompts-research.pdf",
       "whatsIncluded": [
         "75+ research prompts",
@@ -2619,8 +2519,6 @@
       "subcategory": "ai-workflows",
       "priceCents": 5900,
       "comingSoon": false,
-      "image": "/previews/ai-workflow-content.png",
-      "previewImage": "/previews/ai-workflow-content.png",
       "downloadUrl": "/templates/ai-workflow-content.pdf",
       "whatsIncluded": [
         "Workflow diagrams",
@@ -2667,8 +2565,6 @@
       "subcategory": "ai-workflows",
       "priceCents": 5900,
       "comingSoon": false,
-      "image": "/previews/ai-workflow-sales.png",
-      "previewImage": "/previews/ai-workflow-sales.png",
       "downloadUrl": "/templates/ai-workflow-sales.pdf",
       "whatsIncluded": [
         "Sales workflow map",
@@ -2715,8 +2611,6 @@
       "subcategory": "ai-workflows",
       "priceCents": 5900,
       "comingSoon": false,
-      "image": "/previews/ai-workflow-customer-service.png",
-      "previewImage": "/previews/ai-workflow-customer-service.png",
       "downloadUrl": "/templates/ai-workflow-customer-service.pdf",
       "whatsIncluded": [
         "Support workflow map",
@@ -2763,8 +2657,6 @@
       "subcategory": "ai-workflows",
       "priceCents": 5900,
       "comingSoon": false,
-      "image": "/previews/ai-workflow-hiring.png",
-      "previewImage": "/previews/ai-workflow-hiring.png",
       "downloadUrl": "/templates/ai-workflow-hiring.pdf",
       "whatsIncluded": [
         "Hiring workflow map",
@@ -2811,8 +2703,6 @@
       "subcategory": "ai-workflows",
       "priceCents": 5900,
       "comingSoon": false,
-      "image": "/previews/ai-workflow-research.png",
-      "previewImage": "/previews/ai-workflow-research.png",
       "downloadUrl": "/templates/ai-workflow-research.pdf",
       "whatsIncluded": [
         "Research workflow map",
@@ -2859,8 +2749,6 @@
       "subcategory": "ai-outreach",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-outreach-cold-email.png",
-      "previewImage": "/previews/ai-outreach-cold-email.png",
       "downloadUrl": "/templates/ai-outreach-cold-email.pdf",
       "whatsIncluded": [
         "20 email templates",
@@ -2907,8 +2795,6 @@
       "subcategory": "ai-outreach",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-outreach-linkedin.png",
-      "previewImage": "/previews/ai-outreach-linkedin.png",
       "downloadUrl": "/templates/ai-outreach-linkedin.pdf",
       "whatsIncluded": [
         "15 message templates",
@@ -2955,8 +2841,6 @@
       "subcategory": "ai-outreach",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-outreach-influencer.png",
-      "previewImage": "/previews/ai-outreach-influencer.png",
       "downloadUrl": "/templates/ai-outreach-influencer.pdf",
       "whatsIncluded": [
         "15 pitch templates",
@@ -3003,8 +2887,6 @@
       "subcategory": "ai-outreach",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-outreach-pr.png",
-      "previewImage": "/previews/ai-outreach-pr.png",
       "downloadUrl": "/templates/ai-outreach-pr.pdf",
       "whatsIncluded": [
         "12 pitch templates",
@@ -3051,8 +2933,6 @@
       "subcategory": "ai-outreach",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/ai-outreach-partnership.png",
-      "previewImage": "/previews/ai-outreach-partnership.png",
       "downloadUrl": "/templates/ai-outreach-partnership.pdf",
       "whatsIncluded": [
         "10 outreach templates",
@@ -3099,8 +2979,6 @@
       "subcategory": "realtor-social",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/realtor-social-luxury.png",
-      "previewImage": "/previews/realtor-social-luxury.png",
       "downloadUrl": "/templates/realtor-social-luxury.pdf",
       "whatsIncluded": [
         "20 luxury posts",
@@ -3147,8 +3025,6 @@
       "subcategory": "realtor-social",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/realtor-social-first-time.png",
-      "previewImage": "/previews/realtor-social-first-time.png",
       "downloadUrl": "/templates/realtor-social-first-time.pdf",
       "whatsIncluded": [
         "20 educational posts",
@@ -3195,8 +3071,6 @@
       "subcategory": "realtor-social",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/realtor-social-investment.png",
-      "previewImage": "/previews/realtor-social-investment.png",
       "downloadUrl": "/templates/realtor-social-investment.pdf",
       "whatsIncluded": [
         "20 investor posts",
@@ -3243,8 +3117,6 @@
       "subcategory": "realtor-social",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/realtor-social-local.png",
-      "previewImage": "/previews/realtor-social-local.png",
       "downloadUrl": "/templates/realtor-social-local.pdf",
       "whatsIncluded": [
         "20 local posts",
@@ -3291,8 +3163,6 @@
       "subcategory": "realtor-social",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/realtor-social-seller.png",
-      "previewImage": "/previews/realtor-social-seller.png",
       "downloadUrl": "/templates/realtor-social-seller.pdf",
       "whatsIncluded": [
         "20 seller posts",
@@ -3339,8 +3209,6 @@
       "subcategory": "listing-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/listing-descriptions-luxury.png",
-      "previewImage": "/previews/listing-descriptions-luxury.png",
       "downloadUrl": "/templates/listing-descriptions-luxury.pdf",
       "whatsIncluded": [
         "15 luxury templates",
@@ -3387,8 +3255,6 @@
       "subcategory": "listing-descriptions",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/listing-descriptions-starter.png",
-      "previewImage": "/previews/listing-descriptions-starter.png",
       "downloadUrl": "/templates/listing-descriptions-starter.pdf",
       "whatsIncluded": [
         "15 starter templates",
@@ -3435,8 +3301,6 @@
       "subcategory": "listing-descriptions",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/listing-descriptions-condo.png",
-      "previewImage": "/previews/listing-descriptions-condo.png",
       "downloadUrl": "/templates/listing-descriptions-condo.pdf",
       "whatsIncluded": [
         "15 condo templates",
@@ -3483,8 +3347,6 @@
       "subcategory": "listing-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/listing-descriptions-investment.png",
-      "previewImage": "/previews/listing-descriptions-investment.png",
       "downloadUrl": "/templates/listing-descriptions-investment.pdf",
       "whatsIncluded": [
         "15 investment templates",
@@ -3531,8 +3393,6 @@
       "subcategory": "listing-descriptions",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/listing-descriptions-land.png",
-      "previewImage": "/previews/listing-descriptions-land.png",
       "downloadUrl": "/templates/listing-descriptions-land.pdf",
       "whatsIncluded": [
         "15 land templates",
@@ -3579,8 +3439,6 @@
       "subcategory": "buyer-guides",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/guide-first-time-buyer.png",
-      "previewImage": "/previews/guide-first-time-buyer.png",
       "downloadUrl": "/templates/guide-first-time-buyer.pdf",
       "whatsIncluded": [
         "10-page guide",
@@ -3627,8 +3485,6 @@
       "subcategory": "seller-guides",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/guide-home-seller.png",
-      "previewImage": "/previews/guide-home-seller.png",
       "downloadUrl": "/templates/guide-home-seller.pdf",
       "whatsIncluded": [
         "10-page guide",
@@ -3675,8 +3531,6 @@
       "subcategory": "buyer-guides",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/guide-investment-buyer.png",
-      "previewImage": "/previews/guide-investment-buyer.png",
       "downloadUrl": "/templates/guide-investment-buyer.pdf",
       "whatsIncluded": [
         "8-page guide",
@@ -3723,8 +3577,6 @@
       "subcategory": "buyer-guides",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/guide-relocation.png",
-      "previewImage": "/previews/guide-relocation.png",
       "downloadUrl": "/templates/guide-relocation.pdf",
       "whatsIncluded": [
         "8-page guide",
@@ -3771,8 +3623,6 @@
       "subcategory": "seller-guides",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/guide-downsizing.png",
-      "previewImage": "/previews/guide-downsizing.png",
       "downloadUrl": "/templates/guide-downsizing.pdf",
       "whatsIncluded": [
         "8-page guide",
@@ -3819,8 +3669,6 @@
       "subcategory": "product-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/product-descriptions-fashion.png",
-      "previewImage": "/previews/product-descriptions-fashion.png",
       "downloadUrl": "/templates/product-descriptions-fashion.pdf",
       "whatsIncluded": [
         "20 fashion templates",
@@ -3867,8 +3715,6 @@
       "subcategory": "product-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/product-descriptions-beauty.png",
-      "previewImage": "/previews/product-descriptions-beauty.png",
       "downloadUrl": "/templates/product-descriptions-beauty.pdf",
       "whatsIncluded": [
         "20 beauty templates",
@@ -3915,8 +3761,6 @@
       "subcategory": "product-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/product-descriptions-tech.png",
-      "previewImage": "/previews/product-descriptions-tech.png",
       "downloadUrl": "/templates/product-descriptions-tech.pdf",
       "whatsIncluded": [
         "20 tech templates",
@@ -3963,8 +3807,6 @@
       "subcategory": "product-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/product-descriptions-home.png",
-      "previewImage": "/previews/product-descriptions-home.png",
       "downloadUrl": "/templates/product-descriptions-home.pdf",
       "whatsIncluded": [
         "20 home templates",
@@ -4011,8 +3853,6 @@
       "subcategory": "product-descriptions",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/product-descriptions-food.png",
-      "previewImage": "/previews/product-descriptions-food.png",
       "downloadUrl": "/templates/product-descriptions-food.pdf",
       "whatsIncluded": [
         "20 food templates",
@@ -4059,8 +3899,6 @@
       "subcategory": "shopify-banners",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/shopify-email-flows.png",
-      "previewImage": "/previews/shopify-email-flows.png",
       "downloadUrl": "/templates/shopify-email-flows.pdf",
       "whatsIncluded": [
         "5 complete flows",
@@ -4107,8 +3945,6 @@
       "subcategory": "shopify-banners",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/shopify-homepage-sections.png",
-      "previewImage": "/previews/shopify-homepage-sections.png",
       "downloadUrl": "/templates/shopify-homepage-sections.pdf",
       "whatsIncluded": [
         "Hero section templates",
@@ -4155,8 +3991,6 @@
       "subcategory": "upsell-flows",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/ecommerce-upsell-templates.png",
-      "previewImage": "/previews/ecommerce-upsell-templates.png",
       "downloadUrl": "/templates/ecommerce-upsell-templates.pdf",
       "whatsIncluded": [
         "Product page upsells",
@@ -4203,8 +4037,6 @@
       "subcategory": "shopify-banners",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/ecommerce-sms-templates.png",
-      "previewImage": "/previews/ecommerce-sms-templates.png",
       "downloadUrl": "/templates/ecommerce-sms-templates.pdf",
       "whatsIncluded": [
         "25 SMS templates",
@@ -4251,8 +4083,6 @@
       "subcategory": "influencer-outreach",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/influencer-outreach-ecommerce.png",
-      "previewImage": "/previews/influencer-outreach-ecommerce.png",
       "downloadUrl": "/templates/influencer-outreach-ecommerce.pdf",
       "whatsIncluded": [
         "15 outreach templates",
@@ -4299,8 +4129,6 @@
       "subcategory": "planners",
       "priceCents": 3400,
       "comingSoon": false,
-      "image": "/previews/planner-annual-goals.png",
-      "previewImage": "/previews/planner-annual-goals.png",
       "downloadUrl": "/templates/planner-annual-goals.pdf",
       "whatsIncluded": [
         "20-page planner",
@@ -4347,8 +4175,6 @@
       "subcategory": "planners",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/planner-business-quarterly.png",
-      "previewImage": "/previews/planner-business-quarterly.png",
       "downloadUrl": "/templates/planner-business-quarterly.pdf",
       "whatsIncluded": [
         "15-page planner",
@@ -4395,8 +4221,6 @@
       "subcategory": "planners",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/planner-content-creator.png",
-      "previewImage": "/previews/planner-content-creator.png",
       "downloadUrl": "/templates/planner-content-creator.pdf",
       "whatsIncluded": [
         "18-page planner",
@@ -4443,8 +4267,6 @@
       "subcategory": "planners",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/planner-project-manager.png",
-      "previewImage": "/previews/planner-project-manager.png",
       "downloadUrl": "/templates/planner-project-manager.pdf",
       "whatsIncluded": [
         "15-page planner",
@@ -4491,8 +4313,6 @@
       "subcategory": "planners",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/planner-wellness-lifestyle.png",
-      "previewImage": "/previews/planner-wellness-lifestyle.png",
       "downloadUrl": "/templates/planner-wellness-lifestyle.pdf",
       "whatsIncluded": [
         "20-page planner",
@@ -4539,8 +4359,6 @@
       "subcategory": "habit-trackers",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/tracker-habit-90day.png",
-      "previewImage": "/previews/tracker-habit-90day.png",
       "downloadUrl": "/templates/tracker-habit-90day.pdf",
       "whatsIncluded": [
         "12-page tracker",
@@ -4587,8 +4405,6 @@
       "subcategory": "budget-trackers",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/tracker-budget-monthly.png",
-      "previewImage": "/previews/tracker-budget-monthly.png",
       "downloadUrl": "/templates/tracker-budget-monthly.pdf",
       "whatsIncluded": [
         "15-page tracker",
@@ -4635,8 +4451,6 @@
       "subcategory": "content-planners",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/tracker-content-analytics.png",
-      "previewImage": "/previews/tracker-content-analytics.png",
       "downloadUrl": "/templates/tracker-content-analytics.pdf",
       "whatsIncluded": [
         "10-page tracker",
@@ -4683,8 +4497,6 @@
       "subcategory": "habit-trackers",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/tracker-fitness-workout.png",
-      "previewImage": "/previews/tracker-fitness-workout.png",
       "downloadUrl": "/templates/tracker-fitness-workout.pdf",
       "whatsIncluded": [
         "12-page tracker",
@@ -4731,8 +4543,6 @@
       "subcategory": "habit-trackers",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/tracker-reading-learning.png",
-      "previewImage": "/previews/tracker-reading-learning.png",
       "downloadUrl": "/templates/tracker-reading-learning.pdf",
       "whatsIncluded": [
         "10-page tracker",
@@ -4779,8 +4589,6 @@
       "subcategory": "resumes",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/resume-modern-professional.png",
-      "previewImage": "/previews/resume-modern-professional.png",
       "downloadUrl": "/templates/resume-modern-professional.pdf",
       "whatsIncluded": [
         "Resume template",
@@ -4827,8 +4635,6 @@
       "subcategory": "resumes",
       "priceCents": 2900,
       "comingSoon": false,
-      "image": "/previews/resume-executive.png",
-      "previewImage": "/previews/resume-executive.png",
       "downloadUrl": "/templates/resume-executive.pdf",
       "whatsIncluded": [
         "Executive template",
@@ -4875,8 +4681,6 @@
       "subcategory": "resumes",
       "priceCents": 2400,
       "comingSoon": false,
-      "image": "/previews/resume-creative.png",
-      "previewImage": "/previews/resume-creative.png",
       "downloadUrl": "/templates/resume-creative.pdf",
       "whatsIncluded": [
         "Creative template",
@@ -4923,8 +4727,6 @@
       "subcategory": "pitch-decks",
       "priceCents": 4900,
       "comingSoon": false,
-      "image": "/previews/pitch-deck-startup.png",
-      "previewImage": "/previews/pitch-deck-startup.png",
       "downloadUrl": "/templates/pitch-deck-startup.pdf",
       "whatsIncluded": [
         "12-slide template",
@@ -4971,8 +4773,6 @@
       "subcategory": "pitch-decks",
       "priceCents": 3900,
       "comingSoon": false,
-      "image": "/previews/pitch-deck-sales.png",
-      "previewImage": "/previews/pitch-deck-sales.png",
       "downloadUrl": "/templates/pitch-deck-sales.pdf",
       "whatsIncluded": [
         "10-slide template",
