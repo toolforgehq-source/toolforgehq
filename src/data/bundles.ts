@@ -32,20 +32,19 @@ export const bundles: Bundle[] = [
     slug: 'social-media-starter-pack',
     name: 'Social Media Starter Pack',
     shortName: 'Social Starter',
-    description: 'Everything you need to dominate social media. This bundle includes our best-selling Instagram, TikTok, Reels, Carousel, and YouTube Shorts templates - perfect for creators who want to build a consistent, engaging presence across all major platforms.',
+    description: 'A complete social media system for creators and small businesses. This bundle includes everything you need to post consistently across all platforms: a 30-day content calendar, scroll-stopping hooks and ideas bank, copy-paste caption swipe file, short-form video scripts for Reels/TikTok/Shorts, and carousel frameworks for educational content.',
     categoryId: 'social-media',
     templateIds: [
-      'instagram-posts-fitness',      // $29 - featured
-      'tiktok-scripts-business',      // $34 - featured
-      'reels-scripts-marketing',      // $29 - featured
-      'carousel-educational',         // $34 - featured
-      'youtube-shorts-tech',          // $34 - featured
-      'instagram-posts-coaching',     // $29
+      'social-30-day-calendar',       // $34 - 30-day content calendar
+      'social-hooks-bank',            // $29 - hooks & ideas bank
+      'social-caption-swipe-file',    // $29 - caption swipe file
+      'social-short-form-scripts',    // $34 - short-form video scripts
+      'social-carousel-frameworks',   // $34 - carousel frameworks
     ],
-    // Total: $189, Bundle price: $119 (37% off)
-    priceCents: 11900,
-    savingsPercent: 37,
-    badgeText: 'Save 37%',
+    // Total: $160, Bundle price: $104 (35% off)
+    priceCents: 10400,
+    savingsPercent: 35,
+    badgeText: 'Save 35%',
     previewImage: categoryPreviewImages['social-media'],
     isFeatured: true,
   },

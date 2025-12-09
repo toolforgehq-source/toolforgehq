@@ -1361,6 +1361,241 @@
       "featured": false
     },
     {
+      "id": "social-30-day-calendar",
+      "name": "30-Day Social Content Calendar",
+      "shortDescription": "A complete 30-day content calendar for creators and small businesses across all platforms.",
+      "fullDescription": "Plan your entire month of social media content with this plug-and-play calendar. Works for Instagram, TikTok, Reels, Shorts, Facebook, and more. Includes daily content themes, prompts, posting frequency guides, and notes for each day. Perfect for creators and small businesses who want to post consistently without the daily stress of figuring out what to share.",
+      "category": "social-media",
+      "subcategory": "instagram-posts",
+      "priceCents": 3400,
+      "comingSoon": false,
+      "downloadUrl": "/templates/social-30-day-calendar.pdf",
+      "whatsIncluded": [
+        "30 days of content themes",
+        "Daily posting prompts",
+        "Platform-specific frequency guide",
+        "Content pillar framework",
+        "Weekly planning structure"
+      ],
+      "whoItsFor": [
+        "Content creators",
+        "Small business owners",
+        "Social media managers",
+        "Coaches and consultants"
+      ],
+      "faqs": [
+        {
+          "question": "What format is this template?",
+          "answer": "This template is delivered as a professionally formatted PDF document."
+        },
+        {
+          "question": "Can I customize this template?",
+          "answer": "Yes! All templates are designed to be customized for your specific needs and brand."
+        },
+        {
+          "question": "Do I get updates?",
+          "answer": "Yes, you get lifetime access and all future updates for free."
+        }
+      ],
+      "tags": [
+        "social-media",
+        "calendar",
+        "content-planning",
+        "instagram",
+        "tiktok"
+      ],
+      "createdAt": "2025-12-09T21:20:00.000Z",
+      "featured": true
+    },
+    {
+      "id": "social-hooks-bank",
+      "name": "Hooks & Ideas Bank for Social Content",
+      "shortDescription": "100+ scroll-stopping hooks and content ideas organized by goal.",
+      "fullDescription": "Never run out of content ideas again. This massive bank includes 100+ proven hooks and content ideas grouped by goal: grow followers, build trust, drive sales, and boost engagement. Copy, paste, and customize these hooks for any platform. Perfect for creators who want to stop the scroll and capture attention instantly.",
+      "category": "social-media",
+      "subcategory": "instagram-posts",
+      "priceCents": 2900,
+      "comingSoon": false,
+      "downloadUrl": "/templates/social-hooks-bank.pdf",
+      "whatsIncluded": [
+        "100+ scroll-stopping hooks",
+        "Hooks for growing followers",
+        "Hooks for building trust",
+        "Hooks for driving sales",
+        "Content idea categories"
+      ],
+      "whoItsFor": [
+        "Content creators",
+        "Small business owners",
+        "Social media managers",
+        "Anyone who posts on social media"
+      ],
+      "faqs": [
+        {
+          "question": "What format is this template?",
+          "answer": "This template is delivered as a professionally formatted PDF document."
+        },
+        {
+          "question": "Can I customize this template?",
+          "answer": "Yes! All templates are designed to be customized for your specific needs and brand."
+        },
+        {
+          "question": "Do I get updates?",
+          "answer": "Yes, you get lifetime access and all future updates for free."
+        }
+      ],
+      "tags": [
+        "social-media",
+        "hooks",
+        "content-ideas",
+        "viral",
+        "engagement"
+      ],
+      "createdAt": "2025-12-09T21:20:00.000Z",
+      "featured": true
+    },
+    {
+      "id": "social-caption-swipe-file",
+      "name": "Caption Swipe File Pack",
+      "shortDescription": "50+ copy-paste captions for every type of social media post.",
+      "fullDescription": "Stop staring at a blank screen. This swipe file includes 50+ high-quality captions you can copy, paste, and lightly edit for your own posts. Organized by post type: value posts, story posts, promo posts, engagement posts, and personal/relatable content. Each caption includes the hook, body, and CTA structure that drives results.",
+      "category": "social-media",
+      "subcategory": "instagram-posts",
+      "priceCents": 2900,
+      "comingSoon": false,
+      "downloadUrl": "/templates/social-caption-swipe-file.pdf",
+      "whatsIncluded": [
+        "50+ ready-to-use captions",
+        "Value post captions",
+        "Story post captions",
+        "Promo post captions",
+        "Engagement post captions"
+      ],
+      "whoItsFor": [
+        "Content creators",
+        "Small business owners",
+        "Social media managers",
+        "Anyone who struggles with captions"
+      ],
+      "faqs": [
+        {
+          "question": "What format is this template?",
+          "answer": "This template is delivered as a professionally formatted PDF document."
+        },
+        {
+          "question": "Can I customize this template?",
+          "answer": "Yes! All templates are designed to be customized for your specific needs and brand."
+        },
+        {
+          "question": "Do I get updates?",
+          "answer": "Yes, you get lifetime access and all future updates for free."
+        }
+      ],
+      "tags": [
+        "social-media",
+        "captions",
+        "swipe-file",
+        "copywriting",
+        "instagram"
+      ],
+      "createdAt": "2025-12-09T21:20:00.000Z",
+      "featured": true
+    },
+    {
+      "id": "social-short-form-scripts",
+      "name": "Short-Form Video Script Pack",
+      "shortDescription": "20 script frameworks for Reels, TikTok, and YouTube Shorts.",
+      "fullDescription": "Create scroll-stopping short-form videos with these 20 proven script frameworks. Includes problem-solution, before/after, listicle, story, myth buster, how-to, controversial take, and day-in-the-life formats. Each script includes hook, body, and CTA lines you can customize for any niche. Works for Reels, TikTok, and YouTube Shorts.",
+      "category": "social-media",
+      "subcategory": "reels-scripts",
+      "priceCents": 3400,
+      "comingSoon": false,
+      "downloadUrl": "/templates/social-short-form-scripts.pdf",
+      "whatsIncluded": [
+        "20 script frameworks",
+        "Hook formulas that work",
+        "Body structure templates",
+        "CTA variations",
+        "Niche customization tips"
+      ],
+      "whoItsFor": [
+        "Content creators",
+        "Small business owners",
+        "TikTok creators",
+        "Reels creators"
+      ],
+      "faqs": [
+        {
+          "question": "What format is this template?",
+          "answer": "This template is delivered as a professionally formatted PDF document."
+        },
+        {
+          "question": "Can I customize this template?",
+          "answer": "Yes! All templates are designed to be customized for your specific needs and brand."
+        },
+        {
+          "question": "Do I get updates?",
+          "answer": "Yes, you get lifetime access and all future updates for free."
+        }
+      ],
+      "tags": [
+        "social-media",
+        "scripts",
+        "reels",
+        "tiktok",
+        "shorts"
+      ],
+      "createdAt": "2025-12-09T21:20:00.000Z",
+      "featured": true
+    },
+    {
+      "id": "social-carousel-frameworks",
+      "name": "Carousel & Long-Form Post Framework Pack",
+      "shortDescription": "15 frameworks for educational carousels and long-form posts.",
+      "fullDescription": "Create save-worthy carousels and long-form posts with these 15 proven frameworks. Includes how-to, listicle, myth buster, mini-guide, before/after, and comparison formats. Each framework shows you exactly what to put on each slide or section. Perfect for teaching content, mini-guides, and 'how to' posts that get saved and shared.",
+      "category": "social-media",
+      "subcategory": "carousel-templates",
+      "priceCents": 3400,
+      "comingSoon": false,
+      "downloadUrl": "/templates/social-carousel-frameworks.pdf",
+      "whatsIncluded": [
+        "15 carousel frameworks",
+        "Slide-by-slide structures",
+        "Long-form post templates",
+        "Design tips for carousels",
+        "CTA placement guide"
+      ],
+      "whoItsFor": [
+        "Content creators",
+        "Small business owners",
+        "Educators and coaches",
+        "Anyone who creates educational content"
+      ],
+      "faqs": [
+        {
+          "question": "What format is this template?",
+          "answer": "This template is delivered as a professionally formatted PDF document."
+        },
+        {
+          "question": "Can I customize this template?",
+          "answer": "Yes! All templates are designed to be customized for your specific needs and brand."
+        },
+        {
+          "question": "Do I get updates?",
+          "answer": "Yes, you get lifetime access and all future updates for free."
+        }
+      ],
+      "tags": [
+        "social-media",
+        "carousel",
+        "frameworks",
+        "educational",
+        "instagram"
+      ],
+      "createdAt": "2025-12-09T21:20:00.000Z",
+      "featured": true
+    },
+    {
       "id": "business-plan-startup",
       "name": "Startup Business Plan Template",
       "shortDescription": "Complete 10-page business plan template for tech startups.",
