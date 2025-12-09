@@ -1,20 +1,24 @@
 import { Link } from 'react-router-dom';
-import { Template } from '../data/templates';
+import { Template, getCategoryById } from '../data/templates';
 
 interface TemplateCardProps {
   template: Template;
 }
 
 export default function TemplateCard({ template }: TemplateCardProps) {
+  // Get the preview image: template's own preview > category preview > fallback
+  const category = getCategoryById(template.category);
+  const previewImage = template.previewImage || template.previewUrl || category?.categoryPreview;
+
   return (
     <Link
       to={`/templates/${template.id}`}
       className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:border-indigo-200"
     >
       <div className="aspect-video bg-gradient-to-br from-indigo-100 to-purple-100 relative overflow-hidden">
-        {template.previewImage || template.previewUrl ? (
+        {previewImage ? (
           <img
-            src={template.previewImage || template.previewUrl}
+            src={previewImage}
             alt={template.name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />

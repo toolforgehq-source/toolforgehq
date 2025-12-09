@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, Check, Loader2, Shield, Download, Award } from 'lucide-react';
-import { getTemplateById, categories, templates } from '../data/templates';
+import { getTemplateById, categories, templates, getCategoryById } from '../data/templates';
 import EmailCapture from '../components/EmailCapture';
 import {
   Accordion,
@@ -35,6 +35,9 @@ export default function TemplateDetail() {
   }
 
     const category = categories.find(c => c.id === template.category);
+    
+    // Get the preview image: template's own preview > category preview > fallback
+    const previewImage = template.previewImage || template.previewUrl || category?.categoryPreview;
 
     const handleCheckout = async () => {
       setLoading(true);
@@ -85,9 +88,9 @@ export default function TemplateDetail() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div className="aspect-square bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden">
-              {template.previewImage ? (
+              {previewImage ? (
                 <img
-                  src={template.previewImage}
+                  src={previewImage}
                   alt={template.name}
                   className="w-full h-full object-cover"
                 />
@@ -239,16 +242,19 @@ export default function TemplateDetail() {
             {templates
               .filter(t => t.category === template.category && t.id !== template.id && !t.comingSoon)
               .slice(0, 3)
-              .map((relatedTemplate) => (
+              .map((relatedTemplate) => {
+                const relatedCategory = getCategoryById(relatedTemplate.category);
+                const relatedPreviewImage = relatedTemplate.previewImage || relatedTemplate.previewUrl || relatedCategory?.categoryPreview;
+                return (
                 <Link
                   key={relatedTemplate.id}
                   to={`/templates/${relatedTemplate.id}`}
                   className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all"
                 >
                   <div className="aspect-square relative overflow-hidden bg-gray-100">
-                    {relatedTemplate.previewImage ? (
+                    {relatedPreviewImage ? (
                       <img
-                        src={relatedTemplate.previewImage}
+                        src={relatedPreviewImage}
                         alt={relatedTemplate.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
@@ -270,7 +276,8 @@ export default function TemplateDetail() {
                     </div>
                   </div>
                 </Link>
-              ))}
+                );
+              })}
           </div>
         </div>
       </div>

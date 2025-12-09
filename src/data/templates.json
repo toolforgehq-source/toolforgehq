@@ -5,49 +5,56 @@
       "name": "Social Media",
       "icon": "Share2",
       "description": "Instagram, TikTok, Reels, Carousels, and YouTube content",
-      "color": "#3B82F6"
+      "color": "#3B82F6",
+      "categoryPreview": "/previews/social-media.png"
     },
     {
       "id": "business-marketing",
       "name": "Business & Marketing",
       "icon": "Briefcase",
       "description": "Business plans, branding, email marketing, and sales funnels",
-      "color": "#10B981"
+      "color": "#10B981",
+      "categoryPreview": "/previews/business-marketing.png"
     },
     {
       "id": "real-estate",
       "name": "Real Estate",
       "icon": "Home",
       "description": "Realtor social packs, listing descriptions, and buyer/seller guides",
-      "color": "#F59E0B"
+      "color": "#F59E0B",
+      "categoryPreview": "/previews/real-estate.png"
     },
     {
       "id": "ecommerce",
       "name": "E-Commerce",
       "icon": "ShoppingCart",
       "description": "Product descriptions, Shopify templates, and upsell flows",
-      "color": "#8B5CF6"
+      "color": "#8B5CF6",
+      "categoryPreview": "/previews/ecommerce.png"
     },
     {
       "id": "productivity",
       "name": "Productivity",
       "icon": "Calendar",
       "description": "Planners, calendars, habit trackers, and content planners",
-      "color": "#14B8A6"
+      "color": "#14B8A6",
+      "categoryPreview": "/previews/productivity.png"
     },
     {
       "id": "professional-docs",
       "name": "Professional Documents",
       "icon": "FileText",
       "description": "Resumes, cover letters, pitch decks, and contracts",
-      "color": "#6B7280"
+      "color": "#6B7280",
+      "categoryPreview": "/previews/professional-docs.png"
     },
     {
       "id": "ai-powered",
       "name": "AI-Powered Templates",
       "icon": "Sparkles",
       "description": "AI prompt packs, automation workflows, and outreach systems",
-      "color": "#6366F1"
+      "color": "#6366F1",
+      "categoryPreview": "/previews/ai-powered.png"
     }
   ],
   "subcategories": {

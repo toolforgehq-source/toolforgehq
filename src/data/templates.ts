@@ -27,6 +27,7 @@ export interface Category {
   icon: string;
   description: string;
   color?: string;
+  categoryPreview?: string;
 }
 
 export interface Subcategory {
