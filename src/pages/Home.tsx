@@ -124,9 +124,9 @@ export default function Home() {
             <div className="relative lg:pl-8">
               <div className="relative">
                 <img
-                  src="/hero/hero-dashboard.png"
-                  alt="ToolForgeHQ Dashboard"
-                  className="w-full h-auto rounded-2xl shadow-2xl"
+                  src="/hero/hero-main.jpg"
+                  alt="ToolForgeHQ - AI-Ready Templates"
+                  className="w-full h-auto rounded-2xl shadow-2xl object-cover"
                 />
                 {/* Floating badge */}
                 <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4 hidden sm:block">
