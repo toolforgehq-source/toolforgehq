@@ -1,12 +1,22 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { CheckCircle, Download, AlertCircle, Loader2 } from 'lucide-react';
+import { CheckCircle, Download, AlertCircle, Loader2, Package } from 'lucide-react';
 
-interface PurchaseData {
+interface DownloadItem {
   templateId: string;
   templateName: string;
+  downloadUrl: string;
+}
+
+interface PurchaseData {
+  itemType?: string;
+  templateId?: string;
+  bundleId?: string;
+  templateName: string;
+  templateIds?: string[];
   email: string;
   downloadUrl: string;
+  downloadUrls?: DownloadItem[];
   purchasedAt: string;
 }
 
@@ -93,6 +103,8 @@ export default function Success() {
     );
   }
 
+  const isBundle = purchase?.itemType === 'bundle';
+
   return (
     <div className="min-h-screen bg-gray-50 py-16">
       <div className="max-w-xl mx-auto px-4">
@@ -106,7 +118,10 @@ export default function Success() {
           </h1>
           
           <p className="text-gray-600 mb-8">
-            Your order has been confirmed and your template is ready to download.
+            {isBundle 
+              ? `Your bundle is ready! You have access to ${purchase?.downloadUrls?.length || 0} templates.`
+              : 'Your order has been confirmed and your template is ready to download.'
+            }
           </p>
           
           {purchase && (
@@ -114,9 +129,18 @@ export default function Success() {
               <h2 className="font-semibold text-gray-900 mb-4">Order Details</h2>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Template:</span>
-                  <span className="font-medium text-gray-900">{purchase.templateName}</span>
+                  <span className="text-gray-600">{isBundle ? 'Bundle:' : 'Template:'}</span>
+                  <span className="font-medium text-gray-900 flex items-center gap-2">
+                    {isBundle && <Package className="w-4 h-4 text-indigo-600" />}
+                    {purchase.templateName}
+                  </span>
                 </div>
+                {isBundle && purchase.downloadUrls && (
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Templates included:</span>
+                    <span className="font-medium text-gray-900">{purchase.downloadUrls.length}</span>
+                  </div>
+                )}
                 <div className="flex justify-between">
                   <span className="text-gray-600">Email:</span>
                   <span className="font-medium text-gray-900">{purchase.email}</span>
@@ -131,7 +155,29 @@ export default function Success() {
             </div>
           )}
           
-          {purchase?.downloadUrl && (
+          {/* Bundle Downloads */}
+          {isBundle && purchase?.downloadUrls && purchase.downloadUrls.length > 0 && (
+            <div className="mb-6">
+              <h3 className="font-semibold text-gray-900 mb-4 text-left">Download Your Templates</h3>
+              <div className="space-y-3">
+                {purchase.downloadUrls.map((item, index) => (
+                  <a
+                    key={item.templateId || index}
+                    href={item.downloadUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between w-full bg-indigo-50 hover:bg-indigo-100 text-indigo-700 py-3 px-4 rounded-lg font-medium transition-colors text-left"
+                  >
+                    <span className="truncate mr-2">{item.templateName}</span>
+                    <Download className="w-5 h-5 flex-shrink-0" />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+          
+          {/* Single Template Download */}
+          {!isBundle && purchase?.downloadUrl && (
             <a
               href={purchase.downloadUrl}
               target="_blank"
@@ -145,17 +191,25 @@ export default function Success() {
           
           <p className="text-sm text-gray-500 mb-6">
             A confirmation email has been sent to {purchase?.email}. 
-            Save this page or bookmark the download link for future access.
+            Save this page or bookmark the download link{isBundle ? 's' : ''} for future access.
           </p>
           
           <div className="border-t pt-6">
             <p className="text-gray-600 mb-4">Want more templates?</p>
-            <Link
-              to="/templates"
-              className="inline-block bg-gray-100 text-gray-700 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
-            >
-              Browse All Templates
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                to="/templates"
+                className="inline-block bg-gray-100 text-gray-700 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
+              >
+                Browse Templates
+              </Link>
+              <Link
+                to="/bundles"
+                className="inline-block bg-indigo-100 text-indigo-700 py-3 px-6 rounded-lg font-semibold hover:bg-indigo-200 transition-colors"
+              >
+                View Bundles
+              </Link>
+            </div>
           </div>
         </div>
       </div>
