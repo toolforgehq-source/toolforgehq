@@ -182,6 +182,74 @@ Purchases are stored in `toolforgehq-backend/app/purchases.json`. Each purchase 
 - Purchase timestamp
 - Amount paid
 
+## AI Preview Image Generator
+
+The site includes an automated system for generating high-quality preview images using OpenAI's DALL-E 3 API.
+
+### Setup
+
+1. **Get an OpenAI API key:**
+   - Go to https://platform.openai.com/api-keys
+   - Create a new API key
+   - Ensure you have access to the DALL-E 3 model
+
+2. **Set the environment variable:**
+   ```bash
+   export OPENAI_API_KEY=sk-your-api-key-here
+   ```
+
+### Generate Missing Preview Images
+
+Run the script to generate preview images for all templates that don't have one:
+
+```bash
+# Generate missing previews (requires OPENAI_API_KEY)
+node tools/generate-previews.cjs
+
+# Dry run - see what would be generated without making API calls
+node tools/generate-previews.cjs --dry-run
+
+# Force regenerate all images (even existing ones)
+node tools/generate-previews.cjs --force
+
+# Limit to N images (useful for testing)
+node tools/generate-previews.cjs --limit=5
+```
+
+### How It Works
+
+1. The script reads `src/data/templates.json`
+2. For each template without a preview image:
+   - Generates a detailed prompt based on category and template name
+   - Calls OpenAI's DALL-E 3 API to generate a high-quality image
+   - Saves the image to `public/previews/<templateId>.png`
+   - Updates `templates.json` with the `previewUrl` field
+3. Images are generated with ToolForgeHQ brand styling:
+   - Modern SaaS aesthetic
+   - Blue/purple gradient backgrounds
+   - No large text overlays
+   - Premium, professional quality
+
+### Category Visual Styles
+
+Each category has a unique visual concept:
+
+| Category | Visual Style |
+|----------|-------------|
+| Social Media | Phone mockups, social feeds, engagement icons |
+| Business & Marketing | Documents, charts, brand boards, email UIs |
+| Real Estate | Modern homes, floor plans, property cards |
+| E-Commerce | Store interfaces, product grids, cart icons |
+| Productivity | Calendars, planners, checklists, dashboards |
+| Professional Docs | Resumes, slides, documents on desks |
+| AI-Powered | Neural networks, glowing nodes, futuristic UI |
+
+### Cost Considerations
+
+- DALL-E 3 HD images cost approximately $0.08 per image
+- Generating all 100 templates would cost approximately $8
+- The script is idempotent - it only generates missing images
+
 ## Template Automation System
 
 The site includes a full automation system for adding new templates without manual work.

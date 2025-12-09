@@ -11,6 +11,7 @@ export interface Template {
   comingSoon: boolean;
   image: string;
   previewImage?: string;
+  previewUrl?: string;
   downloadUrl: string;
   whatsIncluded: string[];
   whoItsFor: string[];

@@ -12,11 +12,19 @@ export default function TemplateCard({ template }: TemplateCardProps) {
       className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:border-indigo-200"
     >
       <div className="aspect-video bg-gradient-to-br from-indigo-100 to-purple-100 relative overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-16 h-16 bg-white/80 rounded-xl flex items-center justify-center shadow-sm">
-            <span className="text-2xl font-bold text-indigo-600">TF</span>
+        {template.previewImage || template.previewUrl ? (
+          <img
+            src={template.previewImage || template.previewUrl}
+            alt={template.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-16 h-16 bg-white/80 rounded-xl flex items-center justify-center shadow-sm">
+              <span className="text-2xl font-bold text-indigo-600">TF</span>
+            </div>
           </div>
-        </div>
+        )}
         {template.comingSoon && (
           <div className="absolute top-3 right-3 bg-amber-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
             Coming Soon
