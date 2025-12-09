@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FileText, Share2, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb, Home as HomeIcon, ShoppingCart, Calendar, Shield, Clock, Award } from 'lucide-react';
 import EmailCapture from '../components/EmailCapture';
-import { categories, templates } from '../data/templates';
+import { categories, templates, getCategoryById } from '../data/templates';
 
 const iconMap: Record<string, React.ReactNode> = {
   FileText: <FileText className="w-6 h-6" />,
@@ -167,16 +167,19 @@ export default function Home() {
             <p className="mt-4 text-lg text-gray-600">Our most popular premium templates</p>
           </div>
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredTemplates.map((template) => (
+            {featuredTemplates.map((template) => {
+              const category = getCategoryById(template.category);
+              const previewImage = template.previewImage || template.previewUrl || category?.categoryPreview;
+              return (
               <Link
                 key={template.id}
                 to={`/templates/${template.id}`}
                 className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300"
               >
                 <div className="aspect-square relative overflow-hidden bg-gray-100">
-                  {template.previewImage ? (
+                  {previewImage ? (
                     <img
-                      src={template.previewImage}
+                      src={previewImage}
                       alt={template.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
@@ -202,7 +205,8 @@ export default function Home() {
                   </div>
                 </div>
               </Link>
-            ))}
+              );
+            })}
           </div>
           <div className="mt-10 text-center">
             <Link
