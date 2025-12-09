@@ -26,10 +26,11 @@ export default function Header() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2">
               <img 
-                src="/logo/logo-light.png" 
+                src="/logo/toolforgehq-logo.png" 
                 alt="ToolForgeHQ" 
-                className="h-10 w-auto"
+                className="h-10 w-auto md:h-10"
               />
+              <span className="text-xl font-bold text-gray-900 hidden sm:inline">ToolForgeHQ</span>
             </Link>
           </div>
 

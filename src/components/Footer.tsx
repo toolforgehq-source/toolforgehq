@@ -6,14 +6,16 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TF</span>
-              </div>
+            <Link to="/" className="flex items-center gap-3">
+              <img 
+                src="/logo/toolforgehq-logo.png" 
+                alt="ToolForgeHQ" 
+                className="h-12 w-auto"
+              />
               <span className="text-xl font-bold text-gray-900">ToolForgeHQ</span>
             </Link>
             <p className="mt-4 text-gray-600 max-w-md">
-              AI-ready templates for creators, coaches, and small businesses. Create content, funnels, and offers 10x faster.
+              Premium AI-powered templates for creators, coaches, and small businesses. Create content, funnels, and offers 10x faster.
             </p>
           </div>
 

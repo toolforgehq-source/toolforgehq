@@ -132,6 +132,8 @@ export default function TemplateDetail() {
 
           <div>
             <div className="flex items-center gap-3 mb-4">
+              <img src="/logo/logo-badge.png" alt="ToolForgeHQ" className="w-8 h-8" />
+              <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">Premium Template</span>
               <span className="text-sm font-medium text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">
                 {category?.name || template.category}
               </span>

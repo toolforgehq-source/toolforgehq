@@ -29,6 +29,10 @@ export default function TemplateCard({ template }: TemplateCardProps) {
             </div>
           </div>
         )}
+        {/* Logo badge */}
+        <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm rounded-lg p-1 shadow-sm">
+          <img src="/logo/logo-badge.png" alt="ToolForgeHQ" className="w-6 h-6" />
+        </div>
         {template.comingSoon && (
           <div className="absolute top-3 right-3 bg-amber-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
             Coming Soon
