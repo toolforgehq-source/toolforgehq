@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { FileText, Share2, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb, Home as HomeIcon, ShoppingCart, Calendar, Shield, Clock, Award } from 'lucide-react';
+import { FileText, Share2, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb, Home as HomeIcon, ShoppingCart, Calendar, Shield, Clock, Award, Package } from 'lucide-react';
 import EmailCapture from '../components/EmailCapture';
 import { categories, templates, getCategoryById } from '../data/templates';
+import { bundles, getCategoryForBundle } from '../data/bundles';
 
 const iconMap: Record<string, React.ReactNode> = {
   FileText: <FileText className="w-6 h-6" />,
@@ -15,6 +16,11 @@ const iconMap: Record<string, React.ReactNode> = {
 
 // Get featured templates
 const featuredTemplates = templates.filter(t => t.featured && !t.comingSoon).slice(0, 6);
+
+// Get featured bundles - Social Media Starter Pack first, then 2 others
+const socialMediaBundle = bundles.find(b => b.id === 'social-media-starter-pack');
+const otherBundles = bundles.filter(b => b.id !== 'social-media-starter-pack').slice(0, 2);
+const featuredBundles = socialMediaBundle ? [socialMediaBundle, ...otherBundles] : bundles.slice(0, 3);
 
 const steps = [
   {
@@ -167,8 +173,90 @@ export default function Home() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
       </section>
 
-      {/* Featured Templates Section */}
+      {/* Featured Bundles Section */}
       <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+              <Package className="w-4 h-4" />
+              Save up to 40%
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Featured Bundles</h2>
+            <p className="mt-4 text-lg text-gray-600">Get the best value with our curated template bundles</p>
+          </div>
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featuredBundles.map((bundle) => {
+              const category = getCategoryForBundle(bundle);
+              return (
+                <Link
+                  key={bundle.id}
+                  to={`/bundles/${bundle.slug}`}
+                  className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300"
+                >
+                  <div className="aspect-square relative overflow-hidden bg-gray-100">
+                    <img
+                      src={bundle.previewImage}
+                      alt={bundle.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-3 left-3">
+                      <img 
+                        src="/logo/logo-badge.png" 
+                        alt="ToolForgeHQ" 
+                        className="w-8 h-8 rounded-lg shadow-md"
+                      />
+                    </div>
+                    <div className="absolute top-3 right-3 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded-full">
+                      Bundle
+                    </div>
+                    <div className="absolute bottom-3 right-3 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
+                      Save {bundle.savingsPercent}%
+                    </div>
+                  </div>
+                  <div className="p-5">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-xs font-medium px-2 py-1 rounded-full bg-indigo-50 text-indigo-700">
+                        {category?.name || bundle.categoryId}
+                      </span>
+                      <span className="text-xs text-gray-500 flex items-center gap-1">
+                        <Package className="w-3 h-3" />
+                        {bundle.templateIds.length} templates
+                      </span>
+                    </div>
+                    <h3 className="font-semibold text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-2">
+                      {bundle.name}
+                    </h3>
+                    <p className="mt-2 text-sm text-gray-600 line-clamp-2">{bundle.description}</p>
+                    <div className="mt-4 flex items-center justify-between">
+                      <div>
+                        <span className="text-lg font-bold text-gray-900">
+                          ${(bundle.priceCents / 100).toFixed(0)}
+                        </span>
+                        <span className="ml-2 text-sm text-green-600 font-medium">
+                          Save {bundle.savingsPercent}%
+                        </span>
+                      </div>
+                      <span className="text-sm text-indigo-600 font-medium group-hover:underline">View Bundle</span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              to="/bundles"
+              className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-green-500 transition-colors"
+            >
+              View All Bundles
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Templates Section */}
+      <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Featured Templates</h2>
