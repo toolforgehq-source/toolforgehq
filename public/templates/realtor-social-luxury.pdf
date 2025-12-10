@@ -1,29 +1,36 @@
 %PDF-1.3
-%ÿÿÿÿ
-7 0 obj
+%âãÏÓ
+1 0 obj
 <<
-/Type /Page
-/Parent 1 0 R
-/MediaBox [0 0 612 792]
-/Contents 5 0 R
-/Resources 6 0 R
+/Producer (pypdf)
 >>
 endobj
-6 0 obj
+2 0 obj
 <<
-/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
-/Font <<
-/F1 8 0 R
-/F2 9 0 R
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 9 0 R 12 0 R 15 0 R ]
 >>
-/ColorSpace <<
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
 >>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 5 0 R
+/Resources 6 0 R
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Length 903
 /Filter /FlateDecode
+/Length 903
 >>
 stream
 xœí—Mk#G†ïúı¶·¾«Ä–|@n	º…ì‘ö°d!¿?T÷Œ%kXãqD¼a|˜VuÕ[O½ja‚é&H^)_vñlH	Òß§İÇNÿ|O¿ıü)_w«ad'•
@@ -32,30 +39,46 @@ xœí—Mk#G†ïúı¶·¾«Ä–|@n	º…ì‘ö°d!¿?T÷Œ%kXãqD¼a|˜VuÕ[O½ja‚é&H^)_vñlH	Ò
 Ùq5Nw¦ŞÆ{®uuqxW¦²ÚÚôÌ”Fãr}°Ö,¾šª;Ooâ	‹e×ÕÕá=yBÃÌ´¾‡Û…GÅ¯˜.Y(JVl²ÉÚ÷‡Úr–r« R2ñıf~#¼X³~WW)DÈPÖ7s¿ ‹›Rj'—·êRÍÍ¯vŒÆö©E©–k½ßÖoCX‘Lå$ì_¶=Ÿ·
 endstream
 endobj
-12 0 obj
+6 0 obj
 <<
-/Type /Page
-/Parent 1 0 R
-/MediaBox [0 0 612 792]
-/Contents 10 0 R
-/Resources 11 0 R
->>
-endobj
-11 0 obj
-<<
-/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 /Font <<
-/F2 9 0 R
-/F1 8 0 R
+/F1 7 0 R
+/F2 8 0 R
 >>
 /ColorSpace <<
 >>
 >>
 endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 10 0 R
+/Resources 11 0 R
+/Parent 2 0 R
+>>
+endobj
 10 0 obj
 <<
-/Length 706
 /Filter /FlateDecode
+/Length 706
 >>
 stream
 xœí˜¿nÛ@Æw?Å½@X’G~¼Ú¡[oE‡F¶¶}ÿ¥8IIÜÈm¡Tm<h3Îÿ|üİéÓIâÄéN§¨šº‡İ÷ÌÖŞ§EIÎ)²‘°¦ãÃîİGM"éØï¾ìsÑó!§½²)g˜r
@@ -67,138 +90,123 @@ Rğ örSHe!(fHIæ¨*¦ßiÜ§–¹UtHÂœöş4†eŠH!Ï³M¶ñõ:¾Ø©ÌÎÿ·ÄËS.å
 ëÒ\gE
 endstream
 endobj
-15 0 obj
+11 0 obj
 <<
-/Type /Page
-/Parent 1 0 R
-/MediaBox [0 0 612 792]
-/Contents 13 0 R
-/Resources 14 0 R
->>
-endobj
-14 0 obj
-<<
-/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 /Font <<
-/F2 9 0 R
-/F1 8 0 R
+/F2 8 0 R
+/F1 7 0 R
 >>
 /ColorSpace <<
 >>
 >>
 endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 13 0 R
+/Resources 14 0 R
+/Parent 2 0 R
+>>
+endobj
 13 0 obj
 <<
-/Length 336
 /Filter /FlateDecode
+/Length 336
 >>
 stream
 xœ•‘Íj1„ïûzl$Ù­añ!ôzkÙ[é¡uv¡‡J Ï_¼›Ò&¡¶F}c11­„˜<)•]³¾¿ŞËøt¿¡²o¸M`ïbàj1±·ã"qË¿‘öå£ùlälÀf8…ŒÉ5µì a×¬ï”¤£aj{‹è ñ¦œI”©·”I˜©Çä¦’‰_hxhn‡æñºR.ë2
 $iºP‰œSxÊ¤?ÓÈ–“*;»¹"ÔnHáÊ^o'³®0l‘Ü°ÃÖR÷ÕÏSÕråé-RcÂ„ÿŒƒÃbg¢ãÑ\Òµ•®;£7gçzÊ´ŠL½G-ÊšÉãÌ?cá‹K’ÅpÎ-H(ÿ˜Ç‹ì®ÍbËñ4êkºò}ÁÔ+GA™ñ+´õHptç¿U˜Ø,VG&­M†xòGß}ò¼>
 endstream
 endobj
-17 0 obj
-(PDFKit)
+14 0 obj
+<<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F2 8 0 R
+/F1 7 0 R
+>>
+/ColorSpace <<
+>>
+>>
 endobj
-18 0 obj
-(PDFKit)
-endobj
-19 0 obj
-(D:20251208221135Z)
-endobj
-20 0 obj
-(Luxury Real Estate Social Media Pack)
-endobj
-21 0 obj
-(ToolForgeHQ)
-endobj
-22 0 obj
-(Premium Real Estate Template)
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 17 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
 endobj
 16 0 obj
 <<
-/Producer 17 0 R
-/Creator 18 0 R
-/CreationDate 19 0 R
-/Title 20 0 R
-/Author 21 0 R
-/Subject 22 0 R
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1020
+>>
+stream
+Gat=iDf=>`&B<Vr;k3PnImaA>&jkJLOJN,_'F%#AX89[B/pMNuaEH:B:VX6"N+oDk[6cai8a`25kIZW_*W5\M9f%;SJbGKBIM^'GpjK=Vj8otb`pItia6eXgFPQWV&:V+KoqN'&rQ&<ji;InL\R(iDBF9[ZI't.J+EN@j.l*_k^El,l;qsrVMi/0=4okBgjQ#]64q(_scL\#%YO=s^%!nI*f30saH\Q=0A6'NVO50(FhG\L0+<VE;JsKWR8HR5GTt(a?TNbS:I#_tr/1Ui\mY6?F($(<j[J.-_AC,>5\kco1HX7KmS\PW(Uq"oDB)F$/4&!Do0kXJA1\9+3A4$joF3hi7LH_k!k1f.4$n*MnKu'EEL[334]nCW&2XSmI);TNk3grZPDHLeHJF!8&VGohC6ibK@@&Vf<^UN<U.G`QK#lODQ^=[NE%VsNdp8BrK]\qN5Hj?:3:),DjQaqRUmiZ:k'7.tS:SNmIqnT9F<N"rD<smP]Ef4I"2F'0YjMm=n9W%!:nU*?bcT`YP$/b+Rrg?]prfV*U//aTC10NGG#!f@n"'?[3R8[P?4Vli$O(FWB3D\li.JUf8_QfmV$C4OAg:NMdWuASkY;aSO3Bi-YY-^2D4C]sbs1n+qeH/VI.+P!pbbQ:8Qs$L+)Iii+>'`nBYQsNX=25)rK,V`ibF,YK[#ulY^i<A801HL@]`u;V]>M,OD&33KZ3csl7hi<6.:0m9!$8)u(&"L0VRH;EMIpQ$!4lQ=QoP/dX'4b.)G^oO"6t]IDNfh2/%C7]1E%`keMr)%Z,L''08uPgBW,1HlDI?pQS'Hr;HNfn3HOcm8d@%%Q*S%2XuPPT9.K:QUp-3V^'-[0B8?fGU1%7:'Oii'_pOXEWI^!kLYuN<4,ggi2hD%e/(N"\_YSjX.V@QMp"]NLkKH[SXQWOfHXU_*1Tb*Em_I4jX/J(LrfJ0Ti2[3[Wnm[\)+NI:nfd5l?IX0kLm6mmi\6mMohq3cS)L*rPb6IJ:2XhjIjBb-^AsiS#oi~>
+endstream
+endobj
+17 0 obj
+<<
+/F1 18 0 R
+/F2 19 0 R
 >>
 endobj
-8 0 obj
+18 0 obj
 <<
-/Type /Font
 /BaseFont /Helvetica
-/Subtype /Type1
 /Encoding /WinAnsiEncoding
->>
-endobj
-9 0 obj
-<<
+/Name /F1
+/Subtype /Type1
 /Type /Font
+>>
+endobj
+19 0 obj
+<<
 /BaseFont /Helvetica-Bold
-/Subtype /Type1
 /Encoding /WinAnsiEncoding
->>
-endobj
-4 0 obj
-<<
->>
-endobj
-3 0 obj
-<<
-/Type /Catalog
-/Pages 1 0 R
-/Names 2 0 R
->>
-endobj
-1 0 obj
-<<
-/Type /Pages
-/Count 3
-/Kids [7 0 R 12 0 R 15 0 R]
->>
-endobj
-2 0 obj
-<<
-/Dests <<
-  /Names [
-]
->>
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 xref
-0 23
+0 20
 0000000000 65535 f 
-0000003470 00000 n 
-0000003541 00000 n 
-0000003408 00000 n 
-0000003387 00000 n 
-0000000236 00000 n 
-0000000119 00000 n 
 0000000015 00000 n 
-0000003188 00000 n 
-0000003285 00000 n 
-0000001436 00000 n 
-0000001318 00000 n 
-0000001211 00000 n 
-0000002440 00000 n 
-0000002322 00000 n 
-0000002215 00000 n 
-0000003067 00000 n 
-0000002849 00000 n 
-0000002874 00000 n 
-0000002899 00000 n 
-0000002935 00000 n 
-0000002990 00000 n 
-0000003020 00000 n 
+0000000054 00000 n 
+0000000133 00000 n 
+0000000182 00000 n 
+0000000288 00000 n 
+0000001263 00000 n 
+0000001382 00000 n 
+0000001479 00000 n 
+0000001581 00000 n 
+0000001689 00000 n 
+0000002468 00000 n 
+0000002588 00000 n 
+0000002697 00000 n 
+0000003106 00000 n 
+0000003226 00000 n 
+0000003418 00000 n 
+0000004531 00000 n 
+0000004575 00000 n 
+0000004683 00000 n 
 trailer
 <<
-/Size 23
+/Size 20
 /Root 3 0 R
-/Info 16 0 R
-/ID [<3f048fa7ed08ba7135e0306f70695475> <3f048fa7ed08ba7135e0306f70695475>]
+/Info 1 0 R
 >>
 startxref
-3588
+4796
 %%EOF

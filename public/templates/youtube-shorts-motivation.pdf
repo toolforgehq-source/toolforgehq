@@ -1,29 +1,36 @@
 %PDF-1.3
-%ÿÿÿÿ
-7 0 obj
+%âãÏÓ
+1 0 obj
 <<
-/Type /Page
-/Parent 1 0 R
-/MediaBox [0 0 612 792]
-/Contents 5 0 R
-/Resources 6 0 R
+/Producer (pypdf)
 >>
 endobj
-6 0 obj
+2 0 obj
 <<
-/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
-/Font <<
-/F1 8 0 R
-/F2 9 0 R
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 9 0 R 12 0 R 15 0 R ]
 >>
-/ColorSpace <<
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
 >>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 5 0 R
+/Resources 6 0 R
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Length 955
 /Filter /FlateDecode
+/Length 955
 >>
 stream
 xœÕWËŠÜFİ÷WÔ¸|ß·
@@ -33,30 +40,46 @@ iïjdJ lÅF§.½‹U]œÛ ;Yup	È]âx»OÙ#5ğÛğiÉê+|r´ÑÅªÛ<;Æ•6WccSgç«5WVHËßÓJ¨ÀYlU
 õé¿¡ÕÀ|Ó]³-N]øhÃª¦¾E£f¯°åW¸Ù7â·•¡–ÌuEÃm›<³üz_·‡Å†1µ­4»ŸŞª=ÎZèÓ­™ÌL¹.Éxaºoº°JgDÜ0¢Ì–ç9Öy«ˆXs±UX¿ºMş——_ñš²è9FÏ¨«ä|ËN¡‚Ùie¾o>eH=A‹ÓÎi°K%Ş¡üåØµÙ:d%oçøÃ‹Mø–Û³íCª¹¢üPöaÈRÖş‘ûş‘³®ÆíZàúŒ!ôÌuİ€¯m•N>s:æe9C Ù|½å¾a£ ×L"+£è}£è…QL6-ëĞ,£®[êµd†Ïª5*gáõ¾ù–kM%¬ªv¿Övqúhûóô1µMûv%!¾¹&N›ÓQrÅïR½%Ç39käšş¢|@ ü†N!ÿLÂ>
 endstream
 endobj
-12 0 obj
+6 0 obj
 <<
-/Type /Page
-/Parent 1 0 R
-/MediaBox [0 0 612 792]
-/Contents 10 0 R
-/Resources 11 0 R
->>
-endobj
-11 0 obj
-<<
-/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 /Font <<
-/F2 9 0 R
-/F1 8 0 R
+/F1 7 0 R
+/F2 8 0 R
 >>
 /ColorSpace <<
 >>
 >>
 endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 10 0 R
+/Resources 11 0 R
+/Parent 2 0 R
+>>
+endobj
 10 0 obj
 <<
-/Length 687
 /Filter /FlateDecode
+/Length 687
 >>
 stream
 xœÕ—»AEs¾¢`ÛõèºÕ-!KvàÌ™åÀË#ÛÀÿŸXÕİA ™À°"˜™fî-NW]8Q¢ôÂ‰’7I›·ÅßÎ}]'9%×’™$­ß_¾KbNëıâ×R]v«T(-…LQ±wY¥¡´ô"¤®—W‰‰ÒÒÊ*UJKì±ÇFÈ¶Jlié@;½w×U¢ßiıcñm½øyO¡SráL<(ä“ÂRû“^CˆBBùáF©²ò¶JÒµ¹	aƒ¡yÁ^¯ØaÔ×ÏV4W!0$ÖøpïÁ™wgJgg½,İY|‡ìâ5Õ%Õ,#—uåx@á³Õ‚ƒ€„Í¥xœ®¸aGX—ßœº©^‡‚Ø…]"Ù(¡J®(#têmtê£A¬Å-İ‚b¸¤Qó¾˜cq›XR e÷òpp(ì]ó³1Œõ-4˜g²ú©ÀQÎŒÀi·ÁigpJÈaäp|Š
@@ -64,30 +87,30 @@ O­×l:Şvÿ™\ú±K?ó˜ ËuÜ1Ÿ	«”µÖ¬t
 VºÀ"6ÙÛ¡#vñ3yë½„z‰C°£z™XRƒgiãmö¿A99ä}äp:f%Û'cGZf»‚ßC‡ß¡S£;cƒ(ªC69¯#Óã;Ê?#³ã‰‘f-ãYúÄX÷ÜxœlYår5İ¶¾ã£-Š;™‚’«<A–=úÌcŞœìÌ&¤˜d¾Âı3"Èğq€eÕ{„èeñ„Š¸õl×dZıX³Õ‡§Õ>ZâÁä8LÏÎæñA”+>UNU·\tœSYË=>Ê»ÉÂ®!$şĞ¸!ª8}¬($ky†¹2¸ñnfw--C?R2·kiÕîa`0vQòâ†mŒj/ÓÑ`ÎLÏ¦7üÌ†CZÍÚ(şOÅ3
 endstream
 endobj
-15 0 obj
+11 0 obj
 <<
-/Type /Page
-/Parent 1 0 R
-/MediaBox [0 0 612 792]
-/Contents 13 0 R
-/Resources 14 0 R
->>
-endobj
-14 0 obj
-<<
-/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 /Font <<
-/F2 9 0 R
-/F1 8 0 R
+/F2 8 0 R
+/F1 7 0 R
 >>
 /ColorSpace <<
 >>
 >>
 endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 13 0 R
+/Resources 14 0 R
+/Parent 2 0 R
+>>
+endobj
 13 0 obj
 <<
-/Length 347
 /Filter /FlateDecode
+/Length 347
 >>
 stream
 xœ•‘Mk1†ïó+ô2‘dé•ÃB? ·†¹•ïä°èï/M Ù%°9lË~õ<¶ÓS¤R;·_Ö¿Om½ÿ~GíeàQ‹”P·dIpT'³rIG…†	öZµ¸¦‰ÒK{şr‘·¼n
@@ -96,108 +119,93 @@ xœ•‘Mk1†ïó+ô2‘dé•ÃB? ·†¹•ïä°èï/M Ù%°9lË~õ<¶ÓS¤R;·_Ö¿Om½ÿ~GíeàQ‹
 |/öŒÀLÚ9ììşã\¼
 endstream
 endobj
-17 0 obj
-(PDFKit)
+14 0 obj
+<<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F2 8 0 R
+/F1 7 0 R
+>>
+/ColorSpace <<
+>>
+>>
 endobj
-18 0 obj
-(PDFKit)
-endobj
-19 0 obj
-(D:20251208221133Z)
-endobj
-20 0 obj
-(YouTube Shorts Script Pack - Motivation & Success)
-endobj
-21 0 obj
-(ToolForgeHQ)
-endobj
-22 0 obj
-(Premium Social Media Template)
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 17 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
 endobj
 16 0 obj
 <<
-/Producer 17 0 R
-/Creator 18 0 R
-/CreationDate 19 0 R
-/Title 20 0 R
-/Author 21 0 R
-/Subject 22 0 R
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1110
+>>
+stream
+Gat=i95gRr&BF82.8%-]Z>p4YYd#i3a$X=3pp#!h8$bbs]hl.a%5_g=1B-uOh3^;_en?'IEN"V<r9@Y>%bUD5jrJ(7f*ng"*,o.j.r[Vo"*OnmqdSnE=cC%("g<+4i50JNb6pAXo`BQ3_:S#;A@^pA+G/9o3hES[YUL!I$T9"qItb[-&R!!@lu'VU$Xiu7qs>\q"$I=?4s$_6Gu!9b[r!3r/PCb3KCgd\b_iERB2NMR\Dc!*N.Fq^9_g<7O!KOoXE\'JHf,2`.f)r*:gmD#]J:Sqj\A+%R$?0Oo-+CI8^..#QIiQMkh<c$0e!QHk7W5WG7tR,n7.`7G1P,l*;.nI3V:nZcD'n=38FP$0'=pFL845M@YMIXao]Sl=I0WC]Y_;_OWa,1q>G-6?m,rV',F?qj#QTkJ[K_ha:R'%()VspLuF1@_(-[M!l7;T'dc!5N"G@hJU*1i7!Y;;Jf?/Jjnh[,k8ZH^i0gB`[$W7Ta4Aqc/3=m,EbeI[R%r*s),YMNo-N5AM0aW7h:ZuuaJ09&=KPD6Ch9\YRU2;F/..NClWR^cnhG4o=_bKTL9GFH-le#'k8'$B-=@%i4@,g%H^6-1!I;>Oj&_O3Y3s&YMr?e0%Y$pQ9ffKN4]m/k_T=KZr!Z%5jIgZ0r[`.eU7@[!ZV+5a;+7B=[-]3DZ]EP8#OiI)4o>QP4WEH-4q9(`s.BjHq!.VZ?4Ri(/PQlOhT33CR6Q*rR,Sbg/o5dCWVF&BbhJ!L"<>/q1iVSZlkHiE@6cRr9:4*nTFff@.e>aY&OKYbDn&IW%2JOK=jZA1F8FfW>eg@%M!5Wf>=P>7D2P'&JSS"iY2lb(']cDh7?5=1fGX(i$FO2S3@$3GN:fs,>>1dHV!o6oT%d)Qk#G*5p!E%r2s>?GDX`6j=mA;"VkB=7)3PcD/QarQcf#a]$Z]fN37<,_+c@C!8GKpL/@iJ4iDu_[>"UNI)6`*IO1"?lNaH'U^12<?^(4PRA(bu:hmFpig7%lD4'Y%c__%<g;%&p))J2@M[^G=3k"BI7hhnI_s%OEMM!eRVYL`^u-.d;l\(q->BNn5[>qd^+!j]hn+''r!X6+^YYIM))A9`CXr?a.Eq%qJ346?~>
+endstream
+endobj
+17 0 obj
+<<
+/F1 18 0 R
+/F2 19 0 R
 >>
 endobj
-8 0 obj
+18 0 obj
 <<
-/Type /Font
 /BaseFont /Helvetica
-/Subtype /Type1
 /Encoding /WinAnsiEncoding
->>
-endobj
-9 0 obj
-<<
+/Name /F1
+/Subtype /Type1
 /Type /Font
+>>
+endobj
+19 0 obj
+<<
 /BaseFont /Helvetica-Bold
-/Subtype /Type1
 /Encoding /WinAnsiEncoding
->>
-endobj
-4 0 obj
-<<
->>
-endobj
-3 0 obj
-<<
-/Type /Catalog
-/Pages 1 0 R
-/Names 2 0 R
->>
-endobj
-1 0 obj
-<<
-/Type /Pages
-/Count 3
-/Kids [7 0 R 12 0 R 15 0 R]
->>
-endobj
-2 0 obj
-<<
-/Dests <<
-  /Names [
-]
->>
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 xref
-0 23
+0 20
 0000000000 65535 f 
-0000003528 00000 n 
-0000003599 00000 n 
-0000003466 00000 n 
-0000003445 00000 n 
-0000000236 00000 n 
-0000000119 00000 n 
 0000000015 00000 n 
-0000003246 00000 n 
-0000003343 00000 n 
-0000001488 00000 n 
-0000001370 00000 n 
-0000001263 00000 n 
-0000002473 00000 n 
-0000002355 00000 n 
-0000002248 00000 n 
-0000003125 00000 n 
-0000002893 00000 n 
-0000002918 00000 n 
-0000002943 00000 n 
-0000002979 00000 n 
-0000003047 00000 n 
-0000003077 00000 n 
+0000000054 00000 n 
+0000000133 00000 n 
+0000000182 00000 n 
+0000000288 00000 n 
+0000001315 00000 n 
+0000001434 00000 n 
+0000001531 00000 n 
+0000001633 00000 n 
+0000001741 00000 n 
+0000002501 00000 n 
+0000002621 00000 n 
+0000002730 00000 n 
+0000003150 00000 n 
+0000003270 00000 n 
+0000003462 00000 n 
+0000004665 00000 n 
+0000004709 00000 n 
+0000004817 00000 n 
 trailer
 <<
-/Size 23
+/Size 20
 /Root 3 0 R
-/Info 16 0 R
-/ID [<df4a1fff0cc9f86bd6ff7805093a2434> <df4a1fff0cc9f86bd6ff7805093a2434>]
+/Info 1 0 R
 >>
 startxref
-3646
+4930
 %%EOF
