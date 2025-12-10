@@ -12,6 +12,7 @@ export interface Template {
   image: string;
   previewImage?: string;
   previewUrl?: string;
+  previewImages?: string[]; // Array of preview page images for gallery
   downloadUrl: string;
   whatsIncluded: string[];
   whoItsFor: string[];

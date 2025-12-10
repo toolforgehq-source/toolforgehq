@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, Check, Loader2, Shield, Download, Award } from 'lucide-react';
+import { ArrowLeft, Check, Loader2, Shield, Download, Award, Eye, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { getTemplateById, categories, templates, getCategoryById } from '../data/templates';
 import EmailCapture from '../components/EmailCapture';
 import {
@@ -19,6 +19,8 @@ export default function TemplateDetail() {
   const template = getTemplateById(id || '');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
   if (!template) {
     return (
@@ -87,8 +89,25 @@ export default function TemplateDetail() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <div className="aspect-square bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden">
-              {previewImage ? (
+            {/* Main Preview Image */}
+            <div className="aspect-[4/5] bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden">
+              {template.previewImages && template.previewImages.length > 0 ? (
+                <>
+                  <img
+                    src={template.previewImages[selectedImageIndex]}
+                    alt={`${template.name} - Page ${selectedImageIndex + 1}`}
+                    className="w-full h-full object-contain bg-white cursor-pointer"
+                    onClick={() => setIsLightboxOpen(true)}
+                  />
+                  <button
+                    onClick={() => setIsLightboxOpen(true)}
+                    className="absolute bottom-4 right-4 bg-white/90 hover:bg-white text-gray-700 px-3 py-2 rounded-lg shadow-md flex items-center gap-2 text-sm font-medium transition-colors"
+                  >
+                    <Eye className="w-4 h-4" />
+                    See Inside
+                  </button>
+                </>
+              ) : previewImage ? (
                 <img
                   src={previewImage}
                   alt={template.name}
@@ -112,6 +131,32 @@ export default function TemplateDetail() {
                 </div>
               )}
             </div>
+
+            {/* Preview Thumbnails */}
+            {template.previewImages && template.previewImages.length > 1 && (
+              <div className="mt-4 flex gap-3">
+                {template.previewImages.map((img, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedImageIndex(index)}
+                    className={`relative w-20 h-24 rounded-lg overflow-hidden border-2 transition-all ${
+                      selectedImageIndex === index
+                        ? 'border-indigo-600 ring-2 ring-indigo-200'
+                        : 'border-gray-200 hover:border-gray-300'
+                    }`}
+                  >
+                    <img
+                      src={img}
+                      alt={`Preview ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs py-0.5 text-center">
+                      Page {index + 1}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
             
             {/* Trust Badges */}
             <div className="mt-6 grid grid-cols-3 gap-4">
@@ -128,6 +173,46 @@ export default function TemplateDetail() {
                 <span className="text-xs font-medium text-gray-700">Premium Quality</span>
               </div>
             </div>
+
+            {/* Lightbox Modal */}
+            {isLightboxOpen && template.previewImages && (
+              <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4">
+                <button
+                  onClick={() => setIsLightboxOpen(false)}
+                  className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+                >
+                  <X className="w-8 h-8" />
+                </button>
+                
+                {template.previewImages.length > 1 && (
+                  <>
+                    <button
+                      onClick={() => setSelectedImageIndex(prev => prev === 0 ? template.previewImages!.length - 1 : prev - 1)}
+                      className="absolute left-4 text-white hover:text-gray-300 transition-colors"
+                    >
+                      <ChevronLeft className="w-10 h-10" />
+                    </button>
+                    <button
+                      onClick={() => setSelectedImageIndex(prev => prev === template.previewImages!.length - 1 ? 0 : prev + 1)}
+                      className="absolute right-4 text-white hover:text-gray-300 transition-colors"
+                    >
+                      <ChevronRight className="w-10 h-10" />
+                    </button>
+                  </>
+                )}
+                
+                <div className="max-w-4xl max-h-[90vh] overflow-auto">
+                  <img
+                    src={template.previewImages[selectedImageIndex]}
+                    alt={`${template.name} - Page ${selectedImageIndex + 1}`}
+                    className="w-full h-auto"
+                  />
+                  <div className="text-center text-white mt-4 text-sm">
+                    Page {selectedImageIndex + 1} of {template.previewImages.length} - Preview Only
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           <div>
