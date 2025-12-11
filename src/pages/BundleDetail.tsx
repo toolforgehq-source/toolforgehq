@@ -3,7 +3,7 @@ import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, Check, Loader2, Shield, Download, Award, Package } from 'lucide-react';
 import { getBundleBySlug, getBundleTemplates, calculateBundleOriginalPrice, getCategoryForBundle } from '../data/bundles';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://app-plcgyfon.fly.dev' : 'http://localhost:8000');
 
 export default function BundleDetail() {
   const { slug } = useParams<{ slug: string }>();
