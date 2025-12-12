@@ -20,7 +20,7 @@ interface PurchaseData {
   purchasedAt: string;
 }
 
-const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://app-plcgyfon.fly.dev' : 'http://localhost:8000');
+const API_URL = import.meta.env.VITE_API_URL || '';
 
 export default function Success() {
   const [searchParams] = useSearchParams();
@@ -55,7 +55,7 @@ export default function Success() {
         const data = await response.json();
         setPurchase(data);
         setLoading(false);
-      } catch (err) {
+      } catch {
         setError('Failed to connect to server. Please try again later.');
         setLoading(false);
       }

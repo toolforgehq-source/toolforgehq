@@ -10,7 +10,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
-const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://app-plcgyfon.fly.dev' : 'http://localhost:8000');
+const API_URL = import.meta.env.VITE_API_URL || '';
 
 export default function TemplateDetail() {
   const { id } = useParams<{ id: string }>();

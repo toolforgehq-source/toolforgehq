@@ -1,0 +1,144 @@
+{
+  "bundles": [
+    {
+      "id": "social-media-starter-pack",
+      "slug": "social-media-starter-pack",
+      "name": "Social Media Starter Pack",
+      "shortName": "Social Starter",
+      "description": "A complete social media system for creators and small businesses. This bundle includes everything you need to post consistently across all platforms: a 30-day content calendar, scroll-stopping hooks and ideas bank, copy-paste caption swipe file, short-form video scripts for Reels/TikTok/Shorts, and carousel frameworks for educational content.",
+      "categoryId": "social-media",
+      "templateIds": [
+        "social-30-day-calendar",
+        "social-hooks-bank",
+        "social-caption-swipe-file",
+        "social-short-form-scripts",
+        "social-carousel-frameworks"
+      ],
+      "priceCents": 10400,
+      "savingsPercent": 35,
+      "badgeText": "Save 35%",
+      "previewImage": "/previews/social-media.png",
+      "isFeatured": true
+    },
+    {
+      "id": "business-growth-bundle",
+      "slug": "business-growth-bundle",
+      "name": "Business Growth Bundle",
+      "shortName": "Business Growth",
+      "description": "Scale your business with this comprehensive bundle. Includes a startup business plan, branding kit, welcome email sequence, and webinar sales funnel - everything you need to launch, brand, and grow your business systematically.",
+      "categoryId": "business-marketing",
+      "templateIds": [
+        "business-plan-startup",
+        "branding-kit-startup",
+        "email-sequence-welcome",
+        "sales-funnel-webinar",
+        "email-sequence-launch"
+      ],
+      "priceCents": 13900,
+      "savingsPercent": 37,
+      "badgeText": "Save 37%",
+      "previewImage": "/previews/business-marketing.png",
+      "isFeatured": true
+    },
+    {
+      "id": "ai-outreach-system-bundle",
+      "slug": "ai-outreach-system-bundle",
+      "name": "AI Outreach System Bundle",
+      "shortName": "AI Outreach",
+      "description": "Supercharge your outreach with AI. This bundle combines our most powerful AI-powered outreach systems including cold email, LinkedIn, influencer outreach, and the comprehensive content creation prompt library.",
+      "categoryId": "ai-powered",
+      "templateIds": [
+        "ai-prompts-content",
+        "ai-workflow-content",
+        "ai-outreach-cold-email",
+        "ai-outreach-linkedin",
+        "ai-outreach-influencer"
+      ],
+      "priceCents": 15900,
+      "savingsPercent": 38,
+      "badgeText": "Save 38%",
+      "previewImage": "/previews/ai-powered.png",
+      "isFeatured": true
+    },
+    {
+      "id": "real-estate-power-pack",
+      "slug": "real-estate-power-pack",
+      "name": "Real Estate Power Pack",
+      "shortName": "Real Estate Pro",
+      "description": "Dominate your local real estate market with this comprehensive pack. Includes luxury social media content, premium listing descriptions, buyer guides, and seller guides - everything a top-producing agent needs.",
+      "categoryId": "real-estate",
+      "templateIds": [
+        "realtor-social-luxury",
+        "listing-descriptions-luxury",
+        "guide-first-time-buyer",
+        "guide-home-seller",
+        "realtor-social-first-time"
+      ],
+      "priceCents": 10900,
+      "savingsPercent": 36,
+      "badgeText": "Save 36%",
+      "previewImage": "/previews/real-estate.png",
+      "isFeatured": true
+    },
+    {
+      "id": "ecommerce-launch-kit",
+      "slug": "ecommerce-launch-kit",
+      "name": "E-Commerce Launch Kit",
+      "shortName": "E-Com Launch",
+      "description": "Launch and scale your online store with confidence. This kit includes Shopify email flows, product descriptions, upsell templates, and influencer outreach tools - everything you need to drive sales and grow your e-commerce business.",
+      "categoryId": "ecommerce",
+      "templateIds": [
+        "shopify-email-flows",
+        "product-descriptions-fashion",
+        "influencer-outreach-ecommerce",
+        "ecommerce-upsell-templates",
+        "shopify-homepage-sections"
+      ],
+      "priceCents": 11900,
+      "savingsPercent": 36,
+      "badgeText": "Save 36%",
+      "previewImage": "/previews/ecommerce.png",
+      "isFeatured": true
+    },
+    {
+      "id": "productivity-os-bundle",
+      "slug": "productivity-os-bundle",
+      "name": "Productivity OS Bundle",
+      "shortName": "Productivity OS",
+      "description": "Build your personal productivity operating system. This bundle includes annual goal planning, quarterly business planning, habit tracking, content planning, and budget tracking - a complete system for achieving your goals.",
+      "categoryId": "productivity",
+      "templateIds": [
+        "planner-annual-goals",
+        "tracker-habit-90day",
+        "planner-business-quarterly",
+        "planner-content-creator",
+        "tracker-budget-monthly"
+      ],
+      "priceCents": 8900,
+      "savingsPercent": 36,
+      "badgeText": "Save 36%",
+      "previewImage": "/previews/productivity.png",
+      "isFeatured": true
+    },
+    {
+      "id": "professional-career-pack",
+      "slug": "professional-career-pack",
+      "name": "Professional Career Pack",
+      "shortName": "Career Pack",
+      "description": "Advance your career with professional documents that stand out. This pack includes modern and executive resume templates, creative resume options, and pitch deck templates for startups and sales presentations.",
+      "categoryId": "professional-docs",
+      "templateIds": [
+        "pitch-deck-startup",
+        "resume-modern-professional",
+        "pitch-deck-sales",
+        "resume-executive",
+        "resume-creative"
+      ],
+      "priceCents": 9900,
+      "savingsPercent": 40,
+      "badgeText": "Save 40%",
+      "previewImage": "/previews/professional-docs.png",
+      "isFeatured": true
+    }
+  ]
+}
