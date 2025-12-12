@@ -1,7 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import Stripe from 'stripe';
-import templatesData from '../src/data/templates.json';
-import bundlesData from '../src/data/bundles.json';
 
 function getSiteUrl(): string {
   return process.env.SITE_URL || (process.env.VERCEL_URL 
@@ -24,14 +22,6 @@ interface Bundle {
   priceCents: number;
   templateIds: string[];
   slug: string;
-}
-
-function getTemplateById(templateId: string): Template | undefined {
-  return (templatesData as { templates: Template[] }).templates.find(t => t.id === templateId);
-}
-
-function getBundleById(bundleId: string): Bundle | undefined {
-  return (bundlesData as { bundles: Bundle[] }).bundles.find(b => b.id === bundleId);
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -63,6 +53,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const { templateId, bundleId, itemType } = req.body;
 
   try {
+    // Load data dynamically inside handler to avoid module-level import issues
+    const templatesModule = await import('../src/data/templates.json');
+    const bundlesModule = await import('../src/data/bundles.json');
+    const templates = (templatesModule.default as { templates: Template[] }).templates;
+    const bundles = (bundlesModule.default as { bundles: Bundle[] }).bundles;
+    
+    const getTemplateById = (id: string) => templates.find(t => t.id === id);
+    const getBundleById = (id: string) => bundles.find(b => b.id === id);
     let session;
 
     if (itemType === 'bundle' && bundleId) {

@@ -1,7 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import Stripe from 'stripe';
-import templatesData from '../src/data/templates.json';
-import bundlesData from '../src/data/bundles.json';
 
 interface Template {
   id: string;
@@ -19,14 +17,6 @@ interface DownloadItem {
   templateId: string;
   templateName: string;
   downloadUrl: string;
-}
-
-function getTemplateById(templateId: string): Template | undefined {
-  return (templatesData as { templates: Template[] }).templates.find(t => t.id === templateId);
-}
-
-function getBundleById(bundleId: string): Bundle | undefined {
-  return (bundlesData as { bundles: Bundle[] }).bundles.find(b => b.id === bundleId);
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -59,6 +49,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
+    // Load data dynamically inside handler to avoid module-level import issues
+    const templatesModule = await import('../src/data/templates.json');
+    const bundlesModule = await import('../src/data/bundles.json');
+    const templates = (templatesModule.default as { templates: Template[] }).templates;
+    const bundles = (bundlesModule.default as { bundles: Bundle[] }).bundles;
+    
+    const getTemplateById = (id: string) => templates.find(t => t.id === id);
+    const getBundleById = (id: string) => bundles.find(b => b.id === id);
+
     // Retrieve the checkout session from Stripe
     const session = await stripe.checkout.sessions.retrieve(sessionId, {
       expand: ['customer_details'],
