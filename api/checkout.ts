@@ -3,11 +3,11 @@ import Stripe from 'stripe';
 import templatesData from '../src/data/templates.json';
 import bundlesData from '../src/data/bundles.json';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '');
-
-const SITE_URL = process.env.SITE_URL || (process.env.VERCEL_URL 
-  ? `https://${process.env.VERCEL_URL}` 
-  : 'https://toolforgehq.com');
+function getSiteUrl(): string {
+  return process.env.SITE_URL || (process.env.VERCEL_URL 
+    ? `https://${process.env.VERCEL_URL}` 
+    : 'https://toolforgehq.com');
+}
 
 interface Template {
   id: string;
@@ -48,9 +48,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ detail: 'Method not allowed' });
   }
 
-  if (!process.env.STRIPE_SECRET_KEY) {
+  // Check for Stripe key before initializing
+  const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
+  if (!stripeSecretKey) {
     return res.status(500).json({ detail: 'Stripe is not configured. Please set STRIPE_SECRET_KEY.' });
   }
+
+  // Initialize Stripe inside handler to avoid module-level crash
+  const stripe = new Stripe(stripeSecretKey);
+  
+  // Get site URL for redirects
+  const siteUrl = getSiteUrl();
 
   const { templateId, bundleId, itemType } = req.body;
 
@@ -85,8 +93,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           itemType: 'bundle',
           templateIds: JSON.stringify(bundle.templateIds),
         },
-        success_url: `${SITE_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${SITE_URL}/bundles/${bundle.slug}?canceled=1`,
+                success_url: `${siteUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
+                cancel_url: `${siteUrl}/bundles/${bundle.slug}?canceled=1`,
       });
     } else if (templateId) {
       // Handle single template checkout
@@ -123,8 +131,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           templateId: template.id,
           itemType: 'template',
         },
-        success_url: `${SITE_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${SITE_URL}/templates/${template.id}?canceled=1`,
+                success_url: `${siteUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
+                cancel_url: `${siteUrl}/templates/${template.id}?canceled=1`,
       });
     } else {
       return res.status(400).json({ detail: 'Either templateId or bundleId is required.' });

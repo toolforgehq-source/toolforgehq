@@ -3,8 +3,6 @@ import Stripe from 'stripe';
 import templatesData from '../src/data/templates.json';
 import bundlesData from '../src/data/bundles.json';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '');
-
 interface Template {
   id: string;
   name: string;
@@ -45,9 +43,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ detail: 'Method not allowed' });
   }
 
-  if (!process.env.STRIPE_SECRET_KEY) {
+  // Check for Stripe key before initializing
+  const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
+  if (!stripeSecretKey) {
     return res.status(500).json({ detail: 'Stripe is not configured. Please set STRIPE_SECRET_KEY.' });
   }
+
+  // Initialize Stripe inside handler to avoid module-level crash
+  const stripe = new Stripe(stripeSecretKey);
 
   const sessionId = req.query.session_id as string;
 
