@@ -1,5 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import Stripe from 'stripe';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 interface Template {
   id: string;
@@ -49,11 +51,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
-    // Load data dynamically inside handler to avoid module-level import issues
-    const templatesModule = await import('../src/data/templates.json');
-    const bundlesModule = await import('../src/data/bundles.json');
-    const templates = (templatesModule.default as { templates: Template[] }).templates;
-    const bundles = (bundlesModule.default as { bundles: Bundle[] }).bundles;
+    // Load JSON data using fs.readFileSync to avoid ESM JSON import issues
+    const templatesPath = join(process.cwd(), 'src/data/templates.json');
+    const bundlesPath = join(process.cwd(), 'src/data/bundles.json');
+    const templatesData = JSON.parse(readFileSync(templatesPath, 'utf-8')) as { templates: Template[] };
+    const bundlesData = JSON.parse(readFileSync(bundlesPath, 'utf-8')) as { bundles: Bundle[] };
+    const templates = templatesData.templates;
+    const bundles = bundlesData.bundles;
     
     const getTemplateById = (id: string) => templates.find(t => t.id === id);
     const getBundleById = (id: string) => bundles.find(b => b.id === id);
