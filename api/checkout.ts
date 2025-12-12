@@ -3,9 +3,7 @@ import Stripe from 'stripe';
 import templatesData from '../src/data/templates.json';
 import bundlesData from '../src/data/bundles.json';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
-  apiVersion: '2024-12-18.acacia',
-});
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '');
 
 const SITE_URL = process.env.SITE_URL || (process.env.VERCEL_URL 
   ? `https://${process.env.VERCEL_URL}` 
