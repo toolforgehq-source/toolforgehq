@@ -5,26 +5,26 @@ const steps = [
   {
     number: '01',
     icon: <Search className="w-8 h-8" />,
-    title: 'Browse Our Template Library',
-    description: 'Explore our curated collection of AI-ready templates. Each template is designed for a specific use case, whether you need content calendars, email sequences, landing page copy, or Notion dashboards. Use the category filters to find exactly what you need.',
+    title: 'Choose Your AI Execution System',
+    description: 'Browse our library of AI Execution Systems. Each system is designed for a specific use case and includes three components: a professional template, a proprietary AI execution prompt, and step-by-step instructions.',
   },
   {
     number: '02',
     icon: <CreditCard className="w-8 h-8" />,
-    title: 'Purchase Your Template',
-    description: 'Found the perfect template? Complete your purchase securely. All templates are one-time purchases with no subscriptions or hidden fees. You get lifetime access to your templates, including any future updates.',
+    title: 'Purchase & Download',
+    description: 'Complete your purchase securely. All systems are one-time purchases with no subscriptions. You get instant access to your template, AI execution prompt, and guided instructions.',
   },
   {
     number: '03',
     icon: <Download className="w-8 h-8" />,
-    title: 'Download Instantly',
-    description: 'After purchase, you\'ll get immediate access to download your template. Most templates come in multiple formats (Google Sheets, Notion, PDF) so you can use them in your preferred tools.',
+    title: 'Gather Your Inputs',
+    description: 'Review the included instructions to understand what inputs you need to provide. This might include your business details, target audience, specific goals, or other context that makes the output relevant to you.',
   },
   {
     number: '04',
     icon: <Sparkles className="w-8 h-8" />,
-    title: 'Plug Into AI & Create',
-    description: 'Here\'s where the magic happens. Each template includes AI prompts designed to help you customize everything for your brand and audience. Copy the prompts into ChatGPT, Claude, or your favorite AI tool, and watch your content come to life in minutes instead of hours.',
+    title: 'Execute with AI',
+    description: 'Open ChatGPT, Claude, or Gemini. Paste the execution prompt exactly as provided. Enter your inputs when prompted. The AI will generate structured output based on our engineered prompt. Refine if needed, then use the output in your template.',
   },
 ];
 
@@ -36,7 +36,7 @@ export default function HowItWorks() {
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900">How It Works</h1>
             <p className="mt-4 text-lg text-gray-600">
-              From browsing to creating amazing content in four simple steps. No technical skills required.
+              Four steps to execute with AI and get professional results. You provide the inputs, AI generates the output.
             </p>
           </div>
         </div>

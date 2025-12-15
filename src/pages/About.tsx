@@ -10,7 +10,7 @@ export default function About() {
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Why ToolForgeHQ Exists</h1>
             <p className="mt-4 text-lg text-gray-600">
-              Helping people harness the power of AI without needing to be technical.
+              We build AI Execution Systems that help you get professional results from AI tools.
             </p>
           </div>
         </div>
@@ -20,23 +20,28 @@ export default function About() {
         <div className="prose prose-lg prose-indigo max-w-none">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">The Problem We Saw</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            AI tools like ChatGPT and Claude have changed everything. Suddenly, anyone can generate content, write copy, and automate tasks that used to take hours. But here's the thing: most people don't know how to use these tools effectively.
+            AI tools like ChatGPT and Claude have changed everything. Suddenly, anyone can generate content, write copy, and create professional documents. But here's the thing: most people don't know how to use these tools effectively.
           </p>
           <p className="text-gray-600 leading-relaxed mb-6">
             They stare at a blank prompt box, not sure what to type. They get mediocre outputs because they don't know the right questions to ask. They spend more time trying to figure out AI than actually creating.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 mt-12">Our Solution</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 mt-12">Our Solution: AI Execution Systems</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            ToolForgeHQ bridges the gap between powerful AI tools and the people who want to use them. We create templates that are specifically designed to work with AI, complete with prompts, frameworks, and workflows that anyone can follow.
+            ToolForgeHQ builds AI Execution Systems - not just templates. Each system combines three components: a professional-grade template, a proprietary AI execution prompt, and step-by-step instructions that tell you exactly which AI tool to use, where to paste the prompt, what inputs to provide, and what output to expect.
           </p>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Think of our templates as the missing instruction manual for AI. You don't need to be a prompt engineer or a tech expert. Just download a template, follow the included prompts, and watch AI do the heavy lifting.
+            You don't need to be a prompt engineer or a tech expert. You provide your specific inputs, paste our execution prompt into ChatGPT, Claude, or Gemini, and receive structured output ready to use in the template. The AI does the heavy lifting based on our engineered prompts.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mb-6 mt-12">Who We Help</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             We built ToolForgeHQ for creators, coaches, consultants, and small business owners who know they should be using AI but don't have time to become experts. People who want results, not complexity. People who'd rather spend their time serving clients and creating value than wrestling with technology.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 mt-12">Important: What This Is NOT</h2>
+          <p className="text-gray-600 leading-relaxed mb-6">
+            ToolForgeHQ products are not software, not autonomous AI, and not done-for-you services. They are execution systems that require your input and your use of AI tools like ChatGPT, Claude, or Gemini. You provide the inputs, AI generates the output based on our prompts, and you get professional results.
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FileText, Share2, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb, Home as HomeIcon, ShoppingCart, Calendar, Shield, Clock, Award, Package } from 'lucide-react';
+import { FileText, Share2, Sparkles, ArrowRight, Search, Download, Zap, Users, Briefcase, Lightbulb, Home as HomeIcon, ShoppingCart, Calendar, Shield, Award, Package } from 'lucide-react';
 import EmailCapture from '../components/EmailCapture';
 import { categories, templates, getCategoryById } from '../data/templates';
 import { bundles, getCategoryForBundle } from '../data/bundles';
@@ -25,18 +25,18 @@ const featuredBundles = socialMediaBundle ? [socialMediaBundle, ...otherBundles]
 const steps = [
   {
     icon: <Search className="w-8 h-8 text-indigo-600" />,
-    title: 'Browse Templates',
-    description: 'Explore our library of AI-ready templates designed for creators, coaches, and small businesses.',
+    title: 'Choose Your System',
+    description: 'Browse our library of AI Execution Systems. Each one combines a professional template with a proprietary AI prompt and step-by-step instructions.',
   },
   {
     icon: <Download className="w-8 h-8 text-indigo-600" />,
-    title: 'Download & Customize',
-    description: 'Get instant access to your template. Use the included AI prompts to customize everything.',
+    title: 'Download & Prepare',
+    description: 'Get instant access to your template, AI execution prompt, and guided instructions. Gather your inputs based on the included guide.',
   },
   {
     icon: <Zap className="w-8 h-8 text-indigo-600" />,
-    title: 'Create 10x Faster',
-    description: 'Plug your customized templates into your workflow and watch your productivity soar.',
+    title: 'Execute with AI',
+    description: 'Paste the execution prompt into ChatGPT, Claude, or Gemini. Provide your inputs, and receive structured output ready to use.',
   },
 ];
 
@@ -49,7 +49,7 @@ const audiences = [
   {
     icon: <Lightbulb className="w-8 h-8 text-indigo-600" />,
     title: 'Coaches & Consultants',
-    description: 'Experts who want to scale their impact with courses, funnels, and automated marketing.',
+    description: 'Experts who want to scale their impact with courses, funnels, and AI-powered marketing systems.',
   },
   {
     icon: <Briefcase className="w-8 h-8 text-indigo-600" />,
@@ -94,13 +94,13 @@ export default function Home() {
               </div>
               <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <Sparkles className="w-4 h-4" />
-                100+ Premium Templates
+                100+ AI Execution Systems
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-900 tracking-tight">
-                AI-Ready Templates for Creators, Coaches, and Small Businesses
+                AI Execution Systems for Creators, Coaches, and Small Businesses
               </h1>
               <p className="mt-6 text-lg md:text-xl text-gray-600">
-                Download plug-and-play templates built to work with AI tools so you can create content, funnels, and offers 10x faster.
+                Professional templates paired with proprietary AI prompts and step-by-step instructions. You provide the inputs, AI generates the output, you get results.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
@@ -316,34 +316,34 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why ToolForgeHQ Section */}
+      {/* What Makes This Different Section */}
       <section className="py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Why ToolForgeHQ?</h2>
-            <p className="mt-4 text-lg text-gray-600">Premium templates that deliver real results</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">What Makes ToolForgeHQ Different</h2>
+            <p className="mt-4 text-lg text-gray-600">We don't sell templates. We sell AI Execution Systems.</p>
           </div>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-green-100 mb-6">
                 <Shield className="w-8 h-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900">Premium Quality</h3>
-              <p className="mt-3 text-gray-600">Every template is professionally crafted with real content, not placeholders. Ready to use immediately.</p>
+              <h3 className="text-xl font-semibold text-gray-900">Professional Templates</h3>
+              <p className="mt-3 text-gray-600">Every template is professionally crafted with real structure and frameworks. Not generic placeholders.</p>
             </div>
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-100 mb-6">
-                <Clock className="w-8 h-8 text-blue-600" />
+                <Sparkles className="w-8 h-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900">Instant Download</h3>
-              <p className="mt-3 text-gray-600">Get immediate access to your templates after purchase. No waiting, no hassle.</p>
+              <h3 className="text-xl font-semibold text-gray-900">Proprietary AI Prompts</h3>
+              <p className="mt-3 text-gray-600">Each system includes a copy-paste AI execution prompt engineered to produce structured, high-quality output.</p>
             </div>
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-purple-100 mb-6">
                 <Award className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900">AI-Optimized</h3>
-              <p className="mt-3 text-gray-600">Templates designed to work seamlessly with AI tools like ChatGPT, Claude, and more.</p>
+              <h3 className="text-xl font-semibold text-gray-900">Step-by-Step Instructions</h3>
+              <p className="mt-3 text-gray-600">Clear guidance on which AI tool to use, where to paste the prompt, what inputs to provide, and what output to expect.</p>
             </div>
           </div>
         </div>
@@ -353,7 +353,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">How It Works</h2>
-            <p className="mt-4 text-lg text-gray-600">Three simple steps to supercharge your productivity</p>
+            <p className="mt-4 text-lg text-gray-600">Three steps to execute with AI and get professional results</p>
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step, index) => (
