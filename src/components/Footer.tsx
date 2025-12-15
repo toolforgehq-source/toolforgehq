@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-gray-900">ToolForgeHQ</span>
             </Link>
             <p className="mt-4 text-gray-600 max-w-md">
-              Premium AI-powered templates for creators, coaches, and small businesses. Create content, funnels, and offers 10x faster.
+              AI Execution Systems for creators, coaches, and small businesses. Professional templates paired with proprietary AI prompts and step-by-step instructions.
             </p>
           </div>
 
@@ -54,6 +54,9 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-200">
+          <p className="text-center text-gray-500 text-sm mb-4">
+            ToolForgeHQ products work only when used with an AI tool such as ChatGPT, Claude, or Gemini. They are not software or autonomous AI.
+          </p>
           <p className="text-center text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} ToolForgeHQ. All rights reserved.
           </p>

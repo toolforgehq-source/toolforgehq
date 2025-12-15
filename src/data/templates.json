@@ -52,7 +52,7 @@
       "id": "ai-powered",
       "name": "AI-Powered Templates",
       "icon": "Sparkles",
-      "description": "AI prompt packs, automation workflows, and outreach systems",
+      "description": "AI prompt packs, execution workflows, and outreach systems",
       "color": "#6366F1",
       "categoryPreview": "/previews/ai-powered.png"
     }
@@ -197,7 +197,7 @@
       },
       {
         "id": "ai-workflows",
-        "name": "AI Automation Workflows"
+        "name": "AI Execution Workflows"
       },
       {
         "id": "ai-outreach",
@@ -2963,8 +2963,8 @@
     {
       "id": "ai-workflow-content",
       "name": "AI Content Production Workflow System",
-      "shortDescription": "Complete AI-powered content production system with automation.",
-      "fullDescription": "Systematize your content creation with this workflow covering ideation, creation, editing, and distribution. Includes automation triggers and quality checks.",
+            "shortDescription": "Complete AI-powered content production system you run with ChatGPT or Claude.",
+            "fullDescription": "Systematize your content creation with this workflow covering ideation, creation, editing, and distribution. Includes execution triggers and quality checks you run with AI.",
       "category": "ai-powered",
       "subcategory": "ai-workflows",
       "priceCents": 5900,
@@ -2973,7 +2973,7 @@
       "whatsIncluded": [
         "Workflow diagrams",
         "Prompt sequences",
-        "Automation triggers",
+        "Execution triggers",
         "Quality checklists",
         "Tool recommendations"
       ],
@@ -3011,9 +3011,9 @@
     },
     {
       "id": "ai-workflow-sales",
-      "name": "AI Sales Automation Workflow System",
-      "shortDescription": "AI-powered sales workflow from lead to close.",
-      "fullDescription": "Automate your sales process with AI. This system covers lead qualification, outreach personalization, follow-up sequences, and proposal generation.",
+            "name": "AI Sales Execution Workflow System",
+            "shortDescription": "AI-powered sales workflow from lead to close.",
+            "fullDescription": "Systematize your sales process with AI. This system covers lead qualification, outreach personalization, follow-up sequences, and proposal generation. You run each step with ChatGPT or Claude.",
       "category": "ai-powered",
       "subcategory": "ai-workflows",
       "priceCents": 5900,
@@ -4454,7 +4454,7 @@
       "id": "shopify-email-flows",
       "name": "Shopify Email Flow Bundle (5 Flows)",
       "shortDescription": "5 essential email flows for Shopify stores.",
-      "fullDescription": "Automate your Shopify email marketing with 5 essential flows: welcome, abandoned cart, post-purchase, win-back, and browse abandonment.",
+      "fullDescription": "Set up your Shopify email marketing with 5 essential flows: welcome, abandoned cart, post-purchase, win-back, and browse abandonment. Use the included AI prompts to customize each flow.",
       "category": "ecommerce",
       "subcategory": "shopify-banners",
       "priceCents": 4900,

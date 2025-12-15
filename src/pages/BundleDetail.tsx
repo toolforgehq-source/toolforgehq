@@ -186,9 +186,33 @@ export default function BundleDetail() {
           </div>
         </div>
 
-        {/* Included Templates */}
+        {/* What This Is */}
         <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">What's Included in This Bundle</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">What This Is</h2>
+          <p className="text-gray-600 leading-relaxed">
+            This is a bundle of {bundle.templateIds.length} AI Execution Systems. Each system combines a professional-grade template with a proprietary AI execution prompt and step-by-step instructions. You provide your specific inputs, paste the execution prompts into ChatGPT, Claude, or Gemini, and receive structured output ready to use.
+          </p>
+        </div>
+
+        {/* What This Is NOT */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">What This Is NOT</h2>
+          <p className="text-gray-600 leading-relaxed">
+            This is not software, not autonomous AI, and not a done-for-you service. These systems do not automatically generate content without your input. You must provide your specific details, context, and goals for each template. The AI generates output based on our engineered prompts and your inputs.
+          </p>
+        </div>
+
+        {/* Why This Is Different */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Why This Is Different</h2>
+          <p className="text-gray-600 leading-relaxed">
+            Unlike generic templates or random AI prompts, each system in this bundle is engineered to produce consistent, professional results. The execution prompts assign the AI specific expert roles, reference exact template structures, specify output formats and constraints, and include refinement instructions. This is the difference between asking AI vague questions and giving it precise execution frameworks.
+          </p>
+        </div>
+
+        {/* What You Get */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">What You Get</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {bundleTemplates.map((template) => (
               <div
@@ -211,6 +235,48 @@ export default function BundleDetail() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* How This Actually Works */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">How This Actually Works</h2>
+          <div className="space-y-4">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center text-sm font-bold">1</div>
+              <div>
+                <p className="font-medium text-gray-900">Download all templates and review the instructions</p>
+                <p className="text-gray-600 text-sm mt-1">Each template comes with its own AI execution prompt and guide</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center text-sm font-bold">2</div>
+              <div>
+                <p className="font-medium text-gray-900">Choose which template to use first</p>
+                <p className="text-gray-600 text-sm mt-1">Start with the one most relevant to your immediate needs</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center text-sm font-bold">3</div>
+              <div>
+                <p className="font-medium text-gray-900">Gather your inputs and paste the execution prompt into AI</p>
+                <p className="text-gray-600 text-sm mt-1">Open ChatGPT, Claude, or Gemini and copy the prompt exactly as provided</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center text-sm font-bold">4</div>
+              <div>
+                <p className="font-medium text-gray-900">Provide your inputs and receive structured output</p>
+                <p className="text-gray-600 text-sm mt-1">Refine as needed, then use the output in your template</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Important Disclaimer */}
+        <div className="mt-12 bg-amber-50 border border-amber-200 rounded-lg p-6">
+          <p className="text-amber-800 text-sm">
+            <strong>Important:</strong> These products work only when used with an AI tool such as ChatGPT, Claude, or Gemini. They are not software or autonomous AI. You provide the inputs, AI generates the output based on our engineered prompts.
+          </p>
         </div>
 
         {/* Value Summary */}
