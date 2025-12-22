@@ -74,6 +74,8 @@ class PurchaseResponse(BaseModel):
     templateName: str
     email: str
     downloadUrl: str
+    promptUrl: str
+    quickstartUrl: str
     purchasedAt: str
 
 @app.get("/healthz")
@@ -190,11 +192,14 @@ async def get_purchase_info(session_id: str):
     if not purchase:
         raise HTTPException(status_code=404, detail="Purchase not found.")
     
+    template_id = purchase["templateId"]
     return PurchaseResponse(
-        templateId=purchase["templateId"],
+        templateId=template_id,
         templateName=purchase["templateName"],
         email=purchase["email"],
         downloadUrl=purchase["downloadUrl"],
+        promptUrl=f"/prompts/{template_id}-prompt.txt",
+        quickstartUrl=f"/quickstart/{template_id}-quickstart.txt",
         purchasedAt=purchase["purchasedAt"],
     )
 

@@ -19,6 +19,8 @@ interface DownloadItem {
   templateId: string;
   templateName: string;
   downloadUrl: string;
+  promptUrl: string;
+  quickstartUrl: string;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -102,6 +104,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
               templateId: template.id,
               templateName: template.name,
               downloadUrl: template.downloadUrl || `/templates/${template.id}.pdf`,
+              promptUrl: `/prompts/${template.id}-prompt.txt`,
+              quickstartUrl: `/quickstart/${template.id}-quickstart.txt`,
             };
           }
           return null;
@@ -132,6 +136,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         templateName: template.name,
         email: customerEmail,
         downloadUrl: template.downloadUrl || `/templates/${template.id}.pdf`,
+        promptUrl: `/prompts/${template.id}-prompt.txt`,
+        quickstartUrl: `/quickstart/${template.id}-quickstart.txt`,
         purchasedAt,
       });
     }

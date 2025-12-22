@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { CheckCircle, Download, AlertCircle, Loader2, Package } from 'lucide-react';
+import { CheckCircle, Download, AlertCircle, Loader2, Package, FileText, Sparkles, BookOpen } from 'lucide-react';
 
 interface DownloadItem {
   templateId: string;
   templateName: string;
   downloadUrl: string;
+  promptUrl?: string;
+  quickstartUrl?: string;
 }
 
 interface PurchaseData {
@@ -16,6 +18,8 @@ interface PurchaseData {
   templateIds?: string[];
   email: string;
   downloadUrl: string;
+  promptUrl?: string;
+  quickstartUrl?: string;
   downloadUrls?: DownloadItem[];
   purchasedAt: string;
 }
@@ -159,34 +163,101 @@ export default function Success() {
           {isBundle && purchase?.downloadUrls && purchase.downloadUrls.length > 0 && (
             <div className="mb-6">
               <h3 className="font-semibold text-gray-900 mb-4 text-left">Download Your Templates</h3>
-              <div className="space-y-3">
-                {purchase.downloadUrls.map((item, index) => (
-                  <a
-                    key={item.templateId || index}
-                    href={item.downloadUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-between w-full bg-indigo-50 hover:bg-indigo-100 text-indigo-700 py-3 px-4 rounded-lg font-medium transition-colors text-left"
-                  >
-                    <span className="truncate mr-2">{item.templateName}</span>
-                    <Download className="w-5 h-5 flex-shrink-0" />
-                  </a>
-                ))}
+              <div className="space-y-4">
+                {purchase.downloadUrls.map((item, index) => {
+                  const promptUrl = item.promptUrl || `/prompts/${item.templateId}-prompt.txt`;
+                  const quickstartUrl = item.quickstartUrl || `/quickstart/${item.templateId}-quickstart.txt`;
+                  return (
+                    <div key={item.templateId || index} className="bg-gray-50 rounded-lg p-4">
+                      <h4 className="font-medium text-gray-900 mb-3 text-left">{item.templateName}</h4>
+                      <div className="space-y-2">
+                        <a
+                          href={item.downloadUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between w-full bg-indigo-50 hover:bg-indigo-100 text-indigo-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors text-left"
+                        >
+                          <span className="flex items-center gap-2">
+                            <FileText className="w-4 h-4" />
+                            Template PDF
+                          </span>
+                          <Download className="w-4 h-4 flex-shrink-0" />
+                        </a>
+                        <a
+                          href={promptUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between w-full bg-purple-50 hover:bg-purple-100 text-purple-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors text-left"
+                        >
+                          <span className="flex items-center gap-2">
+                            <Sparkles className="w-4 h-4" />
+                            AI Execution Prompt
+                          </span>
+                          <Download className="w-4 h-4 flex-shrink-0" />
+                        </a>
+                        <a
+                          href={quickstartUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between w-full bg-green-50 hover:bg-green-100 text-green-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors text-left"
+                        >
+                          <span className="flex items-center gap-2">
+                            <BookOpen className="w-4 h-4" />
+                            Quickstart Guide
+                          </span>
+                          <Download className="w-4 h-4 flex-shrink-0" />
+                        </a>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
           
           {/* Single Template Download */}
           {!isBundle && purchase?.downloadUrl && (
-            <a
-              href={purchase.downloadUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-full bg-blue-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors mb-4"
-            >
-              <Download className="w-5 h-5 mr-2" />
-              Download Your Template
-            </a>
+            <div className="mb-6">
+              <h3 className="font-semibold text-gray-900 mb-4 text-left">Download Your Files</h3>
+              <div className="space-y-3">
+                <a
+                  href={purchase.downloadUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg font-medium transition-colors text-left"
+                >
+                  <span className="flex items-center gap-2">
+                    <FileText className="w-5 h-5" />
+                    Template PDF
+                  </span>
+                  <Download className="w-5 h-5 flex-shrink-0" />
+                </a>
+                <a
+                  href={purchase.promptUrl || `/prompts/${purchase.templateId}-prompt.txt`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-4 rounded-lg font-medium transition-colors text-left"
+                >
+                  <span className="flex items-center gap-2">
+                    <Sparkles className="w-5 h-5" />
+                    AI Execution Prompt
+                  </span>
+                  <Download className="w-5 h-5 flex-shrink-0" />
+                </a>
+                <a
+                  href={purchase.quickstartUrl || `/quickstart/${purchase.templateId}-quickstart.txt`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between w-full bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded-lg font-medium transition-colors text-left"
+                >
+                  <span className="flex items-center gap-2">
+                    <BookOpen className="w-5 h-5" />
+                    Quickstart Guide
+                  </span>
+                  <Download className="w-5 h-5 flex-shrink-0" />
+                </a>
+              </div>
+            </div>
           )}
           
           <p className="text-sm text-gray-500 mb-6">
