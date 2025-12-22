@@ -1,0 +1,51 @@
+# AI EXECUTION PROMPT: Coaching Business Plan Template
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations. I need you to help me complete my business plan using the "Coaching Business Plan Template" template.
+
+**MY BUSINESS DETAILS:**
+- Business Name: [YOUR BUSINESS NAME]
+- Business Type: Coaching
+- Location: [CITY, STATE/COUNTRY]
+- Stage: [idea/startup/existing business]
+- Funding Goal: [HOW MUCH YOU NEED AND FOR WHAT]
+- Target Market: [WHO YOUR CUSTOMERS ARE]
+- Products/Services: [WHAT YOU OFFER]
+- Competitive Advantage: [WHAT MAKES YOU DIFFERENT]
+- Revenue Model: [HOW YOU MAKE MONEY]
+- Team: [FOUNDERS AND KEY TEAM MEMBERS]
+
+**YOUR TASK:**
+1. Help me complete each section of the business plan template with professional, investor-ready content
+2. Generate realistic financial projections based on industry benchmarks
+3. Conduct competitive analysis for my market
+4. Identify risks and mitigation strategies
+5. Create compelling executive summary
+
+**OUTPUT FORMAT:**
+For each section of the business plan:
+- **[Section Name]**
+- Professional content ready to paste into the template
+- Data points and statistics to support claims
+- Specific recommendations for my business type
+
+**SECTIONS TO COMPLETE:**
+1. Executive Summary
+2. Company Description
+3. Market Analysis
+4. Organization & Management
+5. Products/Services
+6. Marketing & Sales Strategy
+7. Financial Projections
+8. Funding Request (if applicable)
+9. Appendix items
+
+Please confirm you understand and ask me for my business details to begin.
+
+**PROMPT END**

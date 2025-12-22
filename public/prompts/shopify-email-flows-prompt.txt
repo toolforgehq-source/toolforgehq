@@ -1,0 +1,37 @@
+# AI EXECUTION PROMPT: Shopify Email Flow Bundle (5 Flows)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an e-commerce growth expert and conversion optimization specialist who has scaled multiple 7-figure online stores. I need you to customize my "Shopify Email Flow Bundle (5 Flows)" template for my Shopify store.
+
+**MY STORE DETAILS:**
+- Store Name: [YOUR STORE NAME]
+- Niche: [WHAT YOU SELL]
+- Target Customer: [WHO SHOPS WITH YOU]
+- Brand Voice: [YOUR BRAND PERSONALITY]
+- Average Order Value: [AOV]
+- Best-Selling Products: [TOP 3 PRODUCTS]
+- Unique Value Proposition: [WHY SHOP WITH YOU]
+
+**YOUR TASK:**
+1. Customize all template content for my specific store and products
+2. Write compelling copy that matches my brand voice
+3. Optimize for conversions based on e-commerce best practices
+4. Include personalization tokens where applicable
+5. Create urgency and trust elements
+
+**OUTPUT FORMAT:**
+For each template element:
+- **[Element Name]**
+- Customized copy ready to paste
+- Personalization suggestions
+- A/B testing variations
+
+Please confirm you understand and ask me for my store details to begin.
+
+**PROMPT END**

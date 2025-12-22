@@ -258,7 +258,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/instagram-posts-fitness-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/instagram-posts-fitness-prompt.txt"
     },
     {
       "id": "instagram-posts-coaching",
@@ -308,7 +309,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/instagram-posts-coaching-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/instagram-posts-coaching-prompt.txt"
     },
     {
       "id": "instagram-posts-ecommerce",
@@ -358,7 +360,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/instagram-posts-ecommerce-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/instagram-posts-ecommerce-prompt.txt"
     },
     {
       "id": "instagram-posts-restaurant",
@@ -408,7 +411,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/instagram-posts-restaurant-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/instagram-posts-restaurant-prompt.txt"
     },
     {
       "id": "instagram-posts-beauty",
@@ -458,7 +462,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/instagram-posts-beauty-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/instagram-posts-beauty-prompt.txt"
     },
     {
       "id": "tiktok-scripts-business",
@@ -508,7 +513,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/tiktok-scripts-business-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tiktok-scripts-business-prompt.txt"
     },
     {
       "id": "tiktok-scripts-education",
@@ -558,7 +564,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tiktok-scripts-education-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tiktok-scripts-education-prompt.txt"
     },
     {
       "id": "tiktok-scripts-lifestyle",
@@ -608,7 +615,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tiktok-scripts-lifestyle-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tiktok-scripts-lifestyle-prompt.txt"
     },
     {
       "id": "tiktok-scripts-comedy",
@@ -658,7 +666,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tiktok-scripts-comedy-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tiktok-scripts-comedy-prompt.txt"
     },
     {
       "id": "tiktok-scripts-health",
@@ -708,7 +717,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tiktok-scripts-health-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tiktok-scripts-health-prompt.txt"
     },
     {
       "id": "reels-scripts-marketing",
@@ -758,7 +768,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/reels-scripts-marketing-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/reels-scripts-marketing-prompt.txt"
     },
     {
       "id": "reels-scripts-real-estate",
@@ -808,7 +819,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/reels-scripts-real-estate-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/reels-scripts-real-estate-prompt.txt"
     },
     {
       "id": "reels-scripts-food",
@@ -858,7 +870,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/reels-scripts-food-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/reels-scripts-food-prompt.txt"
     },
     {
       "id": "reels-scripts-fashion",
@@ -908,7 +921,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/reels-scripts-fashion-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/reels-scripts-fashion-prompt.txt"
     },
     {
       "id": "reels-scripts-travel",
@@ -958,7 +972,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/reels-scripts-travel-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/reels-scripts-travel-prompt.txt"
     },
     {
       "id": "carousel-educational",
@@ -1008,7 +1023,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/carousel-educational-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/carousel-educational-prompt.txt"
     },
     {
       "id": "carousel-storytelling",
@@ -1058,7 +1074,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/carousel-storytelling-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/carousel-storytelling-prompt.txt"
     },
     {
       "id": "carousel-tips-tricks",
@@ -1108,7 +1125,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/carousel-tips-tricks-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/carousel-tips-tricks-prompt.txt"
     },
     {
       "id": "carousel-product",
@@ -1158,7 +1176,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/carousel-product-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/carousel-product-prompt.txt"
     },
     {
       "id": "carousel-personal-brand",
@@ -1208,7 +1227,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/carousel-personal-brand-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/carousel-personal-brand-prompt.txt"
     },
     {
       "id": "youtube-shorts-tech",
@@ -1258,7 +1278,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/youtube-shorts-tech-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/youtube-shorts-tech-prompt.txt"
     },
     {
       "id": "youtube-shorts-finance",
@@ -1308,7 +1329,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/youtube-shorts-finance-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/youtube-shorts-finance-prompt.txt"
     },
     {
       "id": "youtube-shorts-diy",
@@ -1358,7 +1380,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/youtube-shorts-diy-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/youtube-shorts-diy-prompt.txt"
     },
     {
       "id": "youtube-shorts-gaming",
@@ -1408,7 +1431,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/youtube-shorts-gaming-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/youtube-shorts-gaming-prompt.txt"
     },
     {
       "id": "youtube-shorts-motivation",
@@ -1458,7 +1482,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/youtube-shorts-motivation-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/youtube-shorts-motivation-prompt.txt"
     },
     {
       "id": "social-30-day-calendar",
@@ -1509,7 +1534,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/social-30-day-calendar-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/social-30-day-calendar-prompt.txt"
     },
     {
       "id": "social-hooks-bank",
@@ -1560,7 +1586,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/social-hooks-bank-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/social-hooks-bank-prompt.txt"
     },
     {
       "id": "social-caption-swipe-file",
@@ -1611,7 +1638,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/social-caption-swipe-file-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/social-caption-swipe-file-prompt.txt"
     },
     {
       "id": "social-short-form-scripts",
@@ -1662,7 +1690,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/social-short-form-scripts-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/social-short-form-scripts-prompt.txt"
     },
     {
       "id": "social-carousel-frameworks",
@@ -1713,7 +1742,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/social-carousel-frameworks-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/social-carousel-frameworks-prompt.txt"
     },
     {
       "id": "business-plan-startup",
@@ -1763,7 +1793,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/business-plan-startup-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/business-plan-startup-prompt.txt"
     },
     {
       "id": "business-plan-ecommerce",
@@ -1813,7 +1844,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/business-plan-ecommerce-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/business-plan-ecommerce-prompt.txt"
     },
     {
       "id": "business-plan-service",
@@ -1863,7 +1895,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/business-plan-service-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/business-plan-service-prompt.txt"
     },
     {
       "id": "business-plan-restaurant",
@@ -1913,7 +1946,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/business-plan-restaurant-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/business-plan-restaurant-prompt.txt"
     },
     {
       "id": "business-plan-coaching",
@@ -1963,7 +1997,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/business-plan-coaching-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/business-plan-coaching-prompt.txt"
     },
     {
       "id": "branding-kit-startup",
@@ -2013,7 +2048,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/branding-kit-startup-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/branding-kit-startup-prompt.txt"
     },
     {
       "id": "branding-kit-personal",
@@ -2063,7 +2099,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/branding-kit-personal-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/branding-kit-personal-prompt.txt"
     },
     {
       "id": "branding-kit-ecommerce",
@@ -2113,7 +2150,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/branding-kit-ecommerce-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/branding-kit-ecommerce-prompt.txt"
     },
     {
       "id": "branding-kit-wellness",
@@ -2163,7 +2201,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/branding-kit-wellness-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/branding-kit-wellness-prompt.txt"
     },
     {
       "id": "branding-kit-luxury",
@@ -2213,7 +2252,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/branding-kit-luxury-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/branding-kit-luxury-prompt.txt"
     },
     {
       "id": "email-sequence-welcome",
@@ -2263,7 +2303,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/email-sequence-welcome-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/email-sequence-welcome-prompt.txt"
     },
     {
       "id": "email-sequence-launch",
@@ -2313,7 +2354,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/email-sequence-launch-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/email-sequence-launch-prompt.txt"
     },
     {
       "id": "email-sequence-nurture",
@@ -2363,7 +2405,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/email-sequence-nurture-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/email-sequence-nurture-prompt.txt"
     },
     {
       "id": "email-sequence-abandoned-cart",
@@ -2413,7 +2456,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/email-sequence-abandoned-cart-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/email-sequence-abandoned-cart-prompt.txt"
     },
     {
       "id": "email-sequence-webinar",
@@ -2463,7 +2507,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/email-sequence-webinar-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/email-sequence-webinar-prompt.txt"
     },
     {
       "id": "sales-funnel-webinar",
@@ -2513,7 +2558,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/sales-funnel-webinar-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/sales-funnel-webinar-prompt.txt"
     },
     {
       "id": "sales-funnel-tripwire",
@@ -2563,7 +2609,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/sales-funnel-tripwire-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/sales-funnel-tripwire-prompt.txt"
     },
     {
       "id": "sales-funnel-challenge",
@@ -2613,7 +2660,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/sales-funnel-challenge-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/sales-funnel-challenge-prompt.txt"
     },
     {
       "id": "sales-funnel-vsl",
@@ -2663,7 +2711,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/sales-funnel-vsl-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/sales-funnel-vsl-prompt.txt"
     },
     {
       "id": "sales-funnel-lead-magnet",
@@ -2713,7 +2762,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/sales-funnel-lead-magnet-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/sales-funnel-lead-magnet-prompt.txt"
     },
     {
       "id": "ai-prompts-content",
@@ -2762,7 +2812,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/ai-prompts-content-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-prompts-content-prompt.txt"
     },
     {
       "id": "ai-prompts-business",
@@ -2811,7 +2862,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-prompts-business-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-prompts-business-prompt.txt"
     },
     {
       "id": "ai-prompts-copywriting",
@@ -2860,7 +2912,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-prompts-copywriting-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-prompts-copywriting-prompt.txt"
     },
     {
       "id": "ai-prompts-coding",
@@ -2909,7 +2962,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-prompts-coding-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-prompts-coding-prompt.txt"
     },
     {
       "id": "ai-prompts-research",
@@ -2958,13 +3012,14 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-prompts-research-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-prompts-research-prompt.txt"
     },
     {
       "id": "ai-workflow-content",
       "name": "AI Content Production Workflow System",
-            "shortDescription": "Complete AI-powered content production system you run with ChatGPT or Claude.",
-            "fullDescription": "Systematize your content creation with this workflow covering ideation, creation, editing, and distribution. Includes execution triggers and quality checks you run with AI.",
+      "shortDescription": "Complete AI-powered content production system you run with ChatGPT or Claude.",
+      "fullDescription": "Systematize your content creation with this workflow covering ideation, creation, editing, and distribution. Includes execution triggers and quality checks you run with AI.",
       "category": "ai-powered",
       "subcategory": "ai-workflows",
       "priceCents": 5900,
@@ -3007,13 +3062,14 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/ai-workflow-content-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-workflow-content-prompt.txt"
     },
     {
       "id": "ai-workflow-sales",
-            "name": "AI Sales Execution Workflow System",
-            "shortDescription": "AI-powered sales workflow from lead to close.",
-            "fullDescription": "Systematize your sales process with AI. This system covers lead qualification, outreach personalization, follow-up sequences, and proposal generation. You run each step with ChatGPT or Claude.",
+      "name": "AI Sales Execution Workflow System",
+      "shortDescription": "AI-powered sales workflow from lead to close.",
+      "fullDescription": "Systematize your sales process with AI. This system covers lead qualification, outreach personalization, follow-up sequences, and proposal generation. You run each step with ChatGPT or Claude.",
       "category": "ai-powered",
       "subcategory": "ai-workflows",
       "priceCents": 5900,
@@ -3056,7 +3112,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-workflow-sales-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-workflow-sales-prompt.txt"
     },
     {
       "id": "ai-workflow-customer-service",
@@ -3105,7 +3162,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-workflow-customer-service-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-workflow-customer-service-prompt.txt"
     },
     {
       "id": "ai-workflow-hiring",
@@ -3154,7 +3212,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-workflow-hiring-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-workflow-hiring-prompt.txt"
     },
     {
       "id": "ai-workflow-research",
@@ -3203,7 +3262,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-workflow-research-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-workflow-research-prompt.txt"
     },
     {
       "id": "ai-outreach-cold-email",
@@ -3252,7 +3312,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/ai-outreach-cold-email-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-outreach-cold-email-prompt.txt"
     },
     {
       "id": "ai-outreach-linkedin",
@@ -3301,7 +3362,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-outreach-linkedin-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-outreach-linkedin-prompt.txt"
     },
     {
       "id": "ai-outreach-influencer",
@@ -3350,7 +3412,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-outreach-influencer-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-outreach-influencer-prompt.txt"
     },
     {
       "id": "ai-outreach-pr",
@@ -3399,7 +3462,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-outreach-pr-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-outreach-pr-prompt.txt"
     },
     {
       "id": "ai-outreach-partnership",
@@ -3448,7 +3512,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ai-outreach-partnership-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ai-outreach-partnership-prompt.txt"
     },
     {
       "id": "realtor-social-luxury",
@@ -3498,7 +3563,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/realtor-social-luxury-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/realtor-social-luxury-prompt.txt"
     },
     {
       "id": "realtor-social-first-time",
@@ -3548,7 +3614,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/realtor-social-first-time-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/realtor-social-first-time-prompt.txt"
     },
     {
       "id": "realtor-social-investment",
@@ -3598,7 +3665,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/realtor-social-investment-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/realtor-social-investment-prompt.txt"
     },
     {
       "id": "realtor-social-local",
@@ -3648,7 +3716,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/realtor-social-local-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/realtor-social-local-prompt.txt"
     },
     {
       "id": "realtor-social-seller",
@@ -3698,7 +3767,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/realtor-social-seller-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/realtor-social-seller-prompt.txt"
     },
     {
       "id": "listing-descriptions-luxury",
@@ -3748,7 +3818,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/listing-descriptions-luxury-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/listing-descriptions-luxury-prompt.txt"
     },
     {
       "id": "listing-descriptions-starter",
@@ -3798,7 +3869,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/listing-descriptions-starter-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/listing-descriptions-starter-prompt.txt"
     },
     {
       "id": "listing-descriptions-condo",
@@ -3848,7 +3920,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/listing-descriptions-condo-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/listing-descriptions-condo-prompt.txt"
     },
     {
       "id": "listing-descriptions-investment",
@@ -3898,7 +3971,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/listing-descriptions-investment-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/listing-descriptions-investment-prompt.txt"
     },
     {
       "id": "listing-descriptions-land",
@@ -3948,7 +4022,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/listing-descriptions-land-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/listing-descriptions-land-prompt.txt"
     },
     {
       "id": "guide-first-time-buyer",
@@ -3998,7 +4073,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/guide-first-time-buyer-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/guide-first-time-buyer-prompt.txt"
     },
     {
       "id": "guide-home-seller",
@@ -4048,7 +4124,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/guide-home-seller-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/guide-home-seller-prompt.txt"
     },
     {
       "id": "guide-investment-buyer",
@@ -4098,7 +4175,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/guide-investment-buyer-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/guide-investment-buyer-prompt.txt"
     },
     {
       "id": "guide-relocation",
@@ -4148,7 +4226,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/guide-relocation-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/guide-relocation-prompt.txt"
     },
     {
       "id": "guide-downsizing",
@@ -4198,7 +4277,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/guide-downsizing-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/guide-downsizing-prompt.txt"
     },
     {
       "id": "product-descriptions-fashion",
@@ -4248,7 +4328,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/product-descriptions-fashion-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/product-descriptions-fashion-prompt.txt"
     },
     {
       "id": "product-descriptions-beauty",
@@ -4298,7 +4379,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/product-descriptions-beauty-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/product-descriptions-beauty-prompt.txt"
     },
     {
       "id": "product-descriptions-tech",
@@ -4348,7 +4430,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/product-descriptions-tech-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/product-descriptions-tech-prompt.txt"
     },
     {
       "id": "product-descriptions-home",
@@ -4398,7 +4481,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/product-descriptions-home-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/product-descriptions-home-prompt.txt"
     },
     {
       "id": "product-descriptions-food",
@@ -4448,7 +4532,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/product-descriptions-food-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/product-descriptions-food-prompt.txt"
     },
     {
       "id": "shopify-email-flows",
@@ -4498,7 +4583,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/shopify-email-flows-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/shopify-email-flows-prompt.txt"
     },
     {
       "id": "shopify-homepage-sections",
@@ -4548,7 +4634,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/shopify-homepage-sections-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/shopify-homepage-sections-prompt.txt"
     },
     {
       "id": "ecommerce-upsell-templates",
@@ -4598,7 +4685,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ecommerce-upsell-templates-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ecommerce-upsell-templates-prompt.txt"
     },
     {
       "id": "ecommerce-sms-templates",
@@ -4648,7 +4736,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/ecommerce-sms-templates-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/ecommerce-sms-templates-prompt.txt"
     },
     {
       "id": "influencer-outreach-ecommerce",
@@ -4698,7 +4787,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/influencer-outreach-ecommerce-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/influencer-outreach-ecommerce-prompt.txt"
     },
     {
       "id": "planner-annual-goals",
@@ -4748,7 +4838,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/planner-annual-goals-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/planner-annual-goals-prompt.txt"
     },
     {
       "id": "planner-business-quarterly",
@@ -4798,7 +4889,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/planner-business-quarterly-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/planner-business-quarterly-prompt.txt"
     },
     {
       "id": "planner-content-creator",
@@ -4848,7 +4940,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/planner-content-creator-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/planner-content-creator-prompt.txt"
     },
     {
       "id": "planner-project-manager",
@@ -4898,7 +4991,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/planner-project-manager-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/planner-project-manager-prompt.txt"
     },
     {
       "id": "planner-wellness-lifestyle",
@@ -4948,7 +5042,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/planner-wellness-lifestyle-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/planner-wellness-lifestyle-prompt.txt"
     },
     {
       "id": "tracker-habit-90day",
@@ -4998,7 +5093,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/tracker-habit-90day-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tracker-habit-90day-prompt.txt"
     },
     {
       "id": "tracker-budget-monthly",
@@ -5048,7 +5144,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tracker-budget-monthly-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tracker-budget-monthly-prompt.txt"
     },
     {
       "id": "tracker-content-analytics",
@@ -5098,7 +5195,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tracker-content-analytics-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tracker-content-analytics-prompt.txt"
     },
     {
       "id": "tracker-fitness-workout",
@@ -5148,7 +5246,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tracker-fitness-workout-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tracker-fitness-workout-prompt.txt"
     },
     {
       "id": "tracker-reading-learning",
@@ -5198,7 +5297,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/tracker-reading-learning-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/tracker-reading-learning-prompt.txt"
     },
     {
       "id": "resume-modern-professional",
@@ -5248,7 +5348,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/resume-modern-professional-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/resume-modern-professional-prompt.txt"
     },
     {
       "id": "resume-executive",
@@ -5298,7 +5399,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/resume-executive-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/resume-executive-prompt.txt"
     },
     {
       "id": "resume-creative",
@@ -5348,7 +5450,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/resume-creative-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/resume-creative-prompt.txt"
     },
     {
       "id": "pitch-deck-startup",
@@ -5398,7 +5501,8 @@
       "featured": true,
       "previewImages": [
         "/previews/pages/pitch-deck-startup-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/pitch-deck-startup-prompt.txt"
     },
     {
       "id": "pitch-deck-sales",
@@ -5448,7 +5552,8 @@
       "featured": false,
       "previewImages": [
         "/previews/pages/pitch-deck-sales-preview.png"
-      ]
+      ],
+      "promptUrl": "/prompts/pitch-deck-sales-prompt.txt"
     }
   ]
 }

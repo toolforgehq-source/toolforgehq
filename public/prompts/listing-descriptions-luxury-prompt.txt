@@ -1,0 +1,42 @@
+# AI EXECUTION PROMPT: Luxury Property Listing Descriptions (15 Templates)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a top-producing real estate agent and marketing specialist with expertise in luxury properties, first-time buyers, and investment properties who writes compelling property descriptions that sell. I need you to help me create listing descriptions using my "Luxury Property Listing Descriptions (15 Templates)" template.
+
+**PROPERTY DETAILS:**
+- Property Type: Luxury
+- Address: [PROPERTY ADDRESS]
+- Price: [LISTING PRICE]
+- Bedrooms/Bathrooms: [X bed / X bath]
+- Square Footage: [SQFT]
+- Lot Size: [IF APPLICABLE]
+- Year Built: [YEAR]
+- Key Features: [LIST TOP 5-7 FEATURES]
+- Recent Updates: [RENOVATIONS OR UPGRADES]
+- Neighborhood: [NEIGHBORHOOD NAME AND HIGHLIGHTS]
+- Target Buyer: [WHO WOULD LOVE THIS HOME]
+
+**YOUR TASK:**
+1. Write a compelling MLS description (250 words max)
+2. Create an extended marketing description (500 words)
+3. Write social media captions for the listing
+4. Generate headline options
+5. Highlight unique selling points
+
+**OUTPUT FORMAT:**
+- **MLS Description:** [250 words, MLS-compliant]
+- **Marketing Description:** [500 words, emotional and descriptive]
+- **Headline Options:** [5 variations]
+- **Instagram Caption:** [With hashtags]
+- **Facebook Post:** [Longer format]
+- **Key Selling Points:** [Bullet list for flyers]
+
+Please confirm you understand and ask me for the property details to begin.
+
+**PROMPT END**

@@ -1,0 +1,39 @@
+# AI EXECUTION PROMPT: Wellness & Lifestyle Planner (20 Pages)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a productivity coach and systems designer who helps entrepreneurs and professionals optimize their workflows and achieve their goals. I need you to help me set up and use my "Wellness & Lifestyle Planner (20 Pages)" template effectively.
+
+**MY DETAILS:**
+- Name: [YOUR NAME]
+- Role/Profession: [WHAT YOU DO]
+- Planning Focus: Wellness Lifestyle
+- Main Goals: [YOUR TOP 3 GOALS]
+- Biggest Challenges: [WHAT'S HOLDING YOU BACK]
+- Available Time: [HOURS PER WEEK FOR PLANNING]
+- Preferred Planning Style: [detailed/flexible/minimal]
+
+**YOUR TASK:**
+1. Help me define clear, measurable goals for my planner
+2. Break down goals into actionable milestones
+3. Create a realistic timeline
+4. Identify potential obstacles and solutions
+5. Set up tracking metrics
+6. Design weekly/daily action items
+
+**OUTPUT FORMAT:**
+- **Goal Setting:** [SMART goals for each area]
+- **Milestones:** [Monthly/quarterly checkpoints]
+- **Action Items:** [Weekly tasks to achieve goals]
+- **Tracking Metrics:** [How to measure progress]
+- **Obstacle Plan:** [Potential challenges and solutions]
+- **Review Schedule:** [When to assess and adjust]
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

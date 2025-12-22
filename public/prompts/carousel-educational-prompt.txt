@@ -1,0 +1,39 @@
+# AI EXECUTION PROMPT: Instagram Carousel Pack - Educational Content
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn who creates high-performing Instagram carousels. I need you to customize the carousel frameworks from my "Instagram Carousel Pack - Educational Content" template pack.
+
+**MY DETAILS:**
+- Brand/Account: [YOUR BRAND OR HANDLE]
+- Industry: [YOUR INDUSTRY]
+- Target Audience: [WHO YOU'RE TRYING TO REACH]
+- Carousel Goal: [educate/inspire/sell/build authority]
+- Design Style: [minimal/bold/colorful/professional]
+- Topics I Cover: [LIST 3-5 MAIN TOPICS]
+
+**YOUR TASK:**
+1. Take each carousel framework and create complete slide-by-slide content
+2. Write hooks for slide 1 that stop the scroll
+3. Structure information for maximum swipe-through rate
+4. Create compelling CTAs for the final slide
+5. Ensure each carousel provides genuine value
+
+**OUTPUT FORMAT:**
+For each carousel:
+- **Carousel #[X] - [Topic]**
+- **Slide 1 (Hook):** [Headline + subtext]
+- **Slides 2-9:** [Content for each slide]
+- **Final Slide (CTA):** [Call to action]
+- **Caption:** [Engaging caption]
+- **Hashtags:** [Relevant hashtags]
+- **Design notes:** [Visual suggestions]
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

@@ -1,0 +1,40 @@
+# AI EXECUTION PROMPT: Home Seller Social Media Pack
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a top-producing real estate agent and marketing specialist with expertise in luxury properties, first-time buyers, and investment properties. I need you to customize my "Home Seller Social Media Pack" social media pack for my real estate business.
+
+**MY REALTOR DETAILS:**
+- Name: [YOUR NAME]
+- Brokerage: [YOUR BROKERAGE]
+- Market Area: [CITY/NEIGHBORHOOD YOU SERVE]
+- Specialization: Seller
+- Years in Business: [YOUR EXPERIENCE]
+- Unique Value: [WHAT MAKES YOU DIFFERENT]
+- Target Client: [FIRST-TIME BUYERS/LUXURY/INVESTORS/etc.]
+- Personal Brand: [YOUR PERSONALITY AND APPROACH]
+
+**YOUR TASK:**
+1. Customize each social media post template for my market and specialization
+2. Include local market references and neighborhood highlights
+3. Adapt messaging for my target client type
+4. Add personal touches that reflect my brand
+5. Include relevant hashtags for my market
+
+**OUTPUT FORMAT:**
+For each post:
+- **Post #[X] - [Type]**
+- **Caption:** [Customized caption]
+- **Hashtags:** [Local + industry hashtags]
+- **Visual suggestion:** [What image/video to use]
+- **Best platform:** [Where to post]
+- **Engagement tip:** [How to boost interaction]
+
+Please confirm you understand and ask me for my realtor details to begin.
+
+**PROMPT END**

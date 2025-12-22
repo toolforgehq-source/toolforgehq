@@ -323,6 +323,22 @@ export default function BundleDetail() {
         {/* What You Get */}
         <div className="mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">What You Get</h2>
+          
+          {/* AI Prompts Highlight */}
+          <div className="mb-6 p-4 bg-indigo-50 border border-indigo-200 rounded-lg">
+            <div className="flex items-center gap-3">
+              <div className="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <Award className="w-5 h-5 text-indigo-600" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-indigo-900">AI Execution Prompts Included</h4>
+                <p className="text-sm text-indigo-700">
+                  Every template comes with a custom AI prompt engineered for ChatGPT, Claude, or Gemini. Just copy, paste, and customize.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {bundleTemplates.map((template) => (
               <div
@@ -340,6 +356,10 @@ export default function BundleDetail() {
                       ${template.priceCents ? formatPrice(template.priceCents) : '0'}
                     </span>
                     <span className="text-xs font-medium text-green-600">Included</span>
+                  </div>
+                  <div className="mt-1 flex items-center gap-1 text-xs text-indigo-600">
+                    <Award className="w-3 h-3" />
+                    <span>+ AI Prompt</span>
                   </div>
                 </div>
               </div>
@@ -427,6 +447,10 @@ export default function BundleDetail() {
             <div className="border border-gray-200 rounded-lg p-4">
               <h3 className="font-medium text-gray-900">Do I get lifetime access?</h3>
               <p className="mt-2 text-gray-600 text-sm">Yes, you get lifetime access to all templates in the bundle, including any future updates we make to these templates.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4">
+              <h3 className="font-medium text-gray-900">How do I use the AI execution prompts?</h3>
+              <p className="mt-2 text-gray-600 text-sm">Each template comes with a dedicated AI prompt file. After purchase, you'll receive both the template PDF and the AI prompt. Simply copy the prompt into ChatGPT, Claude, or Gemini, fill in your specific details when asked, and the AI will customize the template content for your business.</p>
             </div>
           </div>
         </div>

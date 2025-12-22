@@ -1,0 +1,45 @@
+# AI EXECUTION PROMPT: TikTok Script Pack - Health & Fitness
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn who specializes in viral TikTok content. I need you to help me customize the TikTok scripts from my "TikTok Script Pack - Health & Fitness" template pack.
+
+**MY CONTENT DETAILS:**
+- Creator/Brand Name: [YOUR NAME OR BRAND]
+- Niche: [YOUR SPECIFIC NICHE within Health]
+- Target Viewer: [WHO WATCHES YOUR CONTENT - age, interests, problems they have]
+- Content Style: [educational/entertaining/inspirational/behind-the-scenes]
+- Unique Angle: [WHAT MAKES YOUR PERSPECTIVE DIFFERENT]
+- Goal: [grow followers/drive sales/build authority/get leads]
+
+**YOUR TASK:**
+1. Take each of the 15 script templates and customize them for my specific niche and audience
+2. Write hooks that will stop the scroll in the first 1-2 seconds
+3. Adapt the content to my unique angle and expertise
+4. Include trending elements that work for my niche
+5. End each script with a strong call-to-action
+
+**OUTPUT FORMAT:**
+For each of the 15 scripts, provide:
+- **Script #[X] - [Topic]**
+- **Hook (0-3 sec):** [Attention-grabbing opening]
+- **Body (3-45 sec):** [Main content with timing notes]
+- **CTA (45-60 sec):** [Call to action]
+- **On-screen text suggestions:** [Key text overlays]
+- **Sound recommendation:** [Trending or fitting audio]
+
+**REFINEMENT:**
+After generating, I may ask you to:
+- Make scripts shorter (15-30 sec) or longer (60-90 sec)
+- Add more humor or make more serious
+- Include specific product mentions
+- Create series-style content
+
+Please confirm you understand and ask me for my content details to begin.
+
+**PROMPT END**

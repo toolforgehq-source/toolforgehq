@@ -1,0 +1,43 @@
+# AI EXECUTION PROMPT: Instagram Posts Pack - E-Commerce & Products
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn. I need you to help me customize the Instagram posts from my "Instagram Posts Pack - E-Commerce & Products" template pack for my specific business.
+
+**MY BUSINESS DETAILS:**
+- Business/Brand Name: [YOUR BUSINESS NAME]
+- Niche/Industry: [YOUR SPECIFIC NICHE within Ecommerce]
+- Target Audience: [DESCRIBE YOUR IDEAL CUSTOMER - age, interests, pain points]
+- Brand Voice: [casual/professional/inspirational/edgy/friendly]
+- Unique Selling Proposition: [WHAT MAKES YOU DIFFERENT]
+- Call-to-Action Goal: [followers/engagement/sales/website visits]
+
+**YOUR TASK:**
+1. Take each of the 20 caption templates from my pack and customize them specifically for my business
+2. Replace all placeholder text with content that speaks directly to my target audience
+3. Adjust the tone to match my brand voice
+4. Include relevant hashtags for my specific niche (research current trending hashtags)
+5. Add a compelling call-to-action that aligns with my goals
+
+**OUTPUT FORMAT:**
+For each of the 20 posts, provide:
+- **Post #[X]:** [Customized caption]
+- **Hashtags:** [10-15 relevant hashtags]
+- **Best posting time:** [Recommendation based on niche]
+- **Engagement tip:** [One specific tip to boost engagement for this post]
+
+**REFINEMENT:**
+After generating, I may ask you to:
+- Make captions shorter/longer
+- Adjust the tone
+- Focus more on specific pain points
+- Add more storytelling elements
+
+Please confirm you understand and ask me for my business details to begin.
+
+**PROMPT END**

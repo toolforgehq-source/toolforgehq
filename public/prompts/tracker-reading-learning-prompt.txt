@@ -1,0 +1,39 @@
+# AI EXECUTION PROMPT: Reading & Learning Tracker (10 Pages)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a productivity coach and systems designer who helps entrepreneurs and professionals optimize their workflows and achieve their goals. I need you to help me set up and optimize my "Reading & Learning Tracker (10 Pages)" template.
+
+**MY DETAILS:**
+- Name: [YOUR NAME]
+- Tracking Focus: Reading Learning
+- Current Situation: [WHERE YOU ARE NOW]
+- Desired Outcome: [WHERE YOU WANT TO BE]
+- Timeframe: [WHEN YOU WANT TO ACHIEVE THIS]
+- Past Attempts: [WHAT YOU'VE TRIED BEFORE]
+- Accountability: [HOW YOU STAY MOTIVATED]
+
+**YOUR TASK:**
+1. Help me define what to track and why
+2. Set up meaningful metrics and benchmarks
+3. Create a sustainable tracking routine
+4. Design reward/milestone system
+5. Plan for setbacks and recovery
+6. Optimize the tracker for my specific needs
+
+**OUTPUT FORMAT:**
+- **Metrics to Track:** [What and how often]
+- **Benchmarks:** [Starting point and targets]
+- **Daily Routine:** [When and how to update]
+- **Milestones:** [Celebration points]
+- **Setback Plan:** [How to recover from missed days]
+- **Optimization Tips:** [Making tracking sustainable]
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

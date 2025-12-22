@@ -1,0 +1,37 @@
+# AI EXECUTION PROMPT: E-Commerce Upsell & Cross-Sell Templates
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an e-commerce growth expert and conversion optimization specialist who has scaled multiple 7-figure online stores. I need you to customize my "E-Commerce Upsell & Cross-Sell Templates" template for my e-commerce business.
+
+**MY BUSINESS DETAILS:**
+- Store/Brand Name: [YOUR BRAND]
+- Products: [WHAT YOU SELL]
+- Target Customer: [YOUR IDEAL BUYER]
+- Brand Voice: [YOUR TONE AND STYLE]
+- Current Challenges: [WHAT YOU'RE TRYING TO IMPROVE]
+- Goals: [WHAT SUCCESS LOOKS LIKE]
+
+**YOUR TASK:**
+1. Customize each template for my specific business
+2. Adapt messaging to my brand voice
+3. Include my products/offers where relevant
+4. Optimize for my specific goals
+5. Provide variations for testing
+
+**OUTPUT FORMAT:**
+For each template:
+- **[Template Name]**
+- Customized content
+- Usage instructions
+- Best practices
+- Variations for A/B testing
+
+Please confirm you understand and ask me for my business details to begin.
+
+**PROMPT END**

@@ -14,6 +14,7 @@ export interface Template {
   previewUrl?: string;
   previewImages?: string[]; // Array of preview page images for gallery
   downloadUrl: string;
+  promptUrl?: string; // URL to AI execution prompt file
   whatsIncluded: string[];
   whoItsFor: string[];
   faqs: { question: string; answer: string }[];

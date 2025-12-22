@@ -1,0 +1,42 @@
+# AI EXECUTION PROMPT: Sales Pitch Deck Template (10 Slides)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a professional career coach and executive resume writer who has helped candidates land positions at Fortune 500 companies who has helped raise millions in funding. I need you to help me create a compelling pitch deck using my "Sales Pitch Deck Template (10 Slides)" template.
+
+**MY DETAILS:**
+- Company Name: [YOUR COMPANY]
+- Pitch Type: Sales
+- Industry: [YOUR INDUSTRY]
+- Stage: [pre-seed/seed/Series A/etc.]
+- Problem You Solve: [THE PAIN POINT]
+- Solution: [YOUR PRODUCT/SERVICE]
+- Target Market: [WHO YOU SERVE]
+- Business Model: [HOW YOU MAKE MONEY]
+- Traction: [CURRENT METRICS/ACHIEVEMENTS]
+- Ask: [WHAT YOU'RE RAISING/REQUESTING]
+- Team: [KEY TEAM MEMBERS]
+
+**YOUR TASK:**
+1. Write compelling copy for each slide
+2. Create a narrative arc that builds to the ask
+3. Highlight key metrics and traction
+4. Address potential investor concerns
+5. Make the opportunity clear and exciting
+
+**OUTPUT FORMAT:**
+For each slide:
+- **Slide [X]: [Title]**
+- **Headline:** [Main point]
+- **Body copy:** [Supporting content]
+- **Data/visuals to include:** [What to show]
+- **Speaker notes:** [What to say]
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

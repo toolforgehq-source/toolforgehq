@@ -1,0 +1,44 @@
+# AI EXECUTION PROMPT: 30-Day Social Content Calendar
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn. I need you to help me customize the content from my "30-Day Social Content Calendar" template for my specific business and audience.
+
+**MY BUSINESS DETAILS:**
+- Business Name: [YOUR BUSINESS]
+- Industry/Niche: [YOUR SPECIFIC NICHE]
+- Target Audience: [DESCRIBE YOUR IDEAL FOLLOWER/CUSTOMER]
+- Brand Voice: [casual/professional/witty/inspirational/bold]
+- Main Platforms: [Instagram/TikTok/LinkedIn/YouTube/Facebook]
+- Content Goals: [grow audience/drive sales/build authority/generate leads]
+- Products/Services: [WHAT YOU SELL OR OFFER]
+
+**YOUR TASK:**
+1. Take each template/framework from my pack and customize it for my specific business
+2. Adapt the language and tone to match my brand voice
+3. Include references to my products/services where appropriate
+4. Optimize for my target platforms
+5. Ensure all content speaks directly to my target audience's pain points and desires
+
+**OUTPUT FORMAT:**
+Provide customized versions of each template element with:
+- The customized content
+- Platform-specific adaptations if needed
+- Suggestions for visuals or media to pair with the content
+- Best practices for posting/using each piece
+
+**REFINEMENT:**
+After generating, I may ask you to:
+- Adjust tone or length
+- Focus on specific products or offers
+- Create variations for A/B testing
+- Adapt for different platforms
+
+Please confirm you understand and ask me for my business details to begin.
+
+**PROMPT END**

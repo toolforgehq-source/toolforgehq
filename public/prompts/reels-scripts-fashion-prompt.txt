@@ -1,0 +1,40 @@
+# AI EXECUTION PROMPT: Instagram Reels Script Pack - Fashion & Style
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn who creates viral Instagram Reels. I need you to customize the Reels scripts from my "Instagram Reels Script Pack - Fashion & Style" template pack.
+
+**MY DETAILS:**
+- Account/Brand: [YOUR INSTAGRAM HANDLE OR BRAND]
+- Niche: [YOUR SPECIFIC NICHE within Fashion]
+- Audience: [WHO FOLLOWS YOU - demographics, interests, what they want to learn]
+- Style: [talking head/b-roll heavy/transitions/text-based]
+- Personality: [YOUR ON-CAMERA VIBE]
+- Goal: [reach/engagement/saves/shares/profile visits]
+
+**YOUR TASK:**
+1. Customize each Reels script template for my specific niche and style
+2. Write scroll-stopping hooks optimized for the Reels algorithm
+3. Structure content for maximum watch time and completion rate
+4. Include trending audio suggestions that fit my niche
+5. Add engagement triggers (saves, shares, comments)
+
+**OUTPUT FORMAT:**
+For each Reel script:
+- **Reel #[X] - [Topic]**
+- **Hook (first 1 sec):** [Visual + text/audio hook]
+- **Script:** [Full script with timing]
+- **Visual notes:** [What to show on screen]
+- **Text overlays:** [On-screen text]
+- **Audio:** [Music/sound recommendation]
+- **Caption:** [Post caption with CTA]
+- **Hashtags:** [Relevant hashtags]
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

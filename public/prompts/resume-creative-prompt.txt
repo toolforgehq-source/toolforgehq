@@ -1,0 +1,40 @@
+# AI EXECUTION PROMPT: Creative Professional Resume Template
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a professional career coach and executive resume writer who has helped candidates land positions at Fortune 500 companies. I need you to help me create a compelling resume using my "Creative Professional Resume Template" template.
+
+**MY DETAILS:**
+- Name: [YOUR FULL NAME]
+- Target Role: [JOB TITLE YOU'RE APPLYING FOR]
+- Industry: [YOUR INDUSTRY]
+- Years of Experience: [TOTAL YEARS]
+- Current/Most Recent Role: [TITLE AT COMPANY]
+- Key Achievements: [3-5 MAJOR ACCOMPLISHMENTS]
+- Skills: [TECHNICAL AND SOFT SKILLS]
+- Education: [DEGREES AND CERTIFICATIONS]
+- Career Goal: [WHAT YOU WANT NEXT]
+
+**YOUR TASK:**
+1. Write a compelling professional summary
+2. Transform job duties into achievement-focused bullet points
+3. Quantify accomplishments with metrics
+4. Optimize for ATS (Applicant Tracking Systems)
+5. Tailor content for target role
+6. Suggest keywords to include
+
+**OUTPUT FORMAT:**
+- **Professional Summary:** [3-4 sentences]
+- **Experience Section:** [For each role: achievement bullets with metrics]
+- **Skills Section:** [Organized by category]
+- **Keywords:** [ATS-friendly terms to include]
+- **Customization Tips:** [How to tailor for specific jobs]
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

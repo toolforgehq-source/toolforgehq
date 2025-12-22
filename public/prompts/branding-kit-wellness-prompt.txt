@@ -1,0 +1,49 @@
+# AI EXECUTION PROMPT: Wellness Brand Kit
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations with expertise in brand strategy and identity development. I need you to help me complete my branding kit using the "Wellness Brand Kit" template.
+
+**MY BRAND DETAILS:**
+- Business Name: [YOUR BUSINESS NAME]
+- Industry: Wellness
+- Target Audience: [WHO YOU SERVE]
+- Brand Personality: [3-5 ADJECTIVES that describe your brand]
+- Core Values: [WHAT YOUR BRAND STANDS FOR]
+- Competitors: [2-3 MAIN COMPETITORS]
+- Differentiation: [WHAT MAKES YOU UNIQUE]
+- Price Positioning: [budget/mid-range/premium/luxury]
+
+**YOUR TASK:**
+1. Develop comprehensive brand messaging and voice guidelines
+2. Create tagline options and brand story
+3. Define brand personality and tone of voice
+4. Generate content pillars and messaging frameworks
+5. Provide color psychology recommendations
+6. Create brand application examples
+
+**OUTPUT FORMAT:**
+For each branding element:
+- **[Element Name]**
+- Complete, ready-to-use content
+- Multiple options where applicable
+- Rationale for recommendations
+
+**ELEMENTS TO COMPLETE:**
+1. Brand Story & Origin
+2. Mission & Vision Statements
+3. Tagline Options (5 variations)
+4. Brand Voice Guidelines
+5. Messaging Pillars
+6. Elevator Pitch (30 sec, 60 sec, 2 min versions)
+7. Brand Values with descriptions
+8. Target Audience Personas
+
+Please confirm you understand and ask me for my brand details to begin.
+
+**PROMPT END**

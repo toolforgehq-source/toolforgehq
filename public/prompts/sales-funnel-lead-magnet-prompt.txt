@@ -1,0 +1,43 @@
+# AI EXECUTION PROMPT: Lead Magnet Funnel Framework
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations with expertise in sales funnels and conversion optimization. I need you to help me build out my "Lead Magnet Funnel Framework" funnel template.
+
+**MY FUNNEL DETAILS:**
+- Business Name: [YOUR BUSINESS]
+- Funnel Type: Lead Magnet
+- Main Offer: [WHAT YOU'RE SELLING]
+- Price Point: [MAIN OFFER PRICE]
+- Upsell/Downsell: [ADDITIONAL OFFERS IF ANY]
+- Target Audience: [WHO THIS FUNNEL IS FOR]
+- Traffic Source: [WHERE VISITORS COME FROM]
+- Unique Mechanism: [YOUR UNIQUE APPROACH/METHOD]
+
+**YOUR TASK:**
+1. Write compelling copy for each page in the funnel
+2. Create headlines that capture attention and communicate value
+3. Develop bullet points that highlight benefits
+4. Write objection-handling sections
+5. Create urgency and scarcity elements (ethical)
+6. Optimize CTAs for maximum conversion
+
+**OUTPUT FORMAT:**
+For each funnel page:
+- **[Page Name]**
+- **Headline:** [Main headline]
+- **Subheadline:** [Supporting headline]
+- **Body copy:** [Complete page copy]
+- **Bullet points:** [Key benefits]
+- **Social proof section:** [Testimonial framework]
+- **CTA:** [Button text]
+- **Objection handlers:** [FAQ or concerns addressed]
+
+Please confirm you understand and ask me for my funnel details to begin.
+
+**PROMPT END**

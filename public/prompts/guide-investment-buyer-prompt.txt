@@ -1,0 +1,38 @@
+# AI EXECUTION PROMPT: Real Estate Investment Buyer Guide (8 Pages)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a top-producing real estate agent and marketing specialist with expertise in luxury properties, first-time buyers, and investment properties. I need you to customize my "Real Estate Investment Buyer Guide (8 Pages)" guide template for my market and clients.
+
+**MY DETAILS:**
+- Name: [YOUR NAME]
+- Brokerage: [YOUR BROKERAGE]
+- Market Area: [YOUR PRIMARY MARKET]
+- Guide Focus: Investment Buyer
+- Target Reader: [WHO WILL USE THIS GUIDE]
+- Local Market Conditions: [BUYER'S/SELLER'S MARKET, TRENDS]
+- Your Expertise: [WHAT YOU SPECIALIZE IN]
+
+**YOUR TASK:**
+1. Customize each section of the guide for my local market
+2. Add market-specific data and statistics
+3. Include local resources and recommendations
+4. Personalize with my contact information and branding
+5. Add local tips that only an expert would know
+
+**OUTPUT FORMAT:**
+For each section of the guide:
+- **[Section Title]**
+- Customized content with local specifics
+- Data points for my market
+- Personal tips and recommendations
+- Call-to-action to contact me
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**

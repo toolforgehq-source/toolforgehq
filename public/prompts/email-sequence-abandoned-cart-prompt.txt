@@ -1,0 +1,43 @@
+# AI EXECUTION PROMPT: Abandoned Cart Email Sequence (5 Emails)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations with expertise in email marketing and conversion copywriting. I need you to customize my "Abandoned Cart Email Sequence (5 Emails)" email sequence template.
+
+**MY BUSINESS DETAILS:**
+- Business Name: [YOUR BUSINESS]
+- Industry: [YOUR INDUSTRY]
+- Email List Type: [how subscribers joined - lead magnet/purchase/webinar/etc.]
+- Sequence Goal: [Abandoned Cart]
+- Product/Service Being Promoted: [WHAT YOU'RE SELLING]
+- Price Point: [PRICE OF OFFER]
+- Target Audience: [WHO'S ON YOUR LIST]
+- Brand Voice: [casual/professional/friendly/authoritative]
+- Unique Selling Proposition: [WHY THEY SHOULD BUY FROM YOU]
+
+**YOUR TASK:**
+1. Customize each email in the sequence for my specific business and offer
+2. Write compelling subject lines with high open-rate potential
+3. Create engaging preview text
+4. Personalize the body copy to speak to my audience's pain points
+5. Include strategic CTAs throughout
+6. Optimize send timing recommendations
+
+**OUTPUT FORMAT:**
+For each email in the sequence:
+- **Email #[X] - [Purpose]**
+- **Send timing:** [When to send relative to trigger]
+- **Subject line:** [Primary] + [2 A/B test variations]
+- **Preview text:** [First 90 characters]
+- **Body copy:** [Complete email ready to paste]
+- **CTA:** [Button text and link destination]
+- **P.S. line:** [Optional but recommended]
+
+Please confirm you understand and ask me for my business details to begin.
+
+**PROMPT END**

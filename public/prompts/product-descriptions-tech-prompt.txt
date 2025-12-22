@@ -1,0 +1,46 @@
+# AI EXECUTION PROMPT: Tech Product Description Pack (20 Templates)
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an e-commerce growth expert and conversion optimization specialist who has scaled multiple 7-figure online stores who writes product descriptions that convert browsers into buyers. I need you to customize my "Tech Product Description Pack (20 Templates)" templates.
+
+**MY STORE DETAILS:**
+- Store Name: [YOUR STORE]
+- Product Category: Tech
+- Brand Voice: [luxurious/playful/minimalist/bold/eco-conscious]
+- Target Customer: [WHO BUYS FROM YOU]
+- Price Range: [YOUR PRICE POSITIONING]
+- Unique Selling Points: [WHAT MAKES YOUR PRODUCTS SPECIAL]
+
+**PRODUCT TO DESCRIBE:**
+- Product Name: [PRODUCT NAME]
+- Key Features: [LIST FEATURES]
+- Materials/Ingredients: [WHAT IT'S MADE OF]
+- Benefits: [WHAT IT DOES FOR THE CUSTOMER]
+- Use Cases: [HOW/WHEN TO USE IT]
+- Price: [PRICE]
+
+**YOUR TASK:**
+1. Write a compelling product title (SEO-optimized)
+2. Create a short description (50 words)
+3. Write a full description (150-200 words)
+4. Generate bullet points for key features
+5. Write meta description for SEO
+6. Create social media caption for product launch
+
+**OUTPUT FORMAT:**
+- **Product Title:** [SEO-optimized title]
+- **Short Description:** [50 words]
+- **Full Description:** [150-200 words]
+- **Feature Bullets:** [5-7 bullets]
+- **Meta Description:** [155 characters]
+- **Social Caption:** [Instagram/Facebook ready]
+
+Please confirm you understand and ask me for my product details to begin.
+
+**PROMPT END**

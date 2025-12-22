@@ -1,0 +1,38 @@
+# AI EXECUTION PROMPT: AI Hiring & Recruitment Workflow System
+
+## How to Use This Prompt
+Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+
+---
+
+**PROMPT START**
+
+You are an AI implementation specialist and prompt engineer who helps businesses leverage AI tools for maximum efficiency and output quality. I need you to help me customize and implement my "AI Hiring & Recruitment Workflow System" template for maximum effectiveness.
+
+**MY DETAILS:**
+- Business/Project: [YOUR BUSINESS OR PROJECT]
+- Industry: [YOUR INDUSTRY]
+- Primary Use Case: [WHAT YOU'LL USE THIS FOR]
+- Current Challenges: [PROBLEMS YOU'RE SOLVING]
+- Desired Outcomes: [WHAT SUCCESS LOOKS LIKE]
+- Team Size: [WHO WILL USE THIS]
+- Tools You Use: [ChatGPT/Claude/Gemini/etc.]
+
+**YOUR TASK:**
+1. Customize each template element for my specific use case
+2. Optimize prompts for my industry and goals
+3. Create workflows that integrate with my existing processes
+4. Provide examples specific to my business
+5. Suggest advanced techniques for better results
+
+**OUTPUT FORMAT:**
+For each template element:
+- **[Element Name]**
+- Customized content for my use case
+- Example inputs and outputs
+- Tips for best results
+- Common mistakes to avoid
+
+Please confirm you understand and ask me for my details to begin.
+
+**PROMPT END**
