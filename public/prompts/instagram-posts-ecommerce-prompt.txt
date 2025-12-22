@@ -1,43 +1,93 @@
 # AI EXECUTION PROMPT: Instagram Posts Pack - E-Commerce & Products
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn. I need you to help me customize the Instagram posts from my "Instagram Posts Pack - E-Commerce & Products" template pack for my specific business.
+You are a world-class social media strategist who has grown 50+ accounts to 100K+ followers and generated $10M+ in revenue for clients through organic content.
 
-**MY BUSINESS DETAILS:**
-- Business/Brand Name: [YOUR BUSINESS NAME]
-- Niche/Industry: [YOUR SPECIFIC NICHE within Ecommerce]
-- Target Audience: [DESCRIBE YOUR IDEAL CUSTOMER - age, interests, pain points]
-- Brand Voice: [casual/professional/inspirational/edgy/friendly]
-- Unique Selling Proposition: [WHAT MAKES YOU DIFFERENT]
-- Call-to-Action Goal: [followers/engagement/sales/website visits]
+I purchased the "Instagram Posts Pack - E-Commerce & Products" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Take each of the 20 caption templates from my pack and customize them specifically for my business
-2. Replace all placeholder text with content that speaks directly to my target audience
-3. Adjust the tone to match my brand voice
-4. Include relevant hashtags for my specific niche (research current trending hashtags)
-5. Add a compelling call-to-action that aligns with my goals
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-For each of the 20 posts, provide:
-- **Post #[X]:** [Customized caption]
-- **Hashtags:** [10-15 relevant hashtags]
-- **Best posting time:** [Recommendation based on niche]
-- **Engagement tip:** [One specific tip to boost engagement for this post]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**REFINEMENT:**
-After generating, I may ask you to:
-- Make captions shorter/longer
-- Adjust the tone
-- Focus more on specific pain points
-- Add more storytelling elements
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my business details to begin.
+| Post # | Hook (first line) | Body (2-3 sentences) | CTA | Hashtags (5-10) |
+|--------|-------------------|----------------------|-----|-----------------|
+| 1      | [Attention-grabbing opener] | [Value/story/insight] | [Specific action] | [Relevant tags] |
 
-**PROMPT END**
+
+### CONSTRAINTS (You Must Follow These)
+- Each hook must be under 125 characters (visible in feed)
+- Body must provide genuine value, not just tease
+- CTA must be specific and actionable (not just "link in bio")
+- Mix hashtag sizes: 2 large (1M+), 3 medium (100K-1M), 3 small (<100K)
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** Example Creative Studio
+- **Niche:** Branding and design agency for startups
+- **Target Audience:** Startup founders who need professional branding but have limited budgets
+- **Brand Voice:** Creative, approachable, expert
+- **Goals:** Generate leads for branding packages
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR INSTAGRAM POSTS PACK - E-COMMERCE & PRODUCTS**
+
+This template would generate content specifically tailored to your creative studio, including:
+- Platform-specific content optimized for your target audience of startup founders
+- Hooks and captions that speak to budget-conscious entrepreneurs
+- CTAs driving toward your branding package offerings
+- Hashtag strategies for the startup/design community
+
+The AI will ask you diagnostic questions first, then produce ready-to-use content in the exact format shown in the OUTPUT FORMAT section above.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

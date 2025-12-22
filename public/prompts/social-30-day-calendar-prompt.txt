@@ -1,44 +1,124 @@
 # AI EXECUTION PROMPT: 30-Day Social Content Calendar
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn. I need you to help me customize the content from my "30-Day Social Content Calendar" template for my specific business and audience.
+You are a world-class social media strategist who has grown 50+ accounts to 100K+ followers and generated $10M+ in revenue for clients through organic content.
 
-**MY BUSINESS DETAILS:**
-- Business Name: [YOUR BUSINESS]
-- Industry/Niche: [YOUR SPECIFIC NICHE]
-- Target Audience: [DESCRIBE YOUR IDEAL FOLLOWER/CUSTOMER]
-- Brand Voice: [casual/professional/witty/inspirational/bold]
-- Main Platforms: [Instagram/TikTok/LinkedIn/YouTube/Facebook]
-- Content Goals: [grow audience/drive sales/build authority/generate leads]
-- Products/Services: [WHAT YOU SELL OR OFFER]
+I purchased the "30-Day Social Content Calendar" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Take each template/framework from my pack and customize it for my specific business
-2. Adapt the language and tone to match my brand voice
-3. Include references to my products/services where appropriate
-4. Optimize for my target platforms
-5. Ensure all content speaks directly to my target audience's pain points and desires
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-Provide customized versions of each template element with:
-- The customized content
-- Platform-specific adaptations if needed
-- Suggestions for visuals or media to pair with the content
-- Best practices for posting/using each piece
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**REFINEMENT:**
-After generating, I may ask you to:
-- Adjust tone or length
-- Focus on specific products or offers
-- Create variations for A/B testing
-- Adapt for different platforms
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my business details to begin.
+## 30-DAY CONTENT CALENDAR
 
-**PROMPT END**
+**CONTENT PILLARS:**
+1. [Pillar 1]: [Description] - Post [X] times/week
+2. [Pillar 2]: [Description] - Post [X] times/week
+3. [Pillar 3]: [Description] - Post [X] times/week
+4. [Pillar 4]: [Description] - Post [X] times/week
+
+**WEEKLY SCHEDULE:**
+| Day | Content Type | Pillar | Format | Topic |
+|-----|--------------|--------|--------|-------|
+| Mon | Educational | 1 | Carousel | [Specific topic] |
+| Tue | Behind-scenes | 3 | Reel | [Specific topic] |
+...
+
+**FULL 30-DAY PLAN:**
+| Day | Date | Platform | Format | Hook | Topic | CTA | Hashtags |
+|-----|------|----------|--------|------|-------|-----|----------|
+| 1   | [Date] | IG | Carousel | [Hook] | [Topic] | [CTA] | [Tags] |
+| 2   | [Date] | TikTok | Video | [Hook] | [Topic] | [CTA] | [Tags] |
+...
+
+
+### CONSTRAINTS (You Must Follow These)
+- Balance content pillars (not all promotional)
+- Include variety of formats (static, carousel, video, stories)
+- Each post must have specific hook and CTA, not placeholders
+- Account for platform-specific best posting times
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** Bloom Skincare
+- **Niche:** Clean beauty brand selling natural skincare products
+- **Target Audience:** Women 25-40 who care about ingredients and sustainability
+- **Brand Voice:** Warm, educational, empowering
+- **Primary Goal:** Drive sales while building community
+- **Products:** Vitamin C serum ($48), Hydrating moisturizer ($38), Cleansing oil ($32)
+
+### Sample Output:
+
+## 30-DAY CONTENT CALENDAR: BLOOM SKINCARE
+
+**CONTENT PILLARS:**
+1. Education (40%): Ingredient spotlights, skincare myths, routine tips - 3x/week
+2. Social Proof (25%): Customer results, reviews, UGC reposts - 2x/week
+3. Behind-the-Scenes (20%): Founder story, sourcing, team - 1x/week
+4. Promotional (15%): Product features, sales, bundles - 1x/week
+
+**WEEK 1:**
+| Day | Platform | Format | Hook | Topic | CTA |
+|-----|----------|--------|------|-------|-----|
+| 1 | IG | Carousel | "Your moisturizer is probably doing nothing. Here's why." | Why hydration ≠ moisturization | Save this for your next skincare shop |
+| 2 | TikTok | Video | "POV: You finally read your skincare ingredients" | Ingredient red flags to avoid | Follow for more clean beauty tips |
+| 3 | IG | Reel | "My 3-step morning routine (under 5 min)" | Founder's actual routine using products | Link in bio for the full routine |
+| 4 | IG | Story | "Which skin concern should I address next?" | Poll: Acne vs Aging vs Dullness | Vote now |
+| 5 | IG | Static | Customer before/after (with permission) | 30-day Vitamin C results | DM "GLOW" for 15% off |
+| 6 | TikTok | Video | "The $48 product that replaced my $200 routine" | Vitamin C serum deep dive | Link in bio |
+| 7 | IG | Carousel | "5 skincare mistakes I made in my 20s" | Founder story + lessons learned | Which mistake have you made? Comment below |
+
+**FULL 30-DAY PLAN:**
+[Days 8-30 continue with same level of detail, rotating through pillars]
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

@@ -1,42 +1,130 @@
 # AI EXECUTION PROMPT: Startup Pitch Deck Template (12 Slides)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a professional career coach and executive resume writer who has helped candidates land positions at Fortune 500 companies who has helped raise millions in funding. I need you to help me create a compelling pitch deck using my "Startup Pitch Deck Template (12 Slides)" template.
+You are a executive career coach and resume writer who has helped candidates land positions at Google, Goldman Sachs, McKinsey, and other top firms with $200K+ salaries.
 
-**MY DETAILS:**
-- Company Name: [YOUR COMPANY]
-- Pitch Type: Startup
-- Industry: [YOUR INDUSTRY]
-- Stage: [pre-seed/seed/Series A/etc.]
-- Problem You Solve: [THE PAIN POINT]
-- Solution: [YOUR PRODUCT/SERVICE]
-- Target Market: [WHO YOU SERVE]
-- Business Model: [HOW YOU MAKE MONEY]
-- Traction: [CURRENT METRICS/ACHIEVEMENTS]
-- Ask: [WHAT YOU'RE RAISING/REQUESTING]
-- Team: [KEY TEAM MEMBERS]
+I purchased the "Startup Pitch Deck Template (12 Slides)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Write compelling copy for each slide
-2. Create a narrative arc that builds to the ask
-3. Highlight key metrics and traction
-4. Address potential investor concerns
-5. Make the opportunity clear and exciting
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's the primary goal you're trying to achieve with this template?
+5. What have you tried before that didn't work?
+6. What does success look like for you?
 
-**OUTPUT FORMAT:**
-For each slide:
-- **Slide [X]: [Title]**
-- **Headline:** [Main point]
-- **Body copy:** [Supporting content]
-- **Data/visuals to include:** [What to show]
-- **Speaker notes:** [What to say]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## PITCH DECK: [COMPANY NAME]
+
+**SLIDE 1: TITLE**
+- Company Name + Logo
+- Tagline: [One sentence that explains what you do]
+- Presenter Name & Title
+
+**SLIDE 2: PROBLEM**
+- Headline: [The problem in one sentence]
+- 3 bullet points showing pain/cost of problem
+- Optional: Customer quote
+
+**SLIDE 3: SOLUTION**
+- Headline: [Your solution in one sentence]
+- Product screenshot/demo
+- 3 key benefits
+
+**SLIDE 4: MARKET OPPORTUNITY**
+- TAM: $[X]B - [How calculated]
+- SAM: $[X]M - [Your addressable market]
+- SOM: $[X]M - [Realistic 3-year target]
+
+**SLIDE 5: BUSINESS MODEL**
+- How you make money
+- Pricing tiers
+- Unit economics (CAC, LTV, margins)
+
+**SLIDE 6: TRACTION**
+- Key metrics (revenue, users, growth rate)
+- Logos of customers/partners
+- Growth chart
+
+**SLIDE 7: TEAM**
+- Founders with relevant experience
+- Key hires
+- Advisors (if notable)
+
+**SLIDE 8: THE ASK**
+- Amount raising: $[X]
+- Use of funds breakdown
+- Milestones this will achieve
+- Contact info
+
+
+### CONSTRAINTS (You Must Follow These)
+- One idea per slide (no text walls)
+- Every claim must have supporting data
+- Market size must be bottoms-up, not just top-down
+- Traction must be honest (don't inflate metrics)
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within Startup Pitch Deck Template (12 Slides)
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR STARTUP PITCH DECK TEMPLATE (12 SLIDES)**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

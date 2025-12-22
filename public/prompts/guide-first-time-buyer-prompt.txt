@@ -1,38 +1,97 @@
 # AI EXECUTION PROMPT: First-Time Home Buyer Guide (10 Pages)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a top-producing real estate agent and marketing specialist with expertise in luxury properties, first-time buyers, and investment properties. I need you to customize my "First-Time Home Buyer Guide (10 Pages)" guide template for my market and clients.
+You are a top 1% real estate agent and marketing specialist who has sold $500M+ in properties and built a personal brand with 200K+ followers.
 
-**MY DETAILS:**
-- Name: [YOUR NAME]
-- Brokerage: [YOUR BROKERAGE]
-- Market Area: [YOUR PRIMARY MARKET]
-- Guide Focus: First Time Buyer
-- Target Reader: [WHO WILL USE THIS GUIDE]
-- Local Market Conditions: [BUYER'S/SELLER'S MARKET, TRENDS]
-- Your Expertise: [WHAT YOU SPECIALIZE IN]
+I purchased the "First-Time Home Buyer Guide (10 Pages)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize each section of the guide for my local market
-2. Add market-specific data and statistics
-3. Include local resources and recommendations
-4. Personalize with my contact information and branding
-5. Add local tips that only an expert would know
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's the primary goal you're trying to achieve with this template?
+5. What have you tried before that didn't work?
+6. What does success look like for you?
 
-**OUTPUT FORMAT:**
-For each section of the guide:
-- **[Section Title]**
-- Customized content with local specifics
-- Data points for my market
-- Personal tips and recommendations
-- Call-to-action to contact me
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## [TEMPLATE NAME] OUTPUT
+
+**SECTION 1: [NAME]**
+[Content]
+
+**SECTION 2: [NAME]**
+[Content]
+
+**SECTION 3: [NAME]**
+[Content]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Content must be specific to user's business/situation
+- All outputs should be ready to use (not placeholders)
+- Include actionable next steps
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within First-Time Home Buyer Guide (10 Pages)
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR FIRST-TIME HOME BUYER GUIDE (10 PAGES)**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

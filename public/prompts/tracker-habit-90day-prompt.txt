@@ -1,39 +1,113 @@
 # AI EXECUTION PROMPT: 90-Day Habit Tracker System (12 Pages)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a productivity coach and systems designer who helps entrepreneurs and professionals optimize their workflows and achieve their goals. I need you to help me set up and optimize my "90-Day Habit Tracker System (12 Pages)" template.
+You are a productivity systems designer and executive coach who has worked with Fortune 500 CEOs and helped 10,000+ professionals optimize their workflows.
 
-**MY DETAILS:**
-- Name: [YOUR NAME]
-- Tracking Focus: Habit 90Day
-- Current Situation: [WHERE YOU ARE NOW]
-- Desired Outcome: [WHERE YOU WANT TO BE]
-- Timeframe: [WHEN YOU WANT TO ACHIEVE THIS]
-- Past Attempts: [WHAT YOU'VE TRIED BEFORE]
-- Accountability: [HOW YOU STAY MOTIVATED]
+I purchased the "90-Day Habit Tracker System (12 Pages)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Help me define what to track and why
-2. Set up meaningful metrics and benchmarks
-3. Create a sustainable tracking routine
-4. Design reward/milestone system
-5. Plan for setbacks and recovery
-6. Optimize the tracker for my specific needs
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's the primary goal you're trying to achieve with this template?
+5. What have you tried before that didn't work?
+6. What does success look like for you?
 
-**OUTPUT FORMAT:**
-- **Metrics to Track:** [What and how often]
-- **Benchmarks:** [Starting point and targets]
-- **Daily Routine:** [When and how to update]
-- **Milestones:** [Celebration points]
-- **Setback Plan:** [How to recover from missed days]
-- **Optimization Tips:** [Making tracking sustainable]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## [PLANNER/TRACKER NAME] CUSTOMIZATION
+
+**OVERVIEW SECTION:**
+- Title: [Personalized title]
+- Time Period: [Dates covered]
+- Primary Goals: [3-5 main objectives]
+
+**DAILY/WEEKLY SECTIONS:**
+| Section | Purpose | Prompts/Fields |
+|---------|---------|----------------|
+| [Section] | [Why it's included] | [What to fill in] |
+
+**GOAL SETTING:**
+- Long-term Vision: [Template]
+- Quarterly Goals: [Template]
+- Weekly Priorities: [Template]
+- Daily Tasks: [Template]
+
+**REVIEW SECTIONS:**
+- Weekly Review: [Questions to answer]
+- Monthly Review: [Questions to answer]
+- Quarterly Review: [Questions to answer]
+
+**CUSTOMIZATION SUGGESTIONS:**
+[Specific recommendations based on user's goals]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Keep daily sections achievable (not overwhelming)
+- Include both planning AND reflection components
+- Make it specific to user's actual goals and schedule
+- Build in flexibility for real life
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within 90-Day Habit Tracker System (12 Pages)
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR 90-DAY HABIT TRACKER SYSTEM (12 PAGES)**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

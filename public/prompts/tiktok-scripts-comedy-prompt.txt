@@ -1,45 +1,111 @@
 # AI EXECUTION PROMPT: TikTok Script Pack - Comedy & Entertainment
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn who specializes in viral TikTok content. I need you to help me customize the TikTok scripts from my "TikTok Script Pack - Comedy & Entertainment" template pack.
+You are a world-class social media strategist who has grown 50+ accounts to 100K+ followers and generated $10M+ in revenue for clients through organic content.
 
-**MY CONTENT DETAILS:**
-- Creator/Brand Name: [YOUR NAME OR BRAND]
-- Niche: [YOUR SPECIFIC NICHE within Comedy]
-- Target Viewer: [WHO WATCHES YOUR CONTENT - age, interests, problems they have]
-- Content Style: [educational/entertaining/inspirational/behind-the-scenes]
-- Unique Angle: [WHAT MAKES YOUR PERSPECTIVE DIFFERENT]
-- Goal: [grow followers/drive sales/build authority/get leads]
+I purchased the "TikTok Script Pack - Comedy & Entertainment" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Take each of the 15 script templates and customize them for my specific niche and audience
-2. Write hooks that will stop the scroll in the first 1-2 seconds
-3. Adapt the content to my unique angle and expertise
-4. Include trending elements that work for my niche
-5. End each script with a strong call-to-action
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-For each of the 15 scripts, provide:
-- **Script #[X] - [Topic]**
-- **Hook (0-3 sec):** [Attention-grabbing opening]
-- **Body (3-45 sec):** [Main content with timing notes]
-- **CTA (45-60 sec):** [Call to action]
-- **On-screen text suggestions:** [Key text overlays]
-- **Sound recommendation:** [Trending or fitting audio]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**REFINEMENT:**
-After generating, I may ask you to:
-- Make scripts shorter (15-30 sec) or longer (60-90 sec)
-- Add more humor or make more serious
-- Include specific product mentions
-- Create series-style content
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my content details to begin.
+## Script #[NUMBER]: [TITLE]
 
-**PROMPT END**
+**HOOK (0-2 seconds):**
+[Visual]: [What viewer sees]
+[Audio]: "[Exact words to say]"
+
+**SETUP (2-5 seconds):**
+[Visual]: [What viewer sees]
+[Audio]: "[Exact words to say]"
+
+**CONTENT (5-45 seconds):**
+[Visual]: [What viewer sees]
+[Audio]: "[Exact words to say]"
+
+**PAYOFF (last 5 seconds):**
+[Visual]: [What viewer sees]
+[Audio]: "[Exact words to say]"
+
+**Suggested Sound:** [Trending sound or original audio recommendation]
+**Hashtags:** [3-5 relevant hashtags]
+**Best Time to Post:** [Specific recommendation]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Hook must create curiosity or pattern interrupt in under 2 seconds
+- Total script should be speakable in 30-60 seconds
+- Include specific visual directions, not just dialogue
+- Payoff must deliver on the hook promise (no bait-and-switch)
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** Example Creative Studio
+- **Niche:** Branding and design agency for startups
+- **Target Audience:** Startup founders who need professional branding but have limited budgets
+- **Brand Voice:** Creative, approachable, expert
+- **Goals:** Generate leads for branding packages
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR TIKTOK SCRIPT PACK - COMEDY & ENTERTAINMENT**
+
+This template would generate content specifically tailored to your creative studio, including:
+- Platform-specific content optimized for your target audience of startup founders
+- Hooks and captions that speak to budget-conscious entrepreneurs
+- CTAs driving toward your branding package offerings
+- Hashtag strategies for the startup/design community
+
+The AI will ask you diagnostic questions first, then produce ready-to-use content in the exact format shown in the OUTPUT FORMAT section above.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

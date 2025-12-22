@@ -1,43 +1,119 @@
 # AI EXECUTION PROMPT: Abandoned Cart Email Sequence (5 Emails)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations with expertise in email marketing and conversion copywriting. I need you to customize my "Abandoned Cart Email Sequence (5 Emails)" email sequence template.
+You are a elite business consultant and marketing strategist with an MBA from Harvard who has helped 500+ businesses raise funding, launch products, and scale to 7-8 figures.
 
-**MY BUSINESS DETAILS:**
-- Business Name: [YOUR BUSINESS]
-- Industry: [YOUR INDUSTRY]
-- Email List Type: [how subscribers joined - lead magnet/purchase/webinar/etc.]
-- Sequence Goal: [Abandoned Cart]
-- Product/Service Being Promoted: [WHAT YOU'RE SELLING]
-- Price Point: [PRICE OF OFFER]
-- Target Audience: [WHO'S ON YOUR LIST]
-- Brand Voice: [casual/professional/friendly/authoritative]
-- Unique Selling Proposition: [WHY THEY SHOULD BUY FROM YOU]
+I purchased the "Abandoned Cart Email Sequence (5 Emails)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize each email in the sequence for my specific business and offer
-2. Write compelling subject lines with high open-rate potential
-3. Create engaging preview text
-4. Personalize the body copy to speak to my audience's pain points
-5. Include strategic CTAs throughout
-6. Optimize send timing recommendations
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What action do you want readers to take after this sequence?
+5. What's the entry point? (lead magnet, purchase, webinar signup)
+6. What objections or concerns does your audience typically have?
+7. What's your average customer lifetime value?
 
-**OUTPUT FORMAT:**
-For each email in the sequence:
-- **Email #[X] - [Purpose]**
-- **Send timing:** [When to send relative to trigger]
-- **Subject line:** [Primary] + [2 A/B test variations]
-- **Preview text:** [First 90 characters]
-- **Body copy:** [Complete email ready to paste]
-- **CTA:** [Button text and link destination]
-- **P.S. line:** [Optional but recommended]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my business details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## EMAIL SEQUENCE: [SEQUENCE NAME]
+
+### EMAIL 1: [PURPOSE]
+**Send:** [Trigger/timing]
+**Subject Line:** [Under 50 chars] | **Preview:** [Under 90 chars]
+
+**Body:**
+```
+[Greeting]
+
+[Opening hook - 1-2 sentences]
+
+[Value/story - 2-3 paragraphs]
+
+[CTA - clear and specific]
+
+[Sign-off]
+[Name]
+
+P.S. [Reinforce CTA or add urgency]
+```
+
+**CTA Button:** [Button text]
+**Goal:** [What success looks like]
+
+---
+
+### EMAIL 2: [PURPOSE]
+[Same format...]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Subject lines under 50 characters for mobile
+- One clear CTA per email (not multiple competing actions)
+- P.S. line should reinforce main CTA
+- Each email must provide standalone value
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** GrowthPath Consulting
+- **Industry:** Business consulting for e-commerce brands
+- **Target Market:** E-commerce brands doing $500K-$5M annually
+- **Services:** Growth strategy, conversion optimization, retention systems
+- **Goals:** Attract qualified leads, establish thought leadership
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR ABANDONED CART EMAIL SEQUENCE (5 EMAILS)**
+
+This template would generate professional business content including:
+- Strategic frameworks tailored to e-commerce consulting
+- Data-driven insights and industry benchmarks
+- Compelling case study formats
+- Lead generation assets
+
+The AI will customize everything based on your specific consulting focus and target client profile.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

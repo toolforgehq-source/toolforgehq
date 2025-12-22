@@ -1,49 +1,137 @@
 # AI EXECUTION PROMPT: Wellness Brand Kit
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations with expertise in brand strategy and identity development. I need you to help me complete my branding kit using the "Wellness Brand Kit" template.
+You are a elite business consultant and marketing strategist with an MBA from Harvard who has helped 500+ businesses raise funding, launch products, and scale to 7-8 figures.
 
-**MY BRAND DETAILS:**
-- Business Name: [YOUR BUSINESS NAME]
-- Industry: Wellness
-- Target Audience: [WHO YOU SERVE]
-- Brand Personality: [3-5 ADJECTIVES that describe your brand]
-- Core Values: [WHAT YOUR BRAND STANDS FOR]
-- Competitors: [2-3 MAIN COMPETITORS]
-- Differentiation: [WHAT MAKES YOU UNIQUE]
-- Price Positioning: [budget/mid-range/premium/luxury]
+I purchased the "Wellness Brand Kit" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Develop comprehensive brand messaging and voice guidelines
-2. Create tagline options and brand story
-3. Define brand personality and tone of voice
-4. Generate content pillars and messaging frameworks
-5. Provide color psychology recommendations
-6. Create brand application examples
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What 3-5 words describe how you want customers to feel about your brand?
+5. Who are 2-3 brands (in any industry) whose vibe you admire?
+6. What's the one thing you want people to remember about your brand?
+7. What's your brand's origin story or founder story?
 
-**OUTPUT FORMAT:**
-For each branding element:
-- **[Element Name]**
-- Complete, ready-to-use content
-- Multiple options where applicable
-- Rationale for recommendations
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**ELEMENTS TO COMPLETE:**
-1. Brand Story & Origin
-2. Mission & Vision Statements
-3. Tagline Options (5 variations)
-4. Brand Voice Guidelines
-5. Messaging Pillars
-6. Elevator Pitch (30 sec, 60 sec, 2 min versions)
-7. Brand Values with descriptions
-8. Target Audience Personas
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my brand details to begin.
+## BRAND KIT: [BRAND NAME]
 
-**PROMPT END**
+### BRAND STRATEGY
+**Brand Purpose:** [Why you exist beyond profit]
+**Brand Vision:** [Where you're taking the industry]
+**Brand Mission:** [How you serve customers daily]
+**Brand Values:** [3-5 core values with descriptions]
+**Brand Personality:** [5 adjectives that describe your brand]
+**Target Audience:** [Detailed persona]
+
+### VISUAL IDENTITY
+**Logo Usage:**
+- Primary logo: [Description]
+- Secondary logo: [Description]
+- Minimum size: [X pixels]
+- Clear space: [X around logo]
+
+**Color Palette:**
+| Color | Hex | RGB | Use Case |
+|-------|-----|-----|----------|
+| Primary | #XXXXXX | X,X,X | [When to use] |
+| Secondary | #XXXXXX | X,X,X | [When to use] |
+| Accent | #XXXXXX | X,X,X | [When to use] |
+
+**Typography:**
+- Headlines: [Font name, weight, size]
+- Body: [Font name, weight, size]
+- Accent: [Font name, weight, size]
+
+### VOICE & MESSAGING
+**Brand Voice:** [Detailed description]
+**Tone Variations:**
+| Context | Tone | Example |
+|---------|------|---------|
+| Social media | [Tone] | "[Example]" |
+| Customer service | [Tone] | "[Example]" |
+| Sales | [Tone] | "[Example]" |
+
+**Key Messages:**
+1. [Primary message]
+2. [Secondary message]
+3. [Tertiary message]
+
+**Tagline Options:**
+1. "[Option 1]"
+2. "[Option 2]"
+3. "[Option 3]"
+
+
+### CONSTRAINTS (You Must Follow These)
+- Colors must have sufficient contrast for accessibility
+- Voice must be consistent but adaptable to context
+- All elements must work together cohesively
+- Include do's and don'ts for brand usage
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** GrowthPath Consulting
+- **Industry:** Business consulting for e-commerce brands
+- **Target Market:** E-commerce brands doing $500K-$5M annually
+- **Services:** Growth strategy, conversion optimization, retention systems
+- **Goals:** Attract qualified leads, establish thought leadership
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR WELLNESS BRAND KIT**
+
+This template would generate professional business content including:
+- Strategic frameworks tailored to e-commerce consulting
+- Data-driven insights and industry benchmarks
+- Compelling case study formats
+- Lead generation assets
+
+The AI will customize everything based on your specific consulting focus and target client profile.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

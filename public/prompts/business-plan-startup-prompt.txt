@@ -1,51 +1,154 @@
 # AI EXECUTION PROMPT: Startup Business Plan Template
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations. I need you to help me complete my business plan using the "Startup Business Plan Template" template.
+You are a elite business consultant and marketing strategist with an MBA from Harvard who has helped 500+ businesses raise funding, launch products, and scale to 7-8 figures.
 
-**MY BUSINESS DETAILS:**
-- Business Name: [YOUR BUSINESS NAME]
-- Business Type: Startup
-- Location: [CITY, STATE/COUNTRY]
-- Stage: [idea/startup/existing business]
-- Funding Goal: [HOW MUCH YOU NEED AND FOR WHAT]
-- Target Market: [WHO YOUR CUSTOMERS ARE]
-- Products/Services: [WHAT YOU OFFER]
-- Competitive Advantage: [WHAT MAKES YOU DIFFERENT]
-- Revenue Model: [HOW YOU MAKE MONEY]
-- Team: [FOUNDERS AND KEY TEAM MEMBERS]
+I purchased the "Startup Business Plan Template" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Help me complete each section of the business plan template with professional, investor-ready content
-2. Generate realistic financial projections based on industry benchmarks
-3. Conduct competitive analysis for my market
-4. Identify risks and mitigation strategies
-5. Create compelling executive summary
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What stage is your business? (idea, pre-revenue, generating revenue)
+5. Are you seeking funding? If so, how much and from whom?
+6. What's your revenue model? How do you make money?
+7. Who are your top 3 competitors and how are you different?
 
-**OUTPUT FORMAT:**
-For each section of the business plan:
-- **[Section Name]**
-- Professional content ready to paste into the template
-- Data points and statistics to support claims
-- Specific recommendations for my business type
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**SECTIONS TO COMPLETE:**
-1. Executive Summary
-2. Company Description
-3. Market Analysis
-4. Organization & Management
-5. Products/Services
-6. Marketing & Sales Strategy
-7. Financial Projections
-8. Funding Request (if applicable)
-9. Appendix items
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my business details to begin.
+## BUSINESS PLAN: [COMPANY NAME]
 
-**PROMPT END**
+### 1. EXECUTIVE SUMMARY
+**Business Concept:** [2-3 sentences]
+**Mission Statement:** [1 sentence]
+**Products/Services:** [Brief list]
+**Target Market:** [Specific demographic]
+**Financial Highlights:** [Key projections]
+**Funding Request:** [Amount and use]
+
+### 2. COMPANY DESCRIPTION
+**Legal Structure:** [LLC/Corp/etc]
+**Location:** [City, State]
+**History:** [Brief background]
+**Vision:** [Where you're headed]
+
+### 3. MARKET ANALYSIS
+**Industry Overview:** [Size, growth rate, trends]
+**Target Market:**
+- Demographics: [Age, income, location]
+- Psychographics: [Values, behaviors, pain points]
+- Market Size: [TAM, SAM, SOM with numbers]
+
+**Competitive Analysis:**
+| Competitor | Strengths | Weaknesses | Our Advantage |
+|------------|-----------|------------|---------------|
+
+### 4. PRODUCTS/SERVICES
+[Detailed description with pricing]
+
+### 5. MARKETING & SALES STRATEGY
+**Positioning:** [How you're different]
+**Channels:** [Where you'll reach customers]
+**Customer Acquisition Cost:** [Estimated CAC]
+**Sales Process:** [How you close deals]
+
+### 6. FINANCIAL PROJECTIONS
+**Year 1-3 Revenue:**
+| Year | Revenue | Expenses | Net Profit | Margin |
+|------|---------|----------|------------|--------|
+
+**Break-even Analysis:** [When you'll be profitable]
+**Key Assumptions:** [What these numbers depend on]
+
+### 7. FUNDING REQUEST (if applicable)
+**Amount:** [$X]
+**Use of Funds:**
+| Category | Amount | % of Total |
+|----------|--------|------------|
+
+**Exit Strategy:** [How investors get returns]
+
+
+### CONSTRAINTS (You Must Follow These)
+- All financial projections must include assumptions
+- Market size must use TAM/SAM/SOM framework with sources
+- Competitive analysis must be honest about weaknesses
+- Executive summary must be compelling in under 1 page
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** MealPrepPro
+- **Business Type:** Meal prep delivery service for busy professionals
+- **Location:** Austin, Texas
+- **Stage:** Pre-launch, seeking seed funding
+- **Funding Goal:** $250,000 for kitchen buildout, initial inventory, and 6 months operating expenses
+- **Target Market:** Dual-income households, 28-45, $100K+ HHI, health-conscious but time-poor
+- **Revenue Model:** Weekly subscription: $149/week for 10 meals
+
+### Sample Output:
+
+**EXECUTIVE SUMMARY**
+
+MealPrepPro is a premium meal prep delivery service targeting busy professionals in Austin, Texas who want to eat healthy but lack time to cook. We deliver 10 chef-prepared, macro-balanced meals weekly for $149, saving customers 5+ hours per week while helping them hit their nutrition goals.
+
+The Austin meal kit and prepared food market is $89M annually, growing 12% YoY. Our differentiation: locally-sourced ingredients, customizable macros for fitness goals, and same-day preparation (never frozen).
+
+We're seeking $250,000 in seed funding to build out our commercial kitchen, hire our initial team, and acquire our first 500 subscribers. With a CAC of $45 and LTV of $1,788 (12-month average retention), we project profitability by month 18.
+
+**MARKET ANALYSIS**
+
+TAM: $89M (Austin prepared food delivery market)
+SAM: $23M (Health-focused meal delivery, our positioning)
+SOM: $2.3M (10% market share, Year 3 target = 297 active subscribers)
+
+**Competitive Analysis:**
+| Competitor | Price | Weakness | Our Advantage |
+|------------|-------|----------|---------------|
+| Factor | $11/meal | Generic, ships frozen | Fresh, local, customizable |
+| Snap Kitchen | $10/meal | Limited customization | Macro-specific options |
+| Local caterers | Varies | Inconsistent quality | Professional kitchen, trained chefs |
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

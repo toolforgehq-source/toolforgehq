@@ -1,44 +1,141 @@
 # AI EXECUTION PROMPT: Caption Swipe File Pack
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn. I need you to help me customize the content from my "Caption Swipe File Pack" template for my specific business and audience.
+You are a world-class social media strategist who has grown 50+ accounts to 100K+ followers and generated $10M+ in revenue for clients through organic content.
 
-**MY BUSINESS DETAILS:**
-- Business Name: [YOUR BUSINESS]
-- Industry/Niche: [YOUR SPECIFIC NICHE]
-- Target Audience: [DESCRIBE YOUR IDEAL FOLLOWER/CUSTOMER]
-- Brand Voice: [casual/professional/witty/inspirational/bold]
-- Main Platforms: [Instagram/TikTok/LinkedIn/YouTube/Facebook]
-- Content Goals: [grow audience/drive sales/build authority/generate leads]
-- Products/Services: [WHAT YOU SELL OR OFFER]
+I purchased the "Caption Swipe File Pack" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Take each template/framework from my pack and customize it for my specific business
-2. Adapt the language and tone to match my brand voice
-3. Include references to my products/services where appropriate
-4. Optimize for my target platforms
-5. Ensure all content speaks directly to my target audience's pain points and desires
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-Provide customized versions of each template element with:
-- The customized content
-- Platform-specific adaptations if needed
-- Suggestions for visuals or media to pair with the content
-- Best practices for posting/using each piece
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**REFINEMENT:**
-After generating, I may ask you to:
-- Adjust tone or length
-- Focus on specific products or offers
-- Create variations for A/B testing
-- Adapt for different platforms
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my business details to begin.
+## CAPTION SWIPE FILE
 
-**PROMPT END**
+### STORY CAPTIONS (personal, relatable)
+**Caption #1:**
+```
+[First line - hook]
+
+[Body - 2-3 short paragraphs]
+
+[CTA]
+
+[Hashtags]
+```
+Character count: [X]/2200
+
+### EDUCATIONAL CAPTIONS (teach something)
+...
+
+### PROMOTIONAL CAPTIONS (sell without being salesy)
+...
+
+### ENGAGEMENT CAPTIONS (drive comments)
+...
+
+
+### CONSTRAINTS (You Must Follow These)
+- First line must hook (under 125 chars visible)
+- Use line breaks for readability
+- Include specific CTA for each caption type
+- Hashtags at end, separated by periods or line breaks
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** The Balanced Plate
+- **Niche:** Anti-diet nutritionist helping women heal their relationship with food
+- **Target Audience:** Women 28-45 tired of yo-yo dieting, want food freedom
+- **Brand Voice:** Compassionate, evidence-based, gently challenging
+- **Products:** 1:1 coaching ($2,500), Group program ($997), Free workshop
+
+### Sample Output:
+
+## CAPTION SWIPE FILE: THE BALANCED PLATE
+
+### STORY CAPTION #1 (Personal/Relatable)
+```
+I used to weigh my chicken breast to the gram.
+
+I'd panic if a restaurant didn't have nutrition info online. I'd "save" calories all day so I could eat at a party. I thought I was being "healthy."
+
+But here's what I know now: That wasn't health. That was an eating disorder wearing a fitness tracker.
+
+Recovery didn't happen overnight. It started with one terrifying decision: eating lunch without calculating it first.
+
+If you're exhausted from the mental math of eating, I want you to know: There's another way. And you deserve to find it.
+
+Drop a heart if this resonates. You're not alone.
+
+#intuitiveeating #foodfreedom #antidiet #edrecovery #haes #dietculturedropout
+```
+Character count: 687/2200
+
+### EDUCATIONAL CAPTION #1
+```
+"But if I stop tracking, I'll gain weight."
+
+I hear this every single week. Here's what the research actually shows:
+
+95% of diets fail within 5 years. Not because you lack willpower - because restriction triggers biological responses that INCREASE hunger and DECREASE metabolism.
+
+Your body isn't broken. It's doing exactly what it's designed to do: protect you from famine.
+
+The path forward isn't more restriction. It's learning to trust your body again.
+
+Save this for the next time diet culture tries to convince you otherwise.
+
+#intuitiveeating #antidietdietitian #weightstigma #haes #foodfreedom
+```
+Character count: 612/2200
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

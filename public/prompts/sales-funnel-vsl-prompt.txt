@@ -1,43 +1,117 @@
 # AI EXECUTION PROMPT: VSL Sales Funnel Framework
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a seasoned business consultant and marketing strategist who has helped 500+ businesses launch, scale, and optimize their operations with expertise in sales funnels and conversion optimization. I need you to help me build out my "VSL Sales Funnel Framework" funnel template.
+You are a elite business consultant and marketing strategist with an MBA from Harvard who has helped 500+ businesses raise funding, launch products, and scale to 7-8 figures.
 
-**MY FUNNEL DETAILS:**
-- Business Name: [YOUR BUSINESS]
-- Funnel Type: Vsl
-- Main Offer: [WHAT YOU'RE SELLING]
-- Price Point: [MAIN OFFER PRICE]
-- Upsell/Downsell: [ADDITIONAL OFFERS IF ANY]
-- Target Audience: [WHO THIS FUNNEL IS FOR]
-- Traffic Source: [WHERE VISITORS COME FROM]
-- Unique Mechanism: [YOUR UNIQUE APPROACH/METHOD]
+I purchased the "VSL Sales Funnel Framework" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Write compelling copy for each page in the funnel
-2. Create headlines that capture attention and communicate value
-3. Develop bullet points that highlight benefits
-4. Write objection-handling sections
-5. Create urgency and scarcity elements (ethical)
-6. Optimize CTAs for maximum conversion
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's the primary goal you're trying to achieve with this template?
+5. What have you tried before that didn't work?
+6. What does success look like for you?
 
-**OUTPUT FORMAT:**
-For each funnel page:
-- **[Page Name]**
-- **Headline:** [Main headline]
-- **Subheadline:** [Supporting headline]
-- **Body copy:** [Complete page copy]
-- **Bullet points:** [Key benefits]
-- **Social proof section:** [Testimonial framework]
-- **CTA:** [Button text]
-- **Objection handlers:** [FAQ or concerns addressed]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my funnel details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## SALES FUNNEL: [FUNNEL NAME]
+
+### LANDING PAGE
+**Headline:** [Benefit-driven, under 10 words]
+**Subheadline:** [Expand on promise]
+**Hero Section:**
+- Image/Video: [Description]
+- CTA Button: [Text]
+- Social Proof: [Type]
+
+**Body Sections:**
+1. Problem Agitation: [Pain points]
+2. Solution Introduction: [Your offer]
+3. Benefits (not features): [3-5 bullets]
+4. Social Proof: [Testimonials/logos]
+5. FAQ: [3-5 objection handlers]
+6. Final CTA: [Urgency + button]
+
+### THANK YOU PAGE
+**Headline:** [Confirmation + next step]
+**Content:** [What to expect]
+**Upsell/Downsell:** [Optional offer]
+
+### EMAIL SEQUENCE
+[5-7 emails with timing and purpose]
+
+### SALES PAGE (if applicable)
+[Long-form copy structure]
+
+
+### CONSTRAINTS (You Must Follow These)
+- One goal per page (don't distract with multiple CTAs)
+- Above-the-fold must communicate core value
+- Social proof must be specific and believable
+- Remove all friction from checkout process
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** GrowthPath Consulting
+- **Industry:** Business consulting for e-commerce brands
+- **Target Market:** E-commerce brands doing $500K-$5M annually
+- **Services:** Growth strategy, conversion optimization, retention systems
+- **Goals:** Attract qualified leads, establish thought leadership
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR VSL SALES FUNNEL FRAMEWORK**
+
+This template would generate professional business content including:
+- Strategic frameworks tailored to e-commerce consulting
+- Data-driven insights and industry benchmarks
+- Compelling case study formats
+- Lead generation assets
+
+The AI will customize everything based on your specific consulting focus and target client profile.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

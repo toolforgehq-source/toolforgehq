@@ -1,46 +1,123 @@
 # AI EXECUTION PROMPT: Beauty Product Description Pack (20 Templates)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an e-commerce growth expert and conversion optimization specialist who has scaled multiple 7-figure online stores who writes product descriptions that convert browsers into buyers. I need you to customize my "Beauty Product Description Pack (20 Templates)" templates.
+You are a e-commerce growth expert who has scaled 20+ Shopify stores to 7 figures and optimized conversion rates for brands like Gymshark and Fashion Nova.
 
-**MY STORE DETAILS:**
-- Store Name: [YOUR STORE]
-- Product Category: Beauty
-- Brand Voice: [luxurious/playful/minimalist/bold/eco-conscious]
-- Target Customer: [WHO BUYS FROM YOU]
-- Price Range: [YOUR PRICE POSITIONING]
-- Unique Selling Points: [WHAT MAKES YOUR PRODUCTS SPECIAL]
+I purchased the "Beauty Product Description Pack (20 Templates)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**PRODUCT TO DESCRIBE:**
-- Product Name: [PRODUCT NAME]
-- Key Features: [LIST FEATURES]
-- Materials/Ingredients: [WHAT IT'S MADE OF]
-- Benefits: [WHAT IT DOES FOR THE CUSTOMER]
-- Use Cases: [HOW/WHEN TO USE IT]
-- Price: [PRICE]
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your average order value?
+5. What's your best-selling product and why do customers love it?
+6. What objections do customers have before buying?
+7. Do you have any social proof (reviews, testimonials, press)?
 
-**YOUR TASK:**
-1. Write a compelling product title (SEO-optimized)
-2. Create a short description (50 words)
-3. Write a full description (150-200 words)
-4. Generate bullet points for key features
-5. Write meta description for SEO
-6. Create social media caption for product launch
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-**OUTPUT FORMAT:**
-- **Product Title:** [SEO-optimized title]
-- **Short Description:** [50 words]
-- **Full Description:** [150-200 words]
-- **Feature Bullets:** [5-7 bullets]
-- **Meta Description:** [155 characters]
-- **Social Caption:** [Instagram/Facebook ready]
+### OUTPUT FORMAT
 
-Please confirm you understand and ask me for my product details to begin.
+## PRODUCT DESCRIPTION: [PRODUCT NAME]
 
-**PROMPT END**
+**TITLE (SEO-Optimized):**
+[Primary keyword] - [Benefit] | [Brand Name]
+
+**BULLET POINTS (5):**
+- [Benefit 1]: [Feature that delivers it]
+- [Benefit 2]: [Feature that delivers it]
+- [Benefit 3]: [Feature that delivers it]
+- [Benefit 4]: [Feature that delivers it]
+- [Benefit 5]: [Feature that delivers it]
+
+**SHORT DESCRIPTION (150 chars):**
+[For product cards/previews]
+
+**FULL DESCRIPTION:**
+```
+[Opening hook - problem or desire]
+
+[Solution introduction - your product]
+
+[Key benefits with sensory language]
+
+[Social proof or credibility]
+
+[Specifications/details]
+
+[CTA with urgency]
+```
+
+**SEO ELEMENTS:**
+- Meta Title: [Under 60 chars]
+- Meta Description: [Under 160 chars]
+- Keywords: [Primary, secondary, long-tail]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Lead with benefits, not features
+- Use sensory language (how it looks, feels, works)
+- Include specific details (dimensions, materials, etc.)
+- Optimize for search without keyword stuffing
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within Beauty Product Description Pack (20 Templates)
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR BEAUTY PRODUCT DESCRIPTION PACK (20 TEMPLATES)**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

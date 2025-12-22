@@ -1,40 +1,145 @@
 # AI EXECUTION PROMPT: Modern Professional Resume Template
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a professional career coach and executive resume writer who has helped candidates land positions at Fortune 500 companies. I need you to help me create a compelling resume using my "Modern Professional Resume Template" template.
+You are a executive career coach and resume writer who has helped candidates land positions at Google, Goldman Sachs, McKinsey, and other top firms with $200K+ salaries.
 
-**MY DETAILS:**
-- Name: [YOUR FULL NAME]
-- Target Role: [JOB TITLE YOU'RE APPLYING FOR]
-- Industry: [YOUR INDUSTRY]
-- Years of Experience: [TOTAL YEARS]
-- Current/Most Recent Role: [TITLE AT COMPANY]
-- Key Achievements: [3-5 MAJOR ACCOMPLISHMENTS]
-- Skills: [TECHNICAL AND SOFT SKILLS]
-- Education: [DEGREES AND CERTIFICATIONS]
-- Career Goal: [WHAT YOU WANT NEXT]
+I purchased the "Modern Professional Resume Template" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Write a compelling professional summary
-2. Transform job duties into achievement-focused bullet points
-3. Quantify accomplishments with metrics
-4. Optimize for ATS (Applicant Tracking Systems)
-5. Tailor content for target role
-6. Suggest keywords to include
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What specific role/title are you targeting?
+2. What's your most impressive achievement with measurable results?
+3. What industry are you in and what's your experience level?
+4. What keywords from the job description should we include?
+5. What's your unique value proposition vs other candidates?
 
-**OUTPUT FORMAT:**
-- **Professional Summary:** [3-4 sentences]
-- **Experience Section:** [For each role: achievement bullets with metrics]
-- **Skills Section:** [Organized by category]
-- **Keywords:** [ATS-friendly terms to include]
-- **Customization Tips:** [How to tailor for specific jobs]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## RESUME: [NAME]
+
+**HEADER:**
+[Name] | [Title]
+[Email] | [Phone] | [LinkedIn] | [Portfolio]
+[City, State]
+
+**PROFESSIONAL SUMMARY (3-4 lines):**
+[Role] with [X years] experience in [industry/function]. [Key achievement with metric]. [Unique value proposition]. [What you're looking for].
+
+**EXPERIENCE:**
+
+**[Job Title]** | [Company Name] | [City, State]
+[Start Date] - [End Date]
+
+- [Achievement verb] [what you did] [metric/result]
+- [Achievement verb] [what you did] [metric/result]
+- [Achievement verb] [what you did] [metric/result]
+
+**SKILLS:**
+| Category | Skills |
+|----------|--------|
+| Technical | [Skill 1, Skill 2, Skill 3] |
+| Tools | [Tool 1, Tool 2, Tool 3] |
+| Soft Skills | [Skill 1, Skill 2, Skill 3] |
+
+**EDUCATION:**
+[Degree] in [Major] | [University] | [Year]
+[Relevant coursework, honors, GPA if >3.5]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Every bullet must have a metric or specific outcome
+- Use strong action verbs (led, built, increased, not "responsible for")
+- Tailor to specific job description keywords
+- Keep to 1 page for <10 years experience, 2 pages max
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Name:** Jordan Chen
+- **Target Role:** Senior Product Manager at a Series B+ startup
+- **Current Role:** Product Manager at mid-size SaaS company
+- **Years Experience:** 6 years
+- **Top Achievement:** Led product that grew from $2M to $8M ARR in 18 months
+- **Key Skills:** Product strategy, user research, cross-functional leadership, data analysis
+
+### Sample Output:
+
+## RESUME: JORDAN CHEN
+
+**HEADER:**
+JORDAN CHEN
+Senior Product Manager
+jordan.chen@email.com | (555) 123-4567 | linkedin.com/in/jordanchen | San Francisco, CA
+
+**PROFESSIONAL SUMMARY:**
+Product Manager with 6 years of experience scaling B2B SaaS products from early traction to market leadership. Led product strategy that grew ARR from $2M to $8M in 18 months. Known for translating complex user needs into elegant solutions and aligning cross-functional teams around ambitious roadmaps.
+
+**EXPERIENCE:**
+
+**Product Manager** | TechFlow (Series B SaaS) | San Francisco, CA
+Jan 2021 - Present
+
+- Owned product roadmap for core platform serving 2,000+ enterprise customers, driving 4x ARR growth ($2M → $8M) in 18 months
+- Led discovery and launch of AI-powered feature that increased user activation by 34% and reduced churn by 22%
+- Built and managed team of 2 associate PMs; established product processes adopted company-wide
+- Partnered with Sales to close $1.2M enterprise deal by scoping custom integration in 6-week sprint
+
+**Associate Product Manager** | DataSync | San Francisco, CA
+Jun 2018 - Dec 2020
+
+- Shipped 12 features across web and mobile platforms, including redesigned onboarding that improved Day-7 retention by 28%
+- Conducted 100+ user interviews; synthesized insights into persona framework used across Product and Marketing
+- Reduced support tickets by 40% by identifying and prioritizing top 5 UX friction points
+
+**SKILLS:**
+| Category | Skills |
+|----------|--------|
+| Product | Roadmapping, PRDs, User Research, A/B Testing, Pricing Strategy |
+| Tools | Amplitude, Mixpanel, Figma, Jira, SQL, Looker |
+| Leadership | Cross-functional alignment, Stakeholder management, Mentorship |
+
+**EDUCATION:**
+B.S. Computer Science | UC Berkeley | 2018
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

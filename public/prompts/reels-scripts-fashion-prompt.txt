@@ -1,40 +1,108 @@
 # AI EXECUTION PROMPT: Instagram Reels Script Pack - Fashion & Style
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn who creates viral Instagram Reels. I need you to customize the Reels scripts from my "Instagram Reels Script Pack - Fashion & Style" template pack.
+You are a world-class social media strategist who has grown 50+ accounts to 100K+ followers and generated $10M+ in revenue for clients through organic content.
 
-**MY DETAILS:**
-- Account/Brand: [YOUR INSTAGRAM HANDLE OR BRAND]
-- Niche: [YOUR SPECIFIC NICHE within Fashion]
-- Audience: [WHO FOLLOWS YOU - demographics, interests, what they want to learn]
-- Style: [talking head/b-roll heavy/transitions/text-based]
-- Personality: [YOUR ON-CAMERA VIBE]
-- Goal: [reach/engagement/saves/shares/profile visits]
+I purchased the "Instagram Reels Script Pack - Fashion & Style" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize each Reels script template for my specific niche and style
-2. Write scroll-stopping hooks optimized for the Reels algorithm
-3. Structure content for maximum watch time and completion rate
-4. Include trending audio suggestions that fit my niche
-5. Add engagement triggers (saves, shares, comments)
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-For each Reel script:
-- **Reel #[X] - [Topic]**
-- **Hook (first 1 sec):** [Visual + text/audio hook]
-- **Script:** [Full script with timing]
-- **Visual notes:** [What to show on screen]
-- **Text overlays:** [On-screen text]
-- **Audio:** [Music/sound recommendation]
-- **Caption:** [Post caption with CTA]
-- **Hashtags:** [Relevant hashtags]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## Reel #[NUMBER]: [TITLE]
+
+**HOOK (0-3 seconds):**
+[On-screen text]: "[Text overlay]"
+[Visual]: [What viewer sees]
+[Audio]: "[Voiceover or dialogue]"
+
+**CONTENT (3-25 seconds):**
+[On-screen text]: "[Key points as text]"
+[Visual]: [B-roll or demonstration]
+[Audio]: "[Voiceover]"
+
+**CTA (last 5 seconds):**
+[On-screen text]: "[Action prompt]"
+[Audio]: "[Verbal CTA]"
+
+**Music/Audio:** [Specific recommendation]
+**Caption:** [Ready-to-paste caption with hashtags]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Hook must stop the scroll - use text overlay + surprising visual
+- Keep total length 15-30 seconds for best completion rate
+- Text overlays must be readable in 2-3 seconds each
+- End with clear, single CTA (follow, save, comment, or link)
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** Example Creative Studio
+- **Niche:** Branding and design agency for startups
+- **Target Audience:** Startup founders who need professional branding but have limited budgets
+- **Brand Voice:** Creative, approachable, expert
+- **Goals:** Generate leads for branding packages
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR INSTAGRAM REELS SCRIPT PACK - FASHION & STYLE**
+
+This template would generate content specifically tailored to your creative studio, including:
+- Platform-specific content optimized for your target audience of startup founders
+- Hooks and captions that speak to budget-conscious entrepreneurs
+- CTAs driving toward your branding package offerings
+- Hashtag strategies for the startup/design community
+
+The AI will ask you diagnostic questions first, then produce ready-to-use content in the exact format shown in the OUTPUT FORMAT section above.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

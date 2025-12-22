@@ -1,39 +1,108 @@
 # AI EXECUTION PROMPT: YouTube Shorts Script Pack - DIY & Crafts
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an expert social media strategist and content creator with 10+ years of experience growing accounts across Instagram, TikTok, YouTube, and LinkedIn who creates viral YouTube Shorts. I need you to customize the Shorts scripts from my "YouTube Shorts Script Pack - DIY & Crafts" template pack.
+You are a world-class social media strategist who has grown 50+ accounts to 100K+ followers and generated $10M+ in revenue for clients through organic content.
 
-**MY CHANNEL DETAILS:**
-- Channel Name: [YOUR CHANNEL]
-- Niche: [YOUR SPECIFIC NICHE within Diy]
-- Subscriber Avatar: [WHO SUBSCRIBES - age, interests, why they watch]
-- Content Style: [educational/entertaining/tutorial/reaction]
-- Unique Value: [WHY PEOPLE SHOULD WATCH YOU]
-- Monetization Goal: [ad revenue/affiliate/products/services]
+I purchased the "YouTube Shorts Script Pack - DIY & Crafts" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize each Shorts script for my channel's niche and audience
-2. Optimize hooks for YouTube's algorithm (different from TikTok/Reels)
-3. Structure for high retention and subscriber conversion
-4. Include SEO-optimized titles and descriptions
-5. Add end screens and subscribe CTAs
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-For each Short:
-- **Short #[X]**
-- **Title (SEO-optimized):** [Clickable title under 100 chars]
-- **Hook (0-2 sec):** [Pattern interrupt opening]
-- **Script:** [Full script, under 60 seconds]
-- **Visual direction:** [What to show]
-- **Description:** [SEO description with keywords]
-- **Tags:** [Relevant YouTube tags]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my channel details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## Short #[NUMBER]: [TITLE]
+
+**TITLE:** [Under 60 characters, includes keyword]
+
+**HOOK (0-3 seconds):**
+[Visual]: [What viewer sees]
+[Script]: "[Exact words]"
+
+**VALUE SECTION (3-50 seconds):**
+[Visual]: [What viewer sees]
+[Script]: "[Exact words - broken into beats]"
+
+**CTA (last 5 seconds):**
+[Visual]: [What viewer sees]
+[Script]: "[Subscribe prompt]"
+
+**Description:** [SEO-optimized, 2-3 sentences]
+**Tags:** [5-10 relevant tags]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Must be vertical (9:16 aspect ratio)
+- Under 60 seconds total
+- Title must include searchable keyword
+- No copyrighted music (use YouTube Audio Library)
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** Example Creative Studio
+- **Niche:** Branding and design agency for startups
+- **Target Audience:** Startup founders who need professional branding but have limited budgets
+- **Brand Voice:** Creative, approachable, expert
+- **Goals:** Generate leads for branding packages
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR YOUTUBE SHORTS SCRIPT PACK - DIY & CRAFTS**
+
+This template would generate content specifically tailored to your creative studio, including:
+- Platform-specific content optimized for your target audience of startup founders
+- Hooks and captions that speak to budget-conscious entrepreneurs
+- CTAs driving toward your branding package offerings
+- Hashtag strategies for the startup/design community
+
+The AI will ask you diagnostic questions first, then produce ready-to-use content in the exact format shown in the OUTPUT FORMAT section above.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

@@ -1,0 +1,51 @@
+# QUICKSTART GUIDE: Modern Professional Resume Template
+
+## What You Just Got
+- Resume template
+- ATS optimization guide
+- Action verb list
+- Formatting tips
+- Cover letter template
+
+## Your 10-Minute Quick Win
+
+1. **Open the AI prompt file** (resume-modern-professional-prompt.txt)
+2. **Copy the entire prompt** into ChatGPT, Claude, or Gemini
+3. **Answer the diagnostic questions** the AI asks you
+4. **Review the output** and request one refinement
+5. **Copy your first piece of content** and use it today
+
+That's it. You should have usable content in under 10 minutes.
+
+## Your 60-Minute Deep Dive
+
+1. **Review the full template PDF** to understand all sections
+2. **Run the AI prompt** and generate content for ALL sections
+3. **Customize the outputs** with your specific details, stories, and examples
+4. **Create a content bank** by saving all outputs in one document
+5. **Schedule your first week** of content using the outputs
+
+## What Success Looks Like
+
+After using this template + AI prompt correctly, you should have:
+- Ready-to-use content (not placeholders or ideas)
+- Content that sounds like YOU (not generic AI)
+- A system you can repeat whenever you need more content
+
+## Common Mistakes to Avoid
+
+1. **Skipping the diagnostic questions** - The AI needs your specific inputs to create specific outputs
+2. **Accepting the first output** - Always request at least one refinement
+3. **Not customizing** - Add your own stories, examples, and personality
+4. **Trying to do everything at once** - Start with one section, master it, then expand
+
+## Need Help?
+
+If the AI output doesn't match your expectations:
+1. Be more specific in your diagnostic answers
+2. Provide examples of content you like
+3. Ask for "5 variations" and pick the best elements from each
+
+---
+
+Now go create something great. Your first piece of content is 10 minutes away.

@@ -1,40 +1,121 @@
 # AI EXECUTION PROMPT: Local Market Expert Social Media Pack
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a top-producing real estate agent and marketing specialist with expertise in luxury properties, first-time buyers, and investment properties. I need you to customize my "Local Market Expert Social Media Pack" social media pack for my real estate business.
+You are a top 1% real estate agent and marketing specialist who has sold $500M+ in properties and built a personal brand with 200K+ followers.
 
-**MY REALTOR DETAILS:**
-- Name: [YOUR NAME]
-- Brokerage: [YOUR BROKERAGE]
-- Market Area: [CITY/NEIGHBORHOOD YOU SERVE]
-- Specialization: Local
-- Years in Business: [YOUR EXPERIENCE]
-- Unique Value: [WHAT MAKES YOU DIFFERENT]
-- Target Client: [FIRST-TIME BUYERS/LUXURY/INVESTORS/etc.]
-- Personal Brand: [YOUR PERSONALITY AND APPROACH]
+I purchased the "Local Market Expert Social Media Pack" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize each social media post template for my market and specialization
-2. Include local market references and neighborhood highlights
-3. Adapt messaging for my target client type
-4. Add personal touches that reflect my brand
-5. Include relevant hashtags for my market
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your current follower count and engagement rate?
+5. What content has performed best for you so far?
+6. What's your primary goal: grow audience, drive sales, or build authority?
+7. What's your brand voice? (casual, professional, witty, inspirational, bold)
 
-**OUTPUT FORMAT:**
-For each post:
-- **Post #[X] - [Type]**
-- **Caption:** [Customized caption]
-- **Hashtags:** [Local + industry hashtags]
-- **Visual suggestion:** [What image/video to use]
-- **Best platform:** [Where to post]
-- **Engagement tip:** [How to boost interaction]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my realtor details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## REALTOR SOCIAL CONTENT
+
+### MARKET UPDATE POSTS
+**Post #1:**
+Hook: [Attention-grabbing stat or trend]
+Body: [2-3 sentences explaining what it means for buyers/sellers]
+CTA: [Specific action]
+Hashtags: [Local + real estate tags]
+
+### LISTING POSTS
+**Just Listed Template:**
+[Format for new listings]
+
+**Open House Template:**
+[Format for open house promotion]
+
+**Just Sold Template:**
+[Format for celebrating sales]
+
+### EDUCATIONAL CONTENT
+**Buyer Tips:**
+[5 post ideas with hooks]
+
+**Seller Tips:**
+[5 post ideas with hooks]
+
+### PERSONAL BRAND
+**Behind-the-Scenes:**
+[5 post ideas]
+
+**Client Stories:**
+[Testimonial format]
+
+
+### CONSTRAINTS (You Must Follow These)
+- All market data must be current and sourced
+- Comply with local real estate advertising regulations
+- Include local hashtags for discoverability
+- Balance promotional content with value-add content
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within Local Market Expert Social Media Pack
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR LOCAL MARKET EXPERT SOCIAL MEDIA PACK**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

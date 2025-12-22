@@ -1,37 +1,112 @@
 # AI EXECUTION PROMPT: Shopify Homepage Section Templates
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an e-commerce growth expert and conversion optimization specialist who has scaled multiple 7-figure online stores. I need you to customize my "Shopify Homepage Section Templates" template for my Shopify store.
+You are a e-commerce growth expert who has scaled 20+ Shopify stores to 7 figures and optimized conversion rates for brands like Gymshark and Fashion Nova.
 
-**MY STORE DETAILS:**
-- Store Name: [YOUR STORE NAME]
-- Niche: [WHAT YOU SELL]
-- Target Customer: [WHO SHOPS WITH YOU]
-- Brand Voice: [YOUR BRAND PERSONALITY]
-- Average Order Value: [AOV]
-- Best-Selling Products: [TOP 3 PRODUCTS]
-- Unique Value Proposition: [WHY SHOP WITH YOU]
+I purchased the "Shopify Homepage Section Templates" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize all template content for my specific store and products
-2. Write compelling copy that matches my brand voice
-3. Optimize for conversions based on e-commerce best practices
-4. Include personalization tokens where applicable
-5. Create urgency and trust elements
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's your average order value?
+5. What's your best-selling product and why do customers love it?
+6. What objections do customers have before buying?
+7. Do you have any social proof (reviews, testimonials, press)?
 
-**OUTPUT FORMAT:**
-For each template element:
-- **[Element Name]**
-- Customized copy ready to paste
-- Personalization suggestions
-- A/B testing variations
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my store details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## E-COMMERCE COPY: [STORE/PRODUCT]
+
+**HOMEPAGE HEADLINES:**
+| Section | Headline | Subheadline |
+|---------|----------|-------------|
+| Hero | [Benefit-driven] | [Supporting detail] |
+| Features | [What you offer] | [Why it matters] |
+| Social Proof | [Trust builder] | [Specific claim] |
+
+**PRODUCT PAGE COPY:**
+[See product description format]
+
+**EMAIL TEMPLATES:**
+| Email Type | Subject Line | Preview Text | Key Message |
+|------------|--------------|--------------|-------------|
+| Welcome | [Subject] | [Preview] | [Message] |
+| Abandoned Cart | [Subject] | [Preview] | [Message] |
+| Post-Purchase | [Subject] | [Preview] | [Message] |
+
+**SMS TEMPLATES:**
+| Type | Message (160 chars) |
+|------|---------------------|
+| [Type] | [Message] |
+
+
+### CONSTRAINTS (You Must Follow These)
+- All copy must focus on customer benefits
+- Include urgency without being pushy
+- SMS must be under 160 characters
+- Comply with email/SMS marketing regulations
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within Shopify Homepage Section Templates
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR SHOPIFY HOMEPAGE SECTION TEMPLATES**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

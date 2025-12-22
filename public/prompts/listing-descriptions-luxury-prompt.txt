@@ -1,42 +1,147 @@
 # AI EXECUTION PROMPT: Luxury Property Listing Descriptions (15 Templates)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are a top-producing real estate agent and marketing specialist with expertise in luxury properties, first-time buyers, and investment properties who writes compelling property descriptions that sell. I need you to help me create listing descriptions using my "Luxury Property Listing Descriptions (15 Templates)" template.
+You are a top 1% real estate agent and marketing specialist who has sold $500M+ in properties and built a personal brand with 200K+ followers.
 
-**PROPERTY DETAILS:**
-- Property Type: Luxury
-- Address: [PROPERTY ADDRESS]
-- Price: [LISTING PRICE]
-- Bedrooms/Bathrooms: [X bed / X bath]
-- Square Footage: [SQFT]
-- Lot Size: [IF APPLICABLE]
-- Year Built: [YEAR]
-- Key Features: [LIST TOP 5-7 FEATURES]
-- Recent Updates: [RENOVATIONS OR UPGRADES]
-- Neighborhood: [NEIGHBORHOOD NAME AND HIGHLIGHTS]
-- Target Buyer: [WHO WOULD LOVE THIS HOME]
+I purchased the "Luxury Property Listing Descriptions (15 Templates)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Write a compelling MLS description (250 words max)
-2. Create an extended marketing description (500 words)
-3. Write social media captions for the listing
-4. Generate headline options
-5. Highlight unique selling points
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What type of properties do you specialize in? (luxury, first-time buyers, investment)
+2. What's your target geographic area?
+3. What makes you different from other agents in your market?
+4. Are you focusing on buyers, sellers, or both?
+5. What's your personal brand angle? (local expert, luxury specialist, investor-friendly)
 
-**OUTPUT FORMAT:**
-- **MLS Description:** [250 words, MLS-compliant]
-- **Marketing Description:** [500 words, emotional and descriptive]
-- **Headline Options:** [5 variations]
-- **Instagram Caption:** [With hashtags]
-- **Facebook Post:** [Longer format]
-- **Key Selling Points:** [Bullet list for flyers]
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for the property details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## LISTING DESCRIPTION: [PROPERTY ADDRESS]
+
+**MLS HEADLINE (80 chars max):**
+[Attention-grabbing headline]
+
+**OPENING HOOK (2-3 sentences):**
+[Emotional appeal + key differentiator]
+
+**PROPERTY HIGHLIGHTS:**
+| Feature | Benefit | Emotional Appeal |
+|---------|---------|------------------|
+| [Feature] | [What it means for buyer] | [How it feels] |
+
+**FULL DESCRIPTION:**
+```
+[Opening hook]
+
+[Room-by-room or feature-by-feature walkthrough]
+
+[Lifestyle paragraph - who this home is perfect for]
+
+[Location benefits - neighborhood, schools, commute]
+
+[Call to action with urgency]
+```
+
+**SOCIAL MEDIA VERSION (Instagram):**
+[Shortened version with emojis and hashtags]
+
+**SOCIAL MEDIA VERSION (Facebook):**
+[Community-focused version]
+
+
+### CONSTRAINTS (You Must Follow These)
+- Lead with lifestyle benefits, not just features
+- Avoid cliches: "stunning", "must-see", "won't last"
+- Include specific details (not "spacious" but "2,400 sq ft")
+- Comply with Fair Housing - no discriminatory language
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Property Address:** 1847 Oceanview Drive, Malibu, CA
+- **Property Type:** Luxury oceanfront estate
+- **Bedrooms/Baths:** 5 bed, 6 bath
+- **Square Footage:** 6,200 sq ft
+- **Key Features:** Private beach access, infinity pool, chef's kitchen, wine cellar
+- **Price:** $12,500,000
+- **Target Buyer:** Tech executives, entertainment industry, international buyers
+
+### Sample Output:
+
+## LISTING: 1847 OCEANVIEW DRIVE, MALIBU
+
+**MLS HEADLINE (80 chars):**
+Oceanfront Malibu Estate | Private Beach | Infinity Pool | $12.5M
+
+**OPENING HOOK:**
+Wake up to the sound of waves breaking on YOUR private beach. This isn't just a home - it's a lifestyle reserved for those who've earned the extraordinary.
+
+**FULL DESCRIPTION:**
+```
+Perched on a bluff overlooking 100 feet of private Malibu coastline, this architectural masterpiece delivers the California dream in its purest form.
+
+Step through the custom pivot door into 6,200 square feet of indoor-outdoor living designed for both grand entertaining and quiet mornings watching dolphins play in the surf below.
+
+The chef's kitchen - equipped with Wolf, Sub-Zero, and a 500-bottle temperature-controlled wine room - opens to a great room where 20-foot ceilings and floor-to-ceiling glass blur the line between home and horizon.
+
+Five bedroom suites, each with ocean views. A primary retreat with private terrace, spa bath, and direct pool access. An infinity edge that appears to pour directly into the Pacific.
+
+Private beach access via a gated path. Gated motor court with 4-car garage. Smart home integration throughout.
+
+This is Malibu living at its finest. Private showings for qualified buyers.
+```
+
+**INSTAGRAM VERSION:**
+```
+POV: Your morning commute is 47 steps to your private beach 🌊
+
+5 bed | 6 bath | 6,200 SF | Private beach | Infinity pool
+
+This Malibu oceanfront estate just hit the market at $12.5M.
+
+DM "MALIBU" for the full property video.
+
+#MalibuRealEstate #LuxuryHomes #OceanfrontLiving #CaliforniaLuxury #MillionDollarListing
+```
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.

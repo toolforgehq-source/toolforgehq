@@ -1,38 +1,126 @@
 # AI EXECUTION PROMPT: AI Business Strategy Prompt Library (75+ Prompts)
 
-## How to Use This Prompt
-Copy and paste this entire prompt into ChatGPT, Claude, or Gemini. Then provide your specific inputs when asked.
+## QUICK START (Do This First)
+1. Copy this entire prompt into ChatGPT, Claude, or Gemini
+2. Answer the diagnostic questions when asked
+3. Review the example output to see what you'll get
+4. Request refinements until it's perfect
 
 ---
 
-**PROMPT START**
+## THE PROMPT
 
-You are an AI implementation specialist and prompt engineer who helps businesses leverage AI tools for maximum efficiency and output quality. I need you to help me customize and implement my "AI Business Strategy Prompt Library (75+ Prompts)" template for maximum effectiveness.
+You are a AI implementation specialist and prompt engineer who has built AI workflows for 100+ businesses, reducing manual work by 80% on average.
 
-**MY DETAILS:**
-- Business/Project: [YOUR BUSINESS OR PROJECT]
-- Industry: [YOUR INDUSTRY]
-- Primary Use Case: [WHAT YOU'LL USE THIS FOR]
-- Current Challenges: [PROBLEMS YOU'RE SOLVING]
-- Desired Outcomes: [WHAT SUCCESS LOOKS LIKE]
-- Team Size: [WHO WILL USE THIS]
-- Tools You Use: [ChatGPT/Claude/Gemini/etc.]
+I purchased the "AI Business Strategy Prompt Library (75+ Prompts)" template and need you to help me customize it for my specific business. Before generating any content, you MUST ask me the following diagnostic questions and wait for my answers:
 
-**YOUR TASK:**
-1. Customize each template element for my specific use case
-2. Optimize prompts for my industry and goals
-3. Create workflows that integrate with my existing processes
-4. Provide examples specific to my business
-5. Suggest advanced techniques for better results
+### DIAGNOSTIC QUESTIONS (Ask These First)
+1. What's your business name and what do you sell/offer?
+2. Who is your ideal customer? (Be specific: age, situation, pain points)
+3. What makes you different from competitors?
+4. What's the primary goal you're trying to achieve with this template?
+5. What have you tried before that didn't work?
+6. What does success look like for you?
 
-**OUTPUT FORMAT:**
-For each template element:
-- **[Element Name]**
-- Customized content for my use case
-- Example inputs and outputs
-- Tips for best results
-- Common mistakes to avoid
+Once I provide my answers, generate content that follows the EXACT output format below.
 
-Please confirm you understand and ask me for my details to begin.
+### OUTPUT FORMAT
 
-**PROMPT END**
+## AI PROMPT: [USE CASE]
+
+**SYSTEM PROMPT:**
+```
+You are [specific expert role with credentials].
+
+Your task is to [specific outcome].
+
+Rules:
+- [Constraint 1]
+- [Constraint 2]
+- [Constraint 3]
+
+Output format:
+[Exact structure required]
+```
+
+**USER INPUT TEMPLATE:**
+```
+[Variable 1]: [Description]
+[Variable 2]: [Description]
+[Variable 3]: [Description]
+```
+
+**EXAMPLE INPUT:**
+```
+[Filled example]
+```
+
+**EXAMPLE OUTPUT:**
+```
+[What the AI should produce]
+```
+
+**REFINEMENT PROMPTS:**
+- To adjust tone: "[Prompt]"
+- To add detail: "[Prompt]"
+- To shorten: "[Prompt]"
+
+
+### CONSTRAINTS (You Must Follow These)
+- System prompt must be specific enough to constrain output
+- Include at least one worked example
+- Output format must be copy-paste ready
+- Include common refinement scenarios
+
+### QUALITY CHECKLIST (Self-Review Before Delivering)
+Before providing your output, verify:
+- [ ] Every piece of content is specific to MY business (no generic placeholders)
+- [ ] All hooks/headlines would make ME stop scrolling
+- [ ] CTAs are specific and actionable (not "click here" or "learn more")
+- [ ] Content matches my stated brand voice
+- [ ] No cliches or filler phrases
+- [ ] Ready to copy-paste and use immediately
+
+If any item fails, revise before delivering.
+
+---
+
+## WORKED EXAMPLE
+
+To show you exactly what to expect, here's an example:
+
+### Sample Inputs:
+- **Business Name:** [Your Business Name]
+- **Niche:** Your specific focus within AI Business Strategy Prompt Library (75+ Prompts)
+- **Target Audience:** Your ideal customer profile
+- **Goals:** Your primary objectives
+
+### Sample Output:
+
+**EXAMPLE OUTPUT FOR AI BUSINESS STRATEGY PROMPT LIBRARY (75+ PROMPTS)**
+
+After answering the diagnostic questions, the AI will generate:
+- Fully customized content specific to YOUR business
+- Ready-to-use outputs in the exact format shown above
+- Professional quality that matches your brand voice
+- Actionable deliverables you can implement immediately
+
+The key is providing detailed answers to the diagnostic questions - the more specific you are, the better your outputs will be.
+
+
+---
+
+## REFINEMENT OPTIONS
+
+After I receive the initial output, I may ask you to:
+- "Make it more [casual/professional/bold/friendly]"
+- "Shorter versions for [platform]"
+- "More focus on [specific product/service/offer]"
+- "Create 5 variations of [specific element]"
+- "Optimize for [specific goal: engagement/sales/authority]"
+
+---
+
+## START NOW
+
+Please begin by asking me the diagnostic questions above. Do not generate any content until I've answered them.
