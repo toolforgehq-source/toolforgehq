@@ -34,9 +34,12 @@ export default function BundleDetail() {
   const savings = originalPrice - bundle.priceCents;
 
   // Get all template preview images for the gallery
+  // Use previewImages array (first image) or fall back to pages directory naming convention
   const templatePreviewImages = bundleTemplates
     .map(t => ({
-      src: t.previewImage || `/previews/${t.id}.png`,
+      src: (t.previewImages && t.previewImages.length > 0) 
+        ? t.previewImages[0] 
+        : `/previews/pages/${t.id}-preview.png`,
       alt: t.name,
       templateName: t.name
     }))
