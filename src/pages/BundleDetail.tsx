@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, Check, Loader2, Shield, Download, Award, Package } from 'lucide-react';
+import { ArrowLeft, Check, Loader2, Shield, Download, Award, Package, RefreshCw, Clock, ChevronLeft, ChevronRight, Eye } from 'lucide-react';
 import { getBundleBySlug, getBundleTemplates, calculateBundleOriginalPrice, getCategoryForBundle } from '../data/bundles';
 
 const API_URL = import.meta.env.VITE_API_URL || '';
@@ -12,6 +12,7 @@ export default function BundleDetail() {
   const bundle = getBundleBySlug(slug || '');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   if (!bundle) {
     return (
@@ -31,6 +32,23 @@ export default function BundleDetail() {
   const bundleTemplates = getBundleTemplates(bundle);
   const originalPrice = calculateBundleOriginalPrice(bundle);
   const savings = originalPrice - bundle.priceCents;
+
+  // Get all template preview images for the gallery
+  const templatePreviewImages = bundleTemplates
+    .map(t => ({
+      src: t.previewImage || `/previews/${t.id}.png`,
+      alt: t.name,
+      templateName: t.name
+    }))
+    .filter(img => img.src);
+
+  const nextImage = () => {
+    setSelectedImageIndex((prev) => (prev + 1) % templatePreviewImages.length);
+  };
+
+  const prevImage = () => {
+    setSelectedImageIndex((prev) => (prev - 1 + templatePreviewImages.length) % templatePreviewImages.length);
+  };
 
   const handleCheckout = async () => {
     setLoading(true);
@@ -82,8 +100,43 @@ export default function BundleDetail() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <div className="aspect-square bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden">
-              {bundle.previewImage ? (
+            {/* Main Image Gallery */}
+            <div className="aspect-square bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl relative overflow-hidden group">
+              {templatePreviewImages.length > 0 ? (
+                <>
+                  <img
+                    src={templatePreviewImages[selectedImageIndex]?.src}
+                    alt={templatePreviewImages[selectedImageIndex]?.alt}
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Navigation arrows */}
+                  {templatePreviewImages.length > 1 && (
+                    <>
+                      <button
+                        onClick={prevImage}
+                        className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                      >
+                        <ChevronLeft className="w-5 h-5 text-gray-700" />
+                      </button>
+                      <button
+                        onClick={nextImage}
+                        className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                      >
+                        <ChevronRight className="w-5 h-5 text-gray-700" />
+                      </button>
+                    </>
+                  )}
+                  {/* Image counter */}
+                  <div className="absolute bottom-4 left-4 bg-black/60 text-white text-xs font-medium px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                    <Eye className="w-3.5 h-3.5" />
+                    {selectedImageIndex + 1} of {templatePreviewImages.length} templates
+                  </div>
+                  {/* Current template name */}
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/95 text-gray-800 text-xs font-medium px-3 py-1.5 rounded-full shadow-md max-w-xs truncate hidden sm:block">
+                    {templatePreviewImages[selectedImageIndex]?.templateName}
+                  </div>
+                </>
+              ) : bundle.previewImage ? (
                 <img
                   src={bundle.previewImage}
                   alt={bundle.name}
@@ -102,11 +155,34 @@ export default function BundleDetail() {
               </div>
               {/* Savings badge */}
               {bundle.badgeText && (
-                <div className="absolute bottom-4 right-4 bg-green-500 text-white text-sm font-semibold px-4 py-2 rounded-full">
+                <div className="absolute top-4 left-4 bg-green-500 text-white text-sm font-semibold px-4 py-2 rounded-full">
                   {bundle.badgeText}
                 </div>
               )}
             </div>
+
+            {/* Thumbnail Gallery */}
+            {templatePreviewImages.length > 1 && (
+              <div className="mt-4 grid grid-cols-5 gap-2">
+                {templatePreviewImages.slice(0, 5).map((img, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedImageIndex(index)}
+                    className={`aspect-square rounded-lg overflow-hidden border-2 transition-all ${
+                      selectedImageIndex === index
+                        ? 'border-indigo-600 ring-2 ring-indigo-200'
+                        : 'border-gray-200 hover:border-gray-300'
+                    }`}
+                  >
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="w-full h-full object-cover"
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
             
             {/* Trust Badges */}
             <div className="mt-6 grid grid-cols-3 gap-4">
@@ -181,6 +257,37 @@ export default function BundleDetail() {
                   )}
                 </button>
                 <p className="text-sm text-gray-500">Instant download of all {bundle.templateIds.length} templates after purchase</p>
+
+                {/* Money-Back Guarantee */}
+                <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                      <RefreshCw className="w-5 h-5 text-green-600" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-green-800">7-Day Money-Back Guarantee</h4>
+                      <p className="text-sm text-green-700 mt-1">
+                        Not satisfied? Email us within 7 days of purchase for a full refund. No questions asked.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Quick Trust Points */}
+                <div className="mt-4 flex flex-wrap gap-3 text-xs text-gray-500">
+                  <span className="flex items-center gap-1">
+                    <Clock className="w-3.5 h-3.5" />
+                    Instant access after purchase
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <Download className="w-3.5 h-3.5" />
+                    Download to your device
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <Shield className="w-3.5 h-3.5" />
+                    Secure payment via Stripe
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -305,6 +412,10 @@ export default function BundleDetail() {
             <div className="border border-gray-200 rounded-lg p-4">
               <h3 className="font-medium text-gray-900">How do I access my templates after purchase?</h3>
               <p className="mt-2 text-gray-600 text-sm">After completing your purchase, you'll be redirected to a success page with download links for all templates in the bundle. You'll also receive a confirmation email with the same links.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4">
+              <h3 className="font-medium text-gray-900">What's your refund policy?</h3>
+              <p className="mt-2 text-gray-600 text-sm">We offer a 7-day money-back guarantee. If you're not satisfied with your purchase for any reason, simply email us within 7 days and we'll process a full refund - no questions asked.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4">
               <h3 className="font-medium text-gray-900">Can I buy individual templates instead?</h3>

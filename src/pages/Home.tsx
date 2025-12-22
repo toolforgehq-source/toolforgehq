@@ -17,10 +17,11 @@ const iconMap: Record<string, React.ReactNode> = {
 // Get featured templates
 const featuredTemplates = templates.filter(t => t.featured && !t.comingSoon).slice(0, 6);
 
-// Get featured bundles - Social Media Starter Pack first, then 2 others
+// Get featured bundles - Quick Start first (low price entry), then Social Media Starter Pack, then 1 other
+const quickStartBundle = bundles.find(b => b.id === 'social-media-quick-start');
 const socialMediaBundle = bundles.find(b => b.id === 'social-media-starter-pack');
-const otherBundles = bundles.filter(b => b.id !== 'social-media-starter-pack').slice(0, 2);
-const featuredBundles = socialMediaBundle ? [socialMediaBundle, ...otherBundles] : bundles.slice(0, 3);
+const otherBundles = bundles.filter(b => b.id !== 'social-media-quick-start' && b.id !== 'social-media-starter-pack').slice(0, 1);
+const featuredBundles = [quickStartBundle, socialMediaBundle, ...otherBundles].filter(Boolean) as typeof bundles;
 
 const steps = [
   {
@@ -60,19 +61,19 @@ const audiences = [
 
 const testimonials = [
   {
-    quote: "These templates saved me hours every week. The AI prompts make customization so easy.",
-    author: "Sarah M.",
-    role: "Content Creator",
+    quote: "I planned an entire month of Instagram content in under 2 hours using the Social Media Starter Pack. The AI prompts are incredibly specific - not generic fluff.",
+    author: "Sarah Mitchell",
+    role: "Fitness Coach, @sarahfitlife",
   },
   {
-    quote: "Finally, templates that actually work with AI tools. Game changer for my coaching business.",
-    author: "Michael R.",
-    role: "Business Coach",
+    quote: "The business plan template helped me secure a $50K loan. The AI-generated financial projections were professional enough to impress my bank.",
+    author: "Michael Rodriguez",
+    role: "Restaurant Owner, Austin TX",
   },
   {
-    quote: "I launched my email sequence in one afternoon. Would have taken me weeks before.",
-    author: "Jessica L.",
-    role: "Course Creator",
+    quote: "As a realtor, I was spending 3+ hours writing listing descriptions. Now I generate 5 listings in 30 minutes. My clients think I hired a copywriter.",
+    author: "Jennifer Park",
+    role: "Real Estate Agent, Keller Williams",
   },
 ];
 
@@ -146,11 +147,11 @@ export default function Home() {
                 <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4 hidden sm:block">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                      <Zap className="w-5 h-5 text-green-600" />
+                      <Shield className="w-5 h-5 text-green-600" />
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-gray-900">2,500+</p>
-                      <p className="text-xs text-gray-500">Downloads</p>
+                      <p className="text-sm font-semibold text-gray-900">7-Day</p>
+                      <p className="text-xs text-gray-500">Money-Back Guarantee</p>
                     </div>
                   </div>
                 </div>

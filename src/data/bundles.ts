@@ -28,6 +28,24 @@ const categoryPreviewImages: Record<string, string> = {
 
 export const bundles: Bundle[] = [
   {
+    id: 'social-media-quick-start',
+    slug: 'social-media-quick-start',
+    name: 'Social Media Quick Start',
+    shortName: 'Quick Start',
+    description: 'Perfect for beginners! Get started with social media content creation using our most popular templates: a 30-day content calendar and 100+ scroll-stopping hooks. Everything you need to start posting consistently.',
+    categoryId: 'social-media',
+    templateIds: [
+      'social-30-day-calendar',       // $34 - 30-day content calendar
+      'social-hooks-bank',            // $29 - hooks & ideas bank
+    ],
+    // Total: $63, Bundle price: $29 (54% off)
+    priceCents: 2900,
+    savingsPercent: 54,
+    badgeText: 'Best Value',
+    previewImage: categoryPreviewImages['social-media'],
+    isFeatured: true,
+  },
+  {
     id: 'social-media-starter-pack',
     slug: 'social-media-starter-pack',
     name: 'Social Media Starter Pack',
